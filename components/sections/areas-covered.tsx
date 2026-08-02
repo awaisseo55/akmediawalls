@@ -23,7 +23,7 @@ export function AreasCovered() {
         </div>
         <div className="mt-10 flex justify-center">
           <Button asChild variant="outline">
-            <Link href="/areas">View All Areas Covered</Link>
+            <Link href="/areas-we-cover">View All Areas Covered</Link>
           </Button>
         </div>
       </div>

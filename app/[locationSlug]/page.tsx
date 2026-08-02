@@ -22,26 +22,26 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export function generateStaticParams() {
-  return LOCATIONS.map((l) => ({ slug: l.slug }));
+  return LOCATIONS.map((l) => ({ locationSlug: l.slug }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locationSlug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const location = getLocationBySlug(slug);
+  const { locationSlug } = await params;
+  const location = getLocationBySlug(locationSlug);
   if (!location) return {};
 
   return {
-    title: location.metaTitle,
+    title: { absolute: location.metaTitle },
     description: location.metaDescription,
-    alternates: { canonical: `/areas/${location.slug}` },
+    alternates: { canonical: `/${location.slug}` },
     openGraph: {
       title: location.metaTitle,
       description: location.metaDescription,
-      url: `${SITE_URL}/areas/${location.slug}`,
+      url: `${SITE_URL}/${location.slug}`,
       images: [{ url: location.heroImage }],
     },
   };
@@ -50,13 +50,13 @@ export async function generateMetadata({
 export default async function LocationPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locationSlug: string }>;
 }) {
-  const { slug } = await params;
-  const location = getLocationBySlug(slug);
+  const { locationSlug } = await params;
+  const location = getLocationBySlug(locationSlug);
   if (!location) notFound();
 
-  const url = `${SITE_URL}/areas/${location.slug}`;
+  const url = `${SITE_URL}/${location.slug}`;
   const relevantGallery = GALLERY.filter(
     (g) => g.location === location.city || location.areasCovered.includes(g.location)
   ).slice(0, 6);
@@ -76,10 +76,7 @@ export default async function LocationPage({
         image={location.heroImage}
         breadcrumbs={
           <Breadcrumbs
-            items={[
-              { name: "Areas Covered", href: "/areas" },
-              { name: location.city, href: `/areas/${location.slug}` },
-            ]}
+            items={[{ name: location.city, href: `/${location.slug}` }]}
           />
         }
       >
@@ -265,7 +262,7 @@ export default async function LocationPage({
               We also install media walls in nearby{" "}
               {neighbours.map((n, i) => (
                 <span key={n.slug}>
-                  <Link href={`/areas/${n.slug}`} className="font-semibold text-brass hover:underline">
+                  <Link href={`/${n.slug}`} className="font-semibold text-brass hover:underline">
                     {n.city}
                   </Link>
                   {i < neighbours.length - 1 ? (i === neighbours.length - 2 ? " and " : ", ") : ""}

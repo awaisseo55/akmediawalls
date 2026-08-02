@@ -6,9 +6,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-manchester",
     city: "Manchester",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Manchester 2026 | Media Walls North",
+    metaTitle: "Media Wall Installation Manchester | Media Walls North",
     metaDescription:
-      "Bespoke media wall design and installation across Manchester. Fireplace media walls, TV mounting, and acoustic walls. Free quotes, 10 year guarantee.",
+      "Bespoke media wall installation in Manchester. Fireplace media walls, acoustic panels, TV mounting. Free quotes, 10 year guarantee.",
     heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Manchester is our home patch. We are based in the city and carry out more media wall installations here than anywhere else in the North West, from Victorian terraces in Chorlton and Didsbury to new-build apartments around Deansgate and Ancoats, and the larger detached houses of Withington and Prestwich.",
@@ -84,9 +84,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-preston",
     city: "Preston",
     region: "Lancashire",
-    metaTitle: "Media Wall Installation Preston 2026 | Media Walls North",
+    metaTitle: "Media Walls Preston | Fitted by Experts | Media Walls North",
     metaDescription:
-      "Media wall design and installation in Preston. Fireplace media walls, TV mounting, and acoustic feature walls for Preston homes. Free consultation.",
+      "Custom media wall installation in Preston. Bespoke designs for Fulwood, Penwortham, and surrounding areas. Free home consultation.",
     heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Preston sits at the northern edge of our coverage area, and we make the trip up the M6 regularly for homeowners in Fulwood, Penwortham, and the newer estates around Ashton-on-Ribble and Broughton. It is a city with a good mix of solid Victorian bay-fronted houses close to Winckley Square and Avenham Park, and larger modern family homes further out towards Longton and Ribbleton.",
@@ -162,9 +162,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bolton",
     city: "Bolton",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Bolton 2026 | Media Wall Fitters",
+    metaTitle: "Media Wall Installers Bolton | Media Walls North",
     metaDescription:
-      "Media wall fitters serving Bolton and the surrounding areas. Fireplace media walls, TV mounting, acoustic walls. Free quotes and 10 year guarantee.",
+      "Professional media wall fitting in Bolton. From fireplace feature walls to acoustic panels. Serving Horwich, Farnworth, Westhoughton.",
     heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "Bolton has been one of our steadiest areas of work since we started taking on projects outside Manchester itself. The town has a strong stock of stone-built terraces and semis around Horwich and Farnworth, alongside larger detached homes out towards Bromley Cross and Harwood, and newer housing around Westhoughton and Lostock.",
@@ -240,9 +240,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-warrington",
     city: "Warrington",
     region: "Cheshire",
-    metaTitle: "Media Wall Installation Warrington 2026 | Media Walls North",
+    metaTitle: "Media Wall Fitters Warrington | Media Walls North",
     metaDescription:
-      "Bespoke media walls installed across Warrington. Fireplace media walls, TV mounting, acoustic walls for Stockton Heath, Grappenhall, and beyond.",
+      "Bespoke media walls designed and installed in Warrington. Covering Lymm, Grappenhall, Stockton Heath. Free quotes available.",
     heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Warrington sits between Manchester and Liverpool, and we cover it as a natural part of both routes. The town has a distinct property mix: the smarter, more established areas of Stockton Heath and Grappenhall, with their larger detached and semi-detached houses, and the newer estates spreading out around Birchwood and Great Sankey.",
@@ -318,9 +318,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-stockport",
     city: "Stockport",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Stockport 2026 | Media Walls North",
+    metaTitle: "Media Wall Installation Stockport | Media Walls North",
     metaDescription:
-      "Media wall installation across Stockport including Bramhall, Marple, and Heaton Moor. Fireplace media walls and TV mounting. Free quotes.",
+      "Professional media wall fitting in Stockport. Serving Bramhall, Cheadle, Hazel Grove, Marple. 10 year workmanship guarantee.",
     heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Stockport is one of our busiest areas, and it is easy to see why. The borough covers everything from the Victorian terraces of Heaton Moor and Reddish to the larger, more affluent homes of Bramhall, Hazel Grove, and Marple, giving us a huge range of media wall projects across a fairly small area.",
@@ -396,9 +396,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-wigan",
     city: "Wigan",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Wigan 2026 | Media Walls North",
+    metaTitle: "Media Walls Wigan | Installation | Media Walls North",
     metaDescription:
-      "Media wall fitters covering Wigan and the surrounding towns. Fireplace media walls, TV mounting, acoustic walls. Free, no-obligation quotes.",
+      "Bespoke media wall installation across Wigan. Covering Standish, Aspull, Leigh, Atherton. Free no-obligation quotes.",
     heroImage: STOCK.tvMountWoodConsole,
     intro: [
       "Wigan's housing stock runs from classic terraces close to the town centre and Wigan Pier, through to the larger semis and detached homes found in Standish, Aspull, and Ince. It is an area we have built up a solid base of work in, with projects ranging from compact TV mounting jobs to full fireplace media walls.",
@@ -474,9 +474,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-oldham",
     city: "Oldham",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Oldham 2026 | Media Walls North",
+    metaTitle: "Media Wall Fitters Oldham | Media Walls North",
     metaDescription:
-      "Media wall installation across Oldham, Saddleworth, and Chadderton. Fireplace media walls, acoustic walls, TV mounting. Free quotes available.",
+      "Custom media walls designed and fitted in Oldham. Serving Shaw, Royton, Chadderton, Failsworth. Free home visits.",
     heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Oldham's hillside terraces and stone-built homes give us some of the most characterful chimney breasts we work with anywhere in the North West. In Saddleworth villages like Lees, and further out towards Delph and Dobcross, original stone fireplaces and deep recesses are common, and we design media walls that respect that character while still delivering a modern fitted fire and concealed TV setup.",
@@ -552,9 +552,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-rochdale",
     city: "Rochdale",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Rochdale 2026 | Media Walls North",
+    metaTitle: "Media Wall Installation Rochdale | Media Walls North",
     metaDescription:
-      "Media wall installation across Rochdale, Littleborough, and Heywood. Fireplace media walls, TV mounting, acoustic walls. Free consultation.",
+      "Professional media wall fitting in Rochdale. Bespoke designs for Littleborough, Milnrow, Heywood. Free consultation.",
     heroImage: STOCK.openPlanWoodFeatureWall,
     intro: [
       "Rochdale gives us a good spread of work, from the terraced streets close to the town centre and Rochdale Town Hall, out to the more affluent, semi-rural areas of Norden and Bamford. Further out towards Littleborough and Milnrow, closer to the Pennines, stone-built cottages and larger detached homes bring a similar character to what we see in Saddleworth.",
@@ -630,9 +630,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-salford",
     city: "Salford",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Salford 2026 | Media Walls North",
+    metaTitle: "Media Walls Salford | Installation | Media Walls North",
     metaDescription:
-      "Media wall installation across Salford including Worsley, Eccles, and Monton. Fireplace media walls, TV mounting. Free quotes and guarantee.",
+      "Custom media wall installation across Salford. Covering Walkden, Swinton, Eccles, Worsley. 10 year guarantee.",
     heroImage: STOCK.tvMountWhiteConsole,
     intro: [
       "Salford sits right next door to our Manchester base, and it is an area with real variety: the smart waterside apartments around Salford Quays, the well-established suburb of Worsley with its mock-Tudor architecture and larger family homes, and the more traditional terraces of Eccles, Swinton, and Monton.",
@@ -708,9 +708,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bury",
     city: "Bury",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Bury 2026 | Media Walls North",
+    metaTitle: "Media Wall Installers Bury | Media Walls North",
     metaDescription:
-      "Media wall installation across Bury, Ramsbottom, and Radcliffe. Fireplace media walls, TV mounting, acoustic walls. Free, no-obligation quote.",
+      "Bespoke media walls for homes in Bury. Serving Ramsbottom, Tottington, Radcliffe, Whitefield. Free quotes.",
     heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Bury has become a strong area for us, particularly among homeowners in Ramsbottom and Tottington who are renovating stone cottages and larger semis, and in Prestwich and Whitefield, where a mix of period terraces and 1930s semis line the streets closer to Manchester.",
@@ -786,9 +786,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-tameside",
     city: "Tameside",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Tameside 2026 | Media Walls North",
+    metaTitle: "Media Walls Tameside | Fitting | Media Walls North",
     metaDescription:
-      "Media wall installation across Tameside including Ashton-under-Lyne, Stalybridge, and Hyde. Free quotes, 10 year guarantee.",
+      "Media wall installation across Tameside. Covering Ashton-under-Lyne, Stalybridge, Hyde, Denton. Free home consultation.",
     heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "Tameside covers a lot of ground, from the market town feel of Ashton-under-Lyne, through the canal-side character of Stalybridge, down to Denton, Hyde, and Droylsden. It is a borough we have built up steady, consistent work across, largely thanks to the strong mix of period terraces and semis that suit a fireplace media wall so well.",
@@ -864,9 +864,9 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-liverpool",
     city: "Liverpool",
     region: "Merseyside",
-    metaTitle: "Media Wall Installation Liverpool 2026 | Media Walls North",
+    metaTitle: "Media Wall Installation Liverpool | Media Walls North",
     metaDescription:
-      "Media wall design and installation across Liverpool. Fireplace media walls, TV mounting, acoustic walls for Liverpool homes. Free quotes.",
+      "Bespoke media walls designed and installed in Liverpool. Serving Woolton, Allerton, Aigburth, Crosby. Free quotes.",
     heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Liverpool is the furthest west we travel on a regular basis, and it has become a genuinely busy part of our schedule. The city's housing ranges from the tall Georgian and Victorian terraces around Aigburth and Allerton, to the converted warehouse apartments near the city centre, and the suburban semis of Woolton, Crosby, and Formby.",

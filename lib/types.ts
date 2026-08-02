@@ -77,6 +77,7 @@ export type Testimonial = {
 export type BlogPost = {
   slug: string;
   title: string;
+  metaTitle: string;
   category: "Design Ideas" | "Cost Guides" | "Installation Tips" | "Home Improvement";
   excerpt: string;
   metaDescription: string;

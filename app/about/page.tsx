@@ -12,9 +12,9 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { Card } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "About Us | Craftsmen You Can Trust",
+  title: { absolute: "About Us | Media Walls North" },
   description:
-    "Meet the team behind Media Walls North, a Manchester family business specialising in bespoke media wall design and installation across the North West.",
+    "Meet the team behind Media Walls North. Over 12 years of experience fitting bespoke media walls across Manchester and the North West.",
   alternates: { canonical: "/about" },
 };
 

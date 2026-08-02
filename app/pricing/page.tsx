@@ -14,9 +14,9 @@ import { Button } from "@/components/ui/button";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Media Wall Pricing Guide & Cost Calculator",
+  title: { absolute: "Media Wall Prices & Costs | Media Walls North" },
   description:
-    "How much does a media wall cost? Use our interactive calculator and pricing guide to get an estimate for your Manchester or North West project.",
+    "Media wall pricing guide from £800. Use our cost calculator to estimate your project. Free no-obligation quotes available.",
   alternates: { canonical: "/pricing" },
 };
 

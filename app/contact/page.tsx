@@ -9,12 +9,12 @@ import { Card } from "@/components/ui/card";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Get a Free Media Wall Quote",
+  title: { absolute: "Get a Free Quote | Contact | Media Walls North" },
   description:
-    "Get in touch with Media Walls North for a free, no-obligation media wall quote. Serving Manchester and the North West.",
+    "Request your free media wall quote today. Call us or fill in our form. We serve Manchester, Bolton, Preston, Wigan and surrounding areas.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact Media Walls North",
+    title: "Get a Free Quote | Contact | Media Walls North",
     description: "Get a free, no-obligation media wall quote for your Manchester or North West home.",
     url: `${SITE_URL}/contact`,
   },

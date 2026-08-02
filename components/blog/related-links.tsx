@@ -24,7 +24,7 @@ export function RelatedLinks({ post }: { post: BlogPost }) {
   const locations = post.relatedLocationSlugs
     .map((slug) => getLocationBySlug(slug))
     .filter((l): l is NonNullable<typeof l> => Boolean(l))
-    .map((l) => ({ href: `/areas/${l.slug}`, label: `Media Walls in ${l.city}` }));
+    .map((l) => ({ href: `/${l.slug}`, label: `Media Walls in ${l.city}` }));
 
   return (
     <div className="rounded-lg border border-border bg-card p-6">

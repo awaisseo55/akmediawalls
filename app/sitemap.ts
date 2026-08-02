@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/services",
-    "/areas",
+    "/areas-we-cover",
     "/gallery",
     "/pricing",
     "/about",
@@ -32,10 +32,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const locationRoutes = LOCATIONS.map((l) => ({
-    url: `${SITE_URL}/areas/${l.slug}`,
+    url: `${SITE_URL}/${l.slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
-    priority: 0.9,
+    priority: 0.8,
   }));
 
   const blogRoutes = BLOG_POSTS.map((p) => ({

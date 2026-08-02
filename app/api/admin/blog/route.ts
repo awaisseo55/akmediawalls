@@ -63,6 +63,7 @@ export async function POST(request: Request) {
   const post: BlogPost = {
     slug: slugify(title),
     title,
+    metaTitle: `${title} | Media Walls North`,
     category,
     excerpt,
     metaDescription: metaDescription || excerpt,

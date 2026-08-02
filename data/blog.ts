@@ -5,11 +5,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "how-to-design-the-perfect-media-wall-2026",
     title: "How to Design the Perfect Media Wall for Your Living Room in 2026",
+    metaTitle: "How to Design the Perfect Media Wall | Media Walls North",
     category: "Design Ideas",
     excerpt:
       "From material choice to TV height and lighting, here is how to plan a media wall that suits your room, not just a photo you saved online.",
     metaDescription:
-      "A practical guide to designing a media wall in 2026: materials, TV placement, fireplace options, and lighting choices for a premium finish.",
+      "Expert guide to planning your media wall: materials, TV placement, and lighting. Free consultation across Manchester and the North West.",
     image: STOCK.heroWoodPanelMediaWall,
     date: "2026-01-14",
     lastUpdated: "2026-08-02",
@@ -50,11 +51,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "media-wall-cost-guide-manchester-2026",
     title: "Media Wall Cost Guide: What to Expect to Pay in Manchester 2026",
+    metaTitle: "Media Wall Cost Guide Manchester | Prices From £800",
     category: "Cost Guides",
     excerpt:
       "A realistic breakdown of media wall pricing in Manchester for 2026, from a simple TV mount through to a full bespoke fireplace media wall.",
     metaDescription:
-      "How much does a media wall cost in Manchester in 2026? A clear breakdown of pricing by size, materials, and fireplace inclusion.",
+      "What does a media wall cost in Manchester? Full price breakdown from £800. Get your free, no-obligation quote today.",
     image: STOCK.fireplaceMarbleBuiltIn,
     date: "2026-02-03",
     lastUpdated: "2026-08-02",
@@ -93,11 +95,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "fireplace-media-walls-vs-traditional-tv-setup",
     title: "Fireplace Media Walls vs Traditional TV Setup: Which Is Right for You",
+    metaTitle: "Fireplace Media Wall vs TV Stand | Which Is Better",
     category: "Home Improvement",
     excerpt:
       "Weighing up a bespoke fireplace media wall against a traditional TV stand and fireplace setup, and how to decide which suits your home.",
     metaDescription:
-      "Comparing fireplace media walls with traditional TV and fireplace setups: cost, disruption, and which option suits different homes.",
+      "Comparing fireplace media walls to traditional TV stands: cost, style, and value. Free advice from our Manchester team.",
     image: STOCK.fireplaceSlattedInset,
     date: "2026-02-18",
     lastUpdated: "2026-08-02",
@@ -132,11 +135,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "top-10-media-wall-design-ideas-this-year",
     title: "Top 10 Media Wall Design Ideas We Installed This Year",
+    metaTitle: "10 Media Wall Ideas We Installed This Year | Gallery",
     category: "Design Ideas",
     excerpt:
       "A round-up of ten media wall designs we have built across Manchester and the North West this year, from slatted oak to marble-effect fireplaces.",
     metaDescription:
-      "Ten media wall design ideas installed across Manchester and the North West, covering fireplace walls, slatted wood, and acoustic panelling.",
+      "10 real media wall designs installed across Manchester and the North West this year. Get inspired, then request your free quote.",
     image: STOCK.slattedWoodTvFloatingShelf,
     date: "2026-03-10",
     lastUpdated: "2026-08-02",
@@ -180,11 +184,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "tv-wall-mounting-diy-or-hire-a-professional",
     title: "TV Wall Mounting: Should You DIY or Hire a Professional in the UK",
+    metaTitle: "TV Wall Mounting | DIY vs Professional | What to Know",
     category: "Installation Tips",
     excerpt:
       "What is actually involved in mounting a TV properly, where DIY tends to go wrong, and when it makes sense to bring in a professional.",
     metaDescription:
-      "A practical look at DIY versus professional TV wall mounting in the UK, covering wall types, cable concealment, and safety considerations.",
+      "Should you DIY your TV wall mount or hire a professional? Costs, risks, and results compared. Free quotes across the North West.",
     image: STOCK.tvMountWoodConsole,
     date: "2026-03-24",
     lastUpdated: "2026-08-02",

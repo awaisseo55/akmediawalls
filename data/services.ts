@@ -7,9 +7,9 @@ export const SERVICES: Service[] = [
     name: "Media Walls with Fireplace",
     shortName: "Fireplace Media Walls",
     tagline: "Your TV and fire, built into one seamless feature wall",
-    metaTitle: "Media Walls with Fireplace Manchester | Media Walls North",
+    metaTitle: "Fireplace Media Walls | Design & Install | Media Walls North",
     metaDescription:
-      "Bespoke fireplace media walls installed across Manchester and the North West. Electric fires, concealed wiring, and premium finishes. Free quote.",
+      "Electric fireplace media walls built into stunning feature walls. LED lighting, concealed wiring, bespoke designs. Free quotes.",
     heroImage: STOCK.fireplaceSlattedInset,
     cardImage: STOCK.fireplaceSlattedInset,
     summary:
@@ -88,9 +88,9 @@ export const SERVICES: Service[] = [
     name: "Bespoke Acoustic Media Walls",
     shortName: "Acoustic Media Walls",
     tagline: "Fabric and wood-slat panels that look premium and sound better",
-    metaTitle: "Acoustic Media Walls Manchester | Fabric Panel Fitters",
+    metaTitle: "Acoustic Panel Media Walls | Media Walls North",
     metaDescription:
-      "Bespoke acoustic media walls with fabric and wood-slat panels. Reduce echo, add texture, and create a designer feature wall in your Manchester home.",
+      "Bespoke acoustic and fabric media walls for a premium finish. Sound-absorbing panels with integrated TV mounting. Free consultation.",
     heroImage: STOCK.slattedWoodTexture,
     cardImage: STOCK.slattedWoodTexture,
     summary:
@@ -148,9 +148,9 @@ export const SERVICES: Service[] = [
     name: "TV Wall Mounting & Concealed Wiring",
     shortName: "TV Wall Mounting",
     tagline: "A flush-mounted TV with every cable hidden inside the wall",
-    metaTitle: "TV Wall Mounting Manchester | Concealed Cable Installation",
+    metaTitle: "TV Wall Mounting & Cable Hiding | Media Walls North",
     metaDescription:
-      "Professional TV wall mounting with fully concealed wiring across Manchester and the North West. Flush fitting, any wall type, same-week appointments.",
+      "Professional TV mounting with fully concealed wiring. Clean, flush finish on any wall type. Serving Manchester and the North West.",
     heroImage: STOCK.tvMountWoodConsole,
     cardImage: STOCK.tvMountWoodConsole,
     summary:
@@ -208,9 +208,9 @@ export const SERVICES: Service[] = [
     name: "Commercial & Slatted Wood Walls",
     shortName: "Commercial & Slatted Walls",
     tagline: "Feature walls and media walls for offices, salons, and hospitality spaces",
-    metaTitle: "Commercial Media Walls Manchester | Slatted Wood Fit-Outs",
+    metaTitle: "Slatted Wood Feature Walls | Media Walls North",
     metaDescription:
-      "Slatted wood feature walls and commercial media walls for offices, receptions, salons, and hospitality venues across Manchester and the North West.",
+      "Oak and walnut slatted wood feature walls for homes and commercial spaces. Bespoke design, expert fitting, 10 year guarantee.",
     heroImage: STOCK.slattedWoodLedCove,
     cardImage: STOCK.slattedWoodLedCove,
     summary:

@@ -44,11 +44,11 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.title,
+    title: { absolute: post.metaTitle },
     description: post.metaDescription,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
-      title: post.title,
+      title: post.metaTitle,
       description: post.metaDescription,
       url: `${SITE_URL}/blog/${post.slug}`,
       images: [{ url: post.image }],

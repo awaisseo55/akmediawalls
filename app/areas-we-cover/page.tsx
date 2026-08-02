@@ -8,13 +8,13 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: "Areas We Cover | Media Walls Across the North West",
+  title: { absolute: "Areas We Cover | Media Walls North" },
   description:
     "Media Walls North installs bespoke media walls across Greater Manchester, Lancashire, Cheshire, and Merseyside. Find your local media wall specialist.",
-  alternates: { canonical: "/areas" },
+  alternates: { canonical: "/areas-we-cover" },
 };
 
-export default function AreasPage() {
+export default function AreasWeCoverPage() {
   return (
     <>
       <PageHero
@@ -22,7 +22,7 @@ export default function AreasPage() {
         title="Media Walls Across the North West"
         description="From our Manchester base, we design and install bespoke media walls throughout Greater Manchester, Lancashire, Cheshire, and Merseyside."
         image={STOCK.fireplaceMarbleBuiltIn}
-        breadcrumbs={<Breadcrumbs items={[{ name: "Areas Covered", href: "/areas" }]} />}
+        breadcrumbs={<Breadcrumbs items={[{ name: "Areas We Cover", href: "/areas-we-cover" }]} />}
       />
 
       <section className="bg-background py-20 sm:py-28">

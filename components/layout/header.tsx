@@ -69,7 +69,7 @@ function AreasDropdown() {
           {LOCATIONS.map((l) => (
             <DropdownMenu.Item key={l.slug} asChild>
               <Link
-                href={`/areas/${l.slug}`}
+                href={`/${l.slug}`}
                 className="rounded-md px-3 py-2 text-sm font-medium text-white outline-none transition-colors hover:bg-card-hover hover:text-brass focus:bg-card-hover"
               >
                 Media Walls in {l.city}
@@ -78,7 +78,7 @@ function AreasDropdown() {
           ))}
           <DropdownMenu.Item asChild>
             <Link
-              href="/areas"
+              href="/areas-we-cover"
               className="col-span-2 mt-1 block rounded-md px-3 py-2.5 text-sm font-semibold text-brass outline-none transition-colors hover:bg-card-hover"
             >
               View all areas &rarr;
@@ -188,7 +188,7 @@ export function Header() {
               {LOCATIONS.map((l) => (
                 <Link
                   key={l.slug}
-                  href={`/areas/${l.slug}`}
+                  href={`/${l.slug}`}
                   onClick={() => setMobileOpen(false)}
                   className="rounded-md px-2 py-2 text-sm font-medium text-white hover:bg-card-hover hover:text-brass"
                 >

@@ -74,7 +74,7 @@ export function Footer() {
               {LOCATIONS.map((l) => (
                 <li key={l.slug}>
                   <Link
-                    href={`/areas/${l.slug}`}
+                    href={`/${l.slug}`}
                     className="text-sm text-muted transition-colors hover:text-white"
                   >
                     {l.city}
