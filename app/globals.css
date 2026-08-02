@@ -1,26 +1,130 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAF8F5;
+  --background-alt: #F1EEE9;
+  --card: #FFFFFF;
+  --foreground: #1A1A1A;
+  --body: #3D3D3D;
+  --muted: #6B6B6B;
+  --border: #E7E1D8;
+
+  --forest: #1F3D2E;
+  --forest-hover: #152920;
+  --forest-foreground: #FAF8F5;
+  --brass: #B8925A;
+  --brass-hover: #A17E49;
+
+  --primary: var(--forest);
+  --primary-hover: var(--forest-hover);
+  --primary-foreground: var(--forest-foreground);
+  --accent: var(--brass);
+  --accent-hover: var(--brass-hover);
+  --success: var(--forest);
+  --destructive: #A3402E;
+
+  --radius: 0.65rem;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-alt: var(--background-alt);
+  --color-card: var(--card);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+
+  --color-forest: var(--forest);
+  --color-forest-hover: var(--forest-hover);
+  --color-brass: var(--brass);
+  --color-brass-hover: var(--brass-hover);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-success: var(--success);
+  --color-destructive: var(--destructive);
+
+  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-inter), Inter, ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: calc(var(--radius) - 0.25rem);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 0.25rem);
+  --radius-xl: calc(var(--radius) + 0.5rem);
+
+  --shadow-warm: 0 2px 8px 0 rgb(31 61 46 / 0.06), 0 1px 3px 0 rgb(31 61 46 / 0.08);
+  --shadow-warm-lg: 0 12px 32px -8px rgb(31 61 46 / 0.14), 0 4px 12px -4px rgb(31 61 46 / 0.08);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #17181A;
+  --background-alt: #1E2023;
+  --card: #212326;
+  --foreground: #F5F3EF;
+  --body: #D8D5CF;
+  --muted: #9A968C;
+  --border: #33322F;
+
+  --forest: #4A8A6A;
+  --forest-hover: #5CA07D;
+  --forest-foreground: #0E1210;
+  --primary: var(--forest);
+  --primary-hover: var(--forest-hover);
+  --primary-foreground: var(--forest-foreground);
+}
+
+* {
+  border-color: var(--border);
 }
 
 body {
   background: var(--background);
+  color: var(--body);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shadow-warm {
+  box-shadow: var(--shadow-warm);
+}
+.shadow-warm-lg {
+  box-shadow: var(--shadow-warm-lg);
+}
+
+.balance {
+  text-wrap: balance;
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
 }

@@ -1,65 +1,45 @@
-import Image from "next/image";
+import type { Metadata } from "next";
 
-export default function Home() {
+import { SITE_URL } from "@/lib/constants";
+import { LocalBusinessJsonLd } from "@/components/shared/json-ld";
+import { HomeHero } from "@/components/sections/home-hero";
+import { TrustBar } from "@/components/sections/trust-bar";
+import { ServicesOverview } from "@/components/sections/services-overview";
+import { RecentProjects } from "@/components/sections/recent-projects";
+import { HowWeWork } from "@/components/sections/how-we-work";
+import { AreasCovered } from "@/components/sections/areas-covered";
+import { WhyChooseUs } from "@/components/sections/why-choose-us";
+import { TestimonialsSection } from "@/components/sections/testimonials-section";
+import { BlogPreview } from "@/components/sections/blog-preview";
+import { FinalCta } from "@/components/sections/final-cta";
+
+export const metadata: Metadata = {
+  title: "Media Wall Installation Manchester & North West England",
+  description:
+    "Bespoke media wall design and installation across Manchester and the North West. Fireplace media walls, acoustic walls, TV mounting. Free quotes, 10 year guarantee.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "AK Media Walls | Bespoke Media Wall Installation, Manchester",
+    description:
+      "Bespoke media wall design and installation across Manchester and the North West. Free quotes, 10 year guarantee.",
+    url: SITE_URL,
+  },
+};
+
+export default function HomePage() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <LocalBusinessJsonLd url={SITE_URL} />
+      <HomeHero />
+      <TrustBar />
+      <ServicesOverview />
+      <RecentProjects />
+      <HowWeWork />
+      <AreasCovered />
+      <WhyChooseUs />
+      <TestimonialsSection />
+      <BlogPreview />
+      <FinalCta />
+    </>
   );
 }

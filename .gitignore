@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local lead/session storage (used only when Blob env vars are absent)
+/.data/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

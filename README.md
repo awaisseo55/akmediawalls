@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AK Media Walls
 
-## Getting Started
+Lead generation website for **AK Media Walls**, a bespoke media wall design
+and installation business serving Manchester and North West England.
 
-First, run the development server:
+Built with Next.js 15 (App Router, TypeScript), Tailwind CSS v4, shadcn/ui,
+Framer Motion, and lucide-react. Contact form emails go through Resend;
+lead records, admin-uploaded gallery photos, and admin blog posts are stored
+via Vercel Blob (with a local filesystem fallback for development).
+
+See [`CLAUDE.md`](./CLAUDE.md) for the full project guide, design tokens,
+and content architecture.
+
+## Getting started
 
 ```bash
+npm install
+cp .env.local.example .env.local   # fill in values, or leave blank for local dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Every environment variable in `.env.local.example` is optional locally:
+without them, the contact form still saves leads (to `.data/`, gitignored)
+without emailing, image uploads save to `public/uploads/`, and `/admin` is
+simply unreachable until `ADMIN_PASSWORD` and `SESSION_SECRET` are set.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts
 
-## Learn More
+- `npm run dev` — local development server
+- `npm run build` — production build
+- `npm run start` — serve the production build
+- `npm run lint` — ESLint
 
-To learn more about Next.js, take a look at the following resources:
+## Admin panel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`/admin` is password-protected (`ADMIN_PASSWORD`). It provides a leads
+dashboard, a gallery photo uploader (tagged by style and city), a blog post
+editor, and business settings. All uploaded content is stored in Vercel
+Blob in production.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deploys to Vercel. Required environment variables in production:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `ADMIN_PASSWORD`, `SESSION_SECRET` — admin panel access
+- `RESEND_API_KEY`, `CONTACT_EMAIL` — contact form email delivery
+- `BLOB_READ_WRITE_TOKEN` — required in production (the Vercel filesystem is
+  read-only at runtime, so lead/gallery/blog storage needs Blob)
+- `BUSINESS_PHONE` — displayed across the site
