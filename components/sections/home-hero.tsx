@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import { STOCK } from "@/lib/images";
 import { Button } from "@/components/ui/button";
 
 const container = {
@@ -19,13 +18,13 @@ const item = {
 
 export function HomeHero() {
   return (
-    <section className="relative flex min-h-[38rem] items-center overflow-hidden sm:min-h-[44rem]">
+    <section className="relative flex min-h-[50vh] items-center overflow-hidden sm:min-h-[60vh] lg:min-h-[70vh]">
       <Image
-        src={STOCK.fireplaceSlattedInset}
-        alt="Bespoke slatted oak media wall with inset electric fire, installed in a Manchester living room"
+        src="/slider.jpeg"
+        alt="Bespoke media wall installation by Media Walls North"
         fill
         priority
-        className="object-cover"
+        className="object-cover object-center"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/20" />

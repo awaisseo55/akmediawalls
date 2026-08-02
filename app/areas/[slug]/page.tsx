@@ -17,6 +17,7 @@ import { FaqSection } from "@/components/shared/faq-section";
 import { FinalCta } from "@/components/sections/final-cta";
 import { LocalBusinessJsonLd } from "@/components/shared/json-ld";
 import { PortfolioPlaceholder } from "@/components/shared/portfolio-placeholder";
+import { VideoShowcase } from "@/components/shared/video-showcase";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -185,6 +186,11 @@ export default async function LocationPage({
           </div>
         </div>
       </section>
+
+      <VideoShowcase
+        title={`Media Wall Installations Near ${location.city}`}
+        description="Real projects, real homes across the North West."
+      />
 
       {/* Recent projects */}
       <section className="bg-background py-20 sm:py-24">

@@ -6,6 +6,7 @@ import { HomeHero } from "@/components/sections/home-hero";
 import { TrustBar } from "@/components/sections/trust-bar";
 import { ServicesOverview } from "@/components/sections/services-overview";
 import { RecentProjects } from "@/components/sections/recent-projects";
+import { VideoShowcase } from "@/components/shared/video-showcase";
 import { HowWeWork } from "@/components/sections/how-we-work";
 import { AreasCovered } from "@/components/sections/areas-covered";
 import { WhyChooseUs } from "@/components/sections/why-choose-us";
@@ -35,6 +36,7 @@ export default function HomePage() {
       <TrustBar />
       <ServicesOverview />
       <RecentProjects />
+      <VideoShowcase />
       <HowWeWork />
       <AreasCovered />
       <WhyChooseUs />
