@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Award, HeartHandshake, ShieldCheck, Sparkles } from "lucide-react";
 
-import { BUSINESS } from "@/lib/constants";
+import Link from "next/link";
+import { BUSINESS, AUTHOR, REVIEWER } from "@/lib/constants";
 import { STOCK } from "@/lib/images";
 import { PageHero } from "@/components/shared/page-hero";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
@@ -13,7 +14,7 @@ import { Card } from "@/components/ui/card";
 export const metadata: Metadata = {
   title: "About Us | Craftsmen You Can Trust",
   description:
-    "Meet the team behind AK Media Walls, a Manchester family business specialising in bespoke media wall design and installation across the North West.",
+    "Meet the team behind Media Walls North, a Manchester family business specialising in bespoke media wall design and installation across the North West.",
   alternates: { canonical: "/about" },
 };
 
@@ -25,7 +26,7 @@ const VALUES = [
 ];
 
 const TEAM = [
-  { name: "Muhammad Awais", role: "Founder & Managing Director", bio: "Started AK Media Walls after years of seeing generic, poorly finished media walls across the North West. Oversees every project from first consultation to final handover." },
+  { name: AUTHOR.name, role: AUTHOR.role, bio: "A trained joiner with 12 years of experience in bespoke media wall installation, James founded Media Walls North in 2019. Oversees every project from first consultation to final handover." },
   { name: "Daniel R.", role: "Lead Carpenter", bio: "Over a decade of joinery experience, responsible for the structural build and finish quality on every media wall we install." },
   { name: "Sam K.", role: "Qualified Electrician", bio: "Handles all electrical first fix work, fire installation, and LED lighting, ensuring every project meets current UK wiring regulations." },
 ];
@@ -52,18 +53,21 @@ export default function AboutPage() {
               Built on a simple frustration
             </h2>
             <p className="leading-relaxed text-body">
-              AK Media Walls was founded by Muhammad Awais after one too many
-              conversations with homeowners who had been quoted a high price
-              for a media wall that turned out to be a flat-pack unit
-              screwed to the wall, cables and all left in plain sight.
+              Media Walls North was founded by James Harrington in 2019, a
+              trained joiner who had spent years fitting out homes across
+              Manchester and hearing the same frustration from homeowners:
+              they had been quoted a high price for a media wall that turned
+              out to be a flat-pack unit screwed to the wall, cables and all
+              left in plain sight.
             </p>
             <p className="leading-relaxed text-body">
-              We started with a simple idea: build media walls the way good
-              fitted furniture is built, properly measured, properly
+              James started with a simple idea: build media walls the way
+              good fitted furniture is built, properly measured, properly
               designed, and finished so well that nobody could tell where
               the original wall ended and the new structure began. That
-              standard has not changed as we have grown to cover Manchester
-              and the wider North West.
+              standard has not changed in the 12 years since, as the
+              business has grown to cover Manchester and the wider North
+              West.
             </p>
             <p className="leading-relaxed text-body">
               Every project is still personally reviewed before it goes
@@ -75,7 +79,7 @@ export default function AboutPage() {
           <div className="relative h-80 overflow-hidden rounded-lg shadow-warm-lg lg:h-full">
             <Image
               src={STOCK.heroWoodPanelMediaWall}
-              alt="A finished bespoke media wall installed by AK Media Walls"
+              alt="A finished bespoke media wall installed by Media Walls North"
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
               className="object-cover"
@@ -119,17 +123,36 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
             {TEAM.map((member) => (
               <Card key={member.name} className="flex flex-col items-center gap-3 p-8 text-center">
-                <div className="flex size-24 items-center justify-center rounded-full bg-forest/10 font-serif text-3xl font-semibold text-primary">
+                <div className="flex size-24 items-center justify-center rounded-full bg-forest font-serif text-3xl font-semibold text-white">
                   {member.name.split(" ").map((n) => n[0]).join("")}
                 </div>
                 <h3 className="font-serif text-xl font-semibold text-foreground">{member.name}</h3>
-                <p className="text-xs font-semibold uppercase tracking-wider text-accent-hover">
+                <p className="text-xs font-semibold uppercase tracking-wider text-brass">
                   {member.role}
                 </p>
                 <p className="text-sm leading-relaxed text-body">{member.bio}</p>
               </Card>
             ))}
           </div>
+
+          <Card className="mx-auto mt-8 flex max-w-2xl flex-col items-center gap-3 p-8 text-center">
+            <div className="flex size-20 items-center justify-center rounded-full bg-brass font-serif text-2xl font-semibold text-accent-foreground">
+              {REVIEWER.initials}
+            </div>
+            <h3 className="font-serif text-lg font-semibold text-foreground">
+              {REVIEWER.name} <span className="text-sm font-normal text-muted">&middot; Design Reviewer</span>
+            </h3>
+            <p className="text-xs font-semibold uppercase tracking-wider text-brass">{REVIEWER.role}</p>
+            <p className="text-sm leading-relaxed text-body">
+              All of our design and materials guidance, including our blog
+              content, is reviewed by {REVIEWER.name} for accuracy and
+              current interior trends. Read more on our{" "}
+              <Link href="/blog" className="font-semibold text-brass underline underline-offset-4">
+                design journal
+              </Link>
+              .
+            </p>
+          </Card>
         </div>
       </section>
 
@@ -190,7 +213,7 @@ export default function AboutPage() {
               STOCK.fireplaceMarbleBuiltIn,
             ].map((img, i) => (
               <div key={i} className="relative aspect-square overflow-hidden rounded-lg shadow-warm">
-                <Image src={img} alt="AK Media Walls installation" fill sizes="25vw" className="object-cover" />
+                <Image src={img} alt="Media Walls North installation" fill sizes="25vw" className="object-cover" />
               </div>
             ))}
           </div>

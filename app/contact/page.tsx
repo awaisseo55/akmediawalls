@@ -11,10 +11,10 @@ import { STOCK } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Contact Us | Get a Free Media Wall Quote",
   description:
-    "Get in touch with AK Media Walls for a free, no-obligation media wall quote. Serving Manchester and the North West.",
+    "Get in touch with Media Walls North for a free, no-obligation media wall quote. Serving Manchester and the North West.",
   alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact AK Media Walls",
+    title: "Contact Media Walls North",
     description: "Get a free, no-obligation media wall quote for your Manchester or North West home.",
     url: `${SITE_URL}/contact`,
   },
@@ -41,11 +41,11 @@ export default function ContactPage() {
           <div className="flex flex-col gap-6 lg:col-span-2">
             <Card className="flex flex-col gap-5 p-7">
               <h3 className="font-serif text-xl font-semibold text-foreground">Contact Details</h3>
-              <a href={`tel:${BUSINESS.phoneHref}`} className="flex items-center gap-3 text-sm text-body hover:text-primary">
+              <a href={`tel:${BUSINESS.phoneHref}`} className="flex items-center gap-3 text-sm text-body hover:text-brass">
                 <Phone className="size-4 shrink-0 text-accent-hover" />
                 {BUSINESS.phone}
               </a>
-              <a href={`mailto:${BUSINESS.email}`} className="flex items-center gap-3 text-sm text-body hover:text-primary">
+              <a href={`mailto:${BUSINESS.email}`} className="flex items-center gap-3 text-sm text-body hover:text-brass">
                 <Mail className="size-4 shrink-0 text-accent-hover" />
                 {BUSINESS.email}
               </a>
@@ -69,7 +69,7 @@ export default function ContactPage() {
 
             <div className="overflow-hidden rounded-lg border border-border shadow-warm">
               <iframe
-                title="AK Media Walls service area map"
+                title="Media Walls North service area map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76057.5!2d-2.2426!3d53.4808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDI4JzUwLjkiTiAywrAxNCczMy40Ilc!5e0!3m2!1sen!2suk!4v1700000000000"
                 width="100%"
                 height="280"

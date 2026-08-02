@@ -10,7 +10,7 @@ import { STOCK } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Blog | Media Wall Design Ideas & Guides",
   description:
-    "Design ideas, cost guides, and installation tips for media walls, from the AK Media Walls team in Manchester.",
+    "Design ideas, cost guides, and installation tips for media walls, from the Media Walls North team in Manchester.",
   alternates: { canonical: "/blog" },
 };
 

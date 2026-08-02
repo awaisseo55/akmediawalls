@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 import { GALLERY } from "@/data/gallery";
+import { SERVICES } from "@/data/services";
 import { getAdminGalleryItems } from "@/lib/admin-store";
 import { PageHero } from "@/components/shared/page-hero";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
@@ -34,6 +36,22 @@ export default async function GalleryPage() {
       <section className="bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <GalleryGrid items={items} />
+          <p className="mx-auto mt-14 max-w-2xl text-center text-body">
+            Read more about each style on our service pages:{" "}
+            {SERVICES.map((s, i) => (
+              <span key={s.slug}>
+                <Link href={`/services/${s.slug}`} className="font-semibold text-brass hover:underline">
+                  {s.shortName}
+                </Link>
+                {i < SERVICES.length - 1 ? (i === SERVICES.length - 2 ? ", and " : ", ") : ""}
+              </span>
+            ))}
+            . Or see what a project like this typically costs on our{" "}
+            <Link href="/pricing" className="font-semibold text-brass hover:underline">
+              pricing page
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

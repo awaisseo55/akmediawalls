@@ -63,7 +63,7 @@ export function BlogPostForm() {
           </div>
           <div>
             <Label htmlFor="author" className="mb-1.5 block">Author</Label>
-            <Input id="author" name="author" placeholder="AK Media Walls Team" />
+            <Input id="author" name="author" placeholder="Media Walls North Team" />
           </div>
         </div>
         <div>

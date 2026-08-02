@@ -47,7 +47,7 @@ export default function AdminLoginPage() {
             <Lock className="size-5" />
           </span>
           <h1 className="font-serif text-2xl font-semibold text-foreground">Admin Login</h1>
-          <p className="text-sm text-muted">AK Media Walls administration</p>
+          <p className="text-sm text-muted">Media Walls North administration</p>
         </div>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <div>

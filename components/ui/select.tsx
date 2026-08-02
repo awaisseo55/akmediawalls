@@ -23,14 +23,14 @@ function SelectTrigger({
     <SelectPrimitive.Trigger
       data-slot="select-trigger"
       className={cn(
-        "flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-border bg-white px-4 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-forest/20 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1",
+        "flex h-11 w-full items-center justify-between gap-2 rounded-lg border border-border-input bg-card px-4 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-forest/30 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1",
         className
       )}
       {...props}
     >
       {children}
       <SelectPrimitive.Icon asChild>
-        <ChevronDown className="size-4 text-muted opacity-70" />
+        <ChevronDown className="size-4 text-brass opacity-90" />
       </SelectPrimitive.Icon>
     </SelectPrimitive.Trigger>
   );
@@ -47,7 +47,7 @@ function SelectContent({
       <SelectPrimitive.Content
         data-slot="select-content"
         className={cn(
-          "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-lg border border-border bg-white text-foreground shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95",
+          "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-lg border border-border bg-card text-foreground shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95",
           position === "popper" &&
             "data-[side=bottom]:translate-y-1 data-[side=top]:-translate-y-1",
           className
@@ -78,14 +78,14 @@ function SelectItem({
     <SelectPrimitive.Item
       data-slot="select-item"
       className={cn(
-        "relative flex w-full cursor-pointer select-none items-center rounded-md py-2 pl-8 pr-2 text-sm outline-none data-[highlighted]:bg-background-alt data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
+        "relative flex w-full cursor-pointer select-none items-center rounded-md py-2 pl-8 pr-2 text-sm text-foreground outline-none data-[highlighted]:bg-primary data-[highlighted]:text-primary-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
         className
       )}
       {...props}
     >
       <span className="absolute left-2 flex size-3.5 items-center justify-center">
         <SelectPrimitive.ItemIndicator>
-          <Check className="size-4 text-primary" />
+          <Check className="size-4 text-brass" />
         </SelectPrimitive.ItemIndicator>
       </span>
       <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>

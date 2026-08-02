@@ -7,7 +7,7 @@ export const SERVICES: Service[] = [
     name: "Media Walls with Fireplace",
     shortName: "Fireplace Media Walls",
     tagline: "Your TV and fire, built into one seamless feature wall",
-    metaTitle: "Media Walls with Fireplace Manchester | AK Media Walls",
+    metaTitle: "Media Walls with Fireplace Manchester | Media Walls North",
     metaDescription:
       "Bespoke fireplace media walls installed across Manchester and the North West. Electric fires, concealed wiring, and premium finishes. Free quote.",
     heroImage: STOCK.fireplaceSlattedInset,

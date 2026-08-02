@@ -36,7 +36,7 @@ export default function ServicesPage() {
 
           <p className="mx-auto mt-16 max-w-2xl text-center text-body">
             Not sure which service is right for your home? {" "}
-            <Link href="/contact" className="font-semibold text-primary underline underline-offset-4">
+            <Link href="/contact" className="font-semibold text-brass underline underline-offset-4">
               Get in touch
             </Link>{" "}
             for a free, no-obligation consultation and we will recommend the best approach for your room and budget.

@@ -22,7 +22,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
           {post.category}
         </Badge>
         <h3 className="font-serif text-lg font-semibold leading-snug text-foreground">
-          <Link href={`/blog/${post.slug}`} className="hover:text-primary">
+          <Link href={`/blog/${post.slug}`} className="hover:text-brass">
             {post.title}
           </Link>
         </h3>

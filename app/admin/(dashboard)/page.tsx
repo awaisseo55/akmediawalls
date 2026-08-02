@@ -50,7 +50,7 @@ export default async function AdminDashboardPage() {
       <Card className="p-6">
         <div className="mb-4 flex items-center justify-between">
           <h2 className="font-serif text-xl font-semibold text-foreground">Recent Leads</h2>
-          <Link href="/admin/leads" className="flex items-center gap-1 text-sm font-semibold text-primary">
+          <Link href="/admin/leads" className="flex items-center gap-1 text-sm font-semibold text-brass">
             View all <ArrowRight className="size-4" />
           </Link>
         </div>

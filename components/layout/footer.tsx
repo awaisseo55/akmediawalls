@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Mail, MapPin, Phone } from "lucide-react";
@@ -16,12 +17,12 @@ export function Footer() {
   if (pathname?.startsWith("/admin")) return null;
 
   return (
-    <footer className="border-t border-border bg-background-alt">
+    <footer className="border-t border-border bg-footer">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           <div className="flex flex-col gap-4">
-            <Link href="/" className="font-serif text-2xl font-semibold text-primary">
-              AK Media Walls
+            <Link href="/">
+              <Image src="/logo.svg" alt="Media Walls North" width={190} height={44} className="h-9 w-auto" />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-body">
               Bespoke media wall design and installation across Manchester and
@@ -35,7 +36,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="flex size-9 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:border-primary hover:text-primary"
+                className="flex size-9 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-brass hover:text-brass"
               >
                 <FacebookIcon className="size-4" />
               </a>
@@ -44,7 +45,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="flex size-9 items-center justify-center rounded-full border border-border text-foreground transition-colors hover:border-primary hover:text-primary"
+                className="flex size-9 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-brass hover:text-brass"
               >
                 <InstagramIcon className="size-4" />
               </a>
@@ -52,13 +53,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-semibold text-foreground">Services</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Services</h3>
             <ul className="mt-4 flex flex-col gap-2.5">
               {SERVICES.map((s) => (
                 <li key={s.slug}>
                   <Link
                     href={`/services/${s.slug}`}
-                    className="text-sm text-body transition-colors hover:text-primary"
+                    className="text-sm text-muted transition-colors hover:text-white"
                   >
                     {s.shortName}
                   </Link>
@@ -68,13 +69,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-semibold text-foreground">Areas Covered</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Areas Covered</h3>
             <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2.5">
               {LOCATIONS.map((l) => (
                 <li key={l.slug}>
                   <Link
                     href={`/areas/${l.slug}`}
-                    className="text-sm text-body transition-colors hover:text-primary"
+                    className="text-sm text-muted transition-colors hover:text-white"
                   >
                     {l.city}
                   </Link>
@@ -84,12 +85,12 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-serif text-lg font-semibold text-foreground">Contact</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Contact</h3>
             <ul className="mt-4 flex flex-col gap-3">
               <li>
                 <a
                   href={`tel:${BUSINESS.phoneHref}`}
-                  className="flex items-center gap-2 text-sm text-body transition-colors hover:text-primary"
+                  className="flex items-center gap-2 text-sm text-white transition-colors hover:text-brass"
                 >
                   <Phone className="size-4 shrink-0 text-accent-hover" />
                   {BUSINESS.phone}
@@ -98,13 +99,13 @@ export function Footer() {
               <li>
                 <a
                   href={`mailto:${BUSINESS.email}`}
-                  className="flex items-center gap-2 text-sm text-body transition-colors hover:text-primary"
+                  className="flex items-center gap-2 text-sm text-white transition-colors hover:text-brass"
                 >
                   <Mail className="size-4 shrink-0 text-accent-hover" />
                   {BUSINESS.email}
                 </a>
               </li>
-              <li className="flex items-start gap-2 text-sm text-body">
+              <li className="flex items-start gap-2 text-sm text-white">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-accent-hover" />
                 <span>
                   {BUSINESS.addressLocality}, {BUSINESS.addressRegion}
@@ -112,7 +113,7 @@ export function Footer() {
                   Serving Greater Manchester &amp; the North West
                 </span>
               </li>
-              <li className="text-sm text-body">
+              <li className="text-sm text-white">
                 Mon&ndash;Fri: 8am&ndash;6pm
                 <br />
                 Sat: 9am&ndash;4pm
@@ -126,10 +127,10 @@ export function Footer() {
             &copy; {year} {BUSINESS.legalName}. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-primary">
+            <Link href="/privacy" className="hover:text-brass">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="hover:text-primary">
+            <Link href="/terms" className="hover:text-brass">
               Terms
             </Link>
           </div>

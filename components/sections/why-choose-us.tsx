@@ -31,7 +31,7 @@ export function WhyChooseUs() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Why Homeowners Choose Us"
-          title="Why Choose AK Media Walls"
+          title="Why Choose Media Walls North"
           align="center"
           className="mx-auto mb-14"
         />

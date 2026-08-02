@@ -22,7 +22,7 @@ export function ServiceCard({ service, large = false }: { service: Service; larg
       </Link>
       <div className="flex flex-1 flex-col gap-3 p-6 sm:p-7">
         <h3 className="font-serif text-xl font-semibold text-foreground sm:text-2xl">
-          <Link href={`/services/${service.slug}`} className="hover:text-primary">
+          <Link href={`/services/${service.slug}`} className="hover:text-brass">
             {service.name}
           </Link>
         </h3>
@@ -31,7 +31,7 @@ export function ServiceCard({ service, large = false }: { service: Service; larg
         </p>
         <Link
           href={`/services/${service.slug}`}
-          className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-transform group-hover:translate-x-0.5"
+          className="inline-flex items-center gap-1.5 text-sm font-semibold text-brass transition-transform group-hover:translate-x-0.5"
         >
           Learn more
           <ArrowRight className="size-4" />

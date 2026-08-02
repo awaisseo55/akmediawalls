@@ -25,7 +25,7 @@ export default function TermsPage() {
 
           <h2 className="font-serif text-2xl font-semibold text-foreground">1. About us</h2>
           <p>
-            These terms apply to your use of akmediawalls.co.uk and to any
+            These terms apply to your use of mediawallsnorth.co.uk and to any
             quote, consultation, or installation booked with{" "}
             {BUSINESS.legalName}, based in {BUSINESS.addressLocality}, England.
           </p>

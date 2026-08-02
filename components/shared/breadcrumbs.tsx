@@ -26,7 +26,7 @@ export function Breadcrumbs({
                   {item.name}
                 </span>
               ) : (
-                <Link href={item.href} className="hover:text-primary transition-colors">
+                <Link href={item.href} className="hover:text-brass transition-colors">
                   {item.name}
                 </Link>
               )}

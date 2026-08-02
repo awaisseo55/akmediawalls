@@ -3,28 +3,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
-:root {
-  --background: #FAF8F5;
-  --background-alt: #F1EEE9;
-  --card: #FFFFFF;
-  --foreground: #1A1A1A;
-  --body: #3D3D3D;
-  --muted: #6B6B6B;
-  --border: #E7E1D8;
+/*
+  Media Walls North runs a single dark, cinematic theme site-wide by design
+  (premium media wall installation reads as dark and sophisticated, not
+  light/airy). These values are the ONLY palette; :root and .dark are kept
+  identical on purpose so next-themes' class toggling is a no-op rather than
+  a second theme to maintain.
+*/
+:root,
+.dark {
+  --background: #0F0F0F;
+  --background-alt: #1A1A1A;
+  --card: #1F1F1F;
+  --card-hover: #2A2A2A;
+  --footer: #0A0A0A;
 
-  --forest: #1F3D2E;
-  --forest-hover: #152920;
-  --forest-foreground: #FAF8F5;
-  --brass: #B8925A;
-  --brass-hover: #A17E49;
+  --foreground: #FFFFFF;
+  --body: #D4D4D4;
+  --muted: #A3A3A3;
+  --placeholder: #737373;
+
+  --border: #2A2A2A;
+  --border-input: #3A3A3A;
+
+  --forest: #2D5A3D;
+  --forest-hover: #3A7A50;
+  --forest-foreground: #FFFFFF;
+  --brass: #C9A961;
+  --brass-hover: #D4B872;
+  --brass-foreground: #0F0F0F;
 
   --primary: var(--forest);
   --primary-hover: var(--forest-hover);
   --primary-foreground: var(--forest-foreground);
   --accent: var(--brass);
   --accent-hover: var(--brass-hover);
-  --success: var(--forest);
-  --destructive: #A3402E;
+  --accent-foreground: var(--brass-foreground);
+  --success: #34D399;
+  --destructive: #EF4444;
 
   --radius: 0.65rem;
 }
@@ -33,10 +49,14 @@
   --color-background: var(--background);
   --color-background-alt: var(--background-alt);
   --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-footer: var(--footer);
   --color-foreground: var(--foreground);
   --color-body: var(--body);
   --color-muted: var(--muted);
+  --color-placeholder: var(--placeholder);
   --color-border: var(--border);
+  --color-border-input: var(--border-input);
 
   --color-forest: var(--forest);
   --color-forest-hover: var(--forest-hover);
@@ -48,6 +68,7 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
   --color-success: var(--success);
   --color-destructive: var(--destructive);
 
@@ -59,25 +80,8 @@
   --radius-lg: calc(var(--radius) + 0.25rem);
   --radius-xl: calc(var(--radius) + 0.5rem);
 
-  --shadow-warm: 0 2px 8px 0 rgb(31 61 46 / 0.06), 0 1px 3px 0 rgb(31 61 46 / 0.08);
-  --shadow-warm-lg: 0 12px 32px -8px rgb(31 61 46 / 0.14), 0 4px 12px -4px rgb(31 61 46 / 0.08);
-}
-
-.dark {
-  --background: #17181A;
-  --background-alt: #1E2023;
-  --card: #212326;
-  --foreground: #F5F3EF;
-  --body: #D8D5CF;
-  --muted: #9A968C;
-  --border: #33322F;
-
-  --forest: #4A8A6A;
-  --forest-hover: #5CA07D;
-  --forest-foreground: #0E1210;
-  --primary: var(--forest);
-  --primary-hover: var(--forest-hover);
-  --primary-foreground: var(--forest-foreground);
+  --shadow-warm: 0 2px 8px 0 rgb(0 0 0 / 0.45), 0 1px 3px 0 rgb(0 0 0 / 0.35);
+  --shadow-warm-lg: 0 16px 40px -8px rgb(0 0 0 / 0.6), 0 4px 16px -4px rgb(0 0 0 / 0.4);
 }
 
 * {

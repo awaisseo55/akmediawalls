@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { SERVICES } from "@/data/services";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ServiceCard } from "@/components/shared/service-card";
@@ -19,6 +21,13 @@ export function ServicesOverview() {
             <ServiceCard key={service.slug} service={service} large />
           ))}
         </FadeIn>
+        <p className="mt-10 text-center text-body">
+          Not sure what a project like this costs? Try our{" "}
+          <Link href="/pricing" className="font-semibold text-brass hover:underline">
+            media wall cost calculator
+          </Link>{" "}
+          for an instant estimate.
+        </p>
       </div>
     </section>
   );

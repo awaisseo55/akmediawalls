@@ -65,7 +65,7 @@ export function SettingsForm({ settings }: { settings: Settings }) {
           <Label htmlFor="serviceAreas" className="mb-1.5 block">Service Areas (comma separated)</Label>
           <Textarea id="serviceAreas" name="serviceAreas" defaultValue={settings.serviceAreas.join(", ")} />
         </div>
-        {status === "success" && <p className="text-sm text-primary">Settings saved.</p>}
+        {status === "success" && <p className="text-sm text-success">Settings saved.</p>}
         {error && <p className="text-sm text-destructive">{error}</p>}
         <Button type="submit" disabled={status === "submitting"}>
           {status === "submitting" ? "Saving..." : "Save Settings"}

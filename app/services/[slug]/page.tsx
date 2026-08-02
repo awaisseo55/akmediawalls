@@ -6,6 +6,7 @@ import { Check } from "lucide-react";
 
 import { SERVICES, getServiceBySlug } from "@/data/services";
 import { LOCATIONS } from "@/data/locations";
+import { BLOG_POSTS } from "@/data/blog";
 import { SITE_URL } from "@/lib/constants";
 import { getIcon } from "@/lib/icon-map";
 import { PageHero } from "@/components/shared/page-hero";
@@ -53,13 +54,14 @@ export default async function ServicePage({
   if (!service) notFound();
 
   const related = SERVICES.filter((s) => s.slug !== service.slug).slice(0, 3);
+  const relatedPosts = BLOG_POSTS.filter((p) => p.relatedServiceSlugs.includes(service.slug)).slice(0, 2);
   const url = `${SITE_URL}/services/${service.slug}`;
 
   return (
     <>
       <ServiceJsonLd name={service.name} description={service.metaDescription} url={url} />
       <PageHero
-        eyebrow="AK Media Walls Service"
+        eyebrow="Media Walls North Service"
         title={service.name}
         description={service.tagline}
         image={service.heroImage}
@@ -128,7 +130,7 @@ export default async function ServicePage({
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {service.materials.map((m) => (
               <div key={m.title} className="flex items-start gap-3 rounded-lg border border-border bg-card p-5 shadow-warm">
-                <Check className="mt-0.5 size-5 shrink-0 text-primary" />
+                <Check className="mt-0.5 size-5 shrink-0 text-success" />
                 <div>
                   <p className="font-semibold text-foreground">{m.title}</p>
                   <p className="mt-1 text-sm leading-relaxed text-body">{m.description}</p>
@@ -187,7 +189,7 @@ export default async function ServicePage({
             <ul className="mx-auto mt-4 flex max-w-lg flex-col gap-2 text-left">
               {service.pricingFactors.map((f) => (
                 <li key={f} className="flex items-start gap-2 text-sm text-body">
-                  <Check className="mt-0.5 size-4 shrink-0 text-primary" />
+                  <Check className="mt-0.5 size-4 shrink-0 text-success" />
                   {f}
                 </li>
               ))}
@@ -253,7 +255,7 @@ export default async function ServicePage({
                 href={`/services/${s.slug}`}
                 className="group rounded-lg border border-border bg-card p-6 shadow-warm transition-shadow hover:shadow-warm-lg"
               >
-                <h3 className="font-serif text-lg font-semibold text-foreground group-hover:text-primary">
+                <h3 className="font-serif text-lg font-semibold text-foreground group-hover:text-brass">
                   {s.name}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-body">{s.summary}</p>
@@ -279,7 +281,7 @@ export default async function ServicePage({
               <Link
                 key={l.slug}
                 href={`/areas/${l.slug}`}
-                className="rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-body transition-colors hover:border-primary hover:text-primary"
+                className="rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-body transition-colors hover:border-brass hover:text-brass"
               >
                 {l.city}
               </Link>
@@ -287,6 +289,24 @@ export default async function ServicePage({
           </div>
         </div>
       </section>
+
+      {relatedPosts.length > 0 && (
+        <section className="bg-background-alt py-16">
+          <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+            <p className="text-sm text-muted">
+              Further reading:{" "}
+              {relatedPosts.map((post, i) => (
+                <span key={post.slug}>
+                  <Link href={`/blog/${post.slug}`} className="font-semibold text-brass hover:underline">
+                    {post.title}
+                  </Link>
+                  {i < relatedPosts.length - 1 ? " · " : ""}
+                </span>
+              ))}
+            </p>
+          </div>
+        </section>
+      )}
 
       <FinalCta
         title={`Ready to Start Your ${service.shortName} Project?`}

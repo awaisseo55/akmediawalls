@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Check, CreditCard, ShieldCheck } from "lucide-react";
 
+import { SERVICES } from "@/data/services";
 import { PageHero } from "@/components/shared/page-hero";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { SectionHeading } from "@/components/shared/section-heading";
@@ -8,6 +10,7 @@ import { CostCalculator } from "@/components/pricing/cost-calculator";
 import { FaqSection } from "@/components/shared/faq-section";
 import { FinalCta } from "@/components/sections/final-cta";
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
@@ -101,7 +104,7 @@ export default function PricingPage() {
             {TIERS.map((tier) => (
               <Card
                 key={tier.name}
-                className={`flex flex-col gap-5 p-8 ${tier.featured ? "border-2 border-primary shadow-warm-lg" : ""}`}
+                className={`flex flex-col gap-5 p-8 ${tier.featured ? "border-2 border-brass shadow-warm-lg" : ""}`}
               >
                 {tier.featured && (
                   <span className="w-fit rounded-full bg-forest px-3 py-1 text-xs font-semibold text-white">
@@ -109,12 +112,12 @@ export default function PricingPage() {
                   </span>
                 )}
                 <h3 className="font-serif text-2xl font-semibold text-foreground">{tier.name}</h3>
-                <p className="font-serif text-3xl font-semibold text-primary">{tier.range}</p>
+                <p className="font-serif text-3xl font-bold text-white">{tier.range}</p>
                 <p className="text-sm text-body">{tier.description}</p>
                 <ul className="flex flex-col gap-2.5 border-t border-border pt-5">
                   {tier.features.map((f) => (
                     <li key={f} className="flex items-start gap-2 text-sm text-body">
-                      <Check className="mt-0.5 size-4 shrink-0 text-primary" />
+                      <Check className="mt-0.5 size-4 shrink-0 text-success" />
                       {f}
                     </li>
                   ))}
@@ -136,10 +139,35 @@ export default function PricingPage() {
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {PRICE_FACTORS.map((f) => (
               <div key={f} className="flex items-start gap-3 rounded-lg border border-border bg-card p-5 shadow-warm">
-                <Check className="mt-0.5 size-5 shrink-0 text-primary" />
+                <Check className="mt-0.5 size-5 shrink-0 text-success" />
                 <p className="text-sm text-body">{f}</p>
               </div>
             ))}
+          </div>
+          <p className="mx-auto mt-8 max-w-2xl text-center text-body">
+            Every price above applies across all four of our services:{" "}
+            {SERVICES.map((s, i) => (
+              <span key={s.slug}>
+                <Link href={`/services/${s.slug}`} className="font-semibold text-brass hover:underline">
+                  {s.shortName}
+                </Link>
+                {i < SERVICES.length - 1 ? (i === SERVICES.length - 2 ? ", and " : ", ") : ""}
+              </span>
+            ))}
+            . Browse our{" "}
+            <Link href="/gallery" className="font-semibold text-brass hover:underline">
+              project gallery
+            </Link>{" "}
+            to see finished examples at each price point, or{" "}
+            <Link href="/contact" className="font-semibold text-brass hover:underline">
+              get in touch
+            </Link>{" "}
+            for an exact quote.
+          </p>
+          <div className="mt-6 flex justify-center">
+            <Button asChild variant="outline">
+              <Link href="/gallery">View the Gallery</Link>
+            </Button>
           </div>
         </div>
       </section>

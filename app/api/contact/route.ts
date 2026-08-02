@@ -58,12 +58,12 @@ export async function POST(request: Request) {
       try {
         const resend = new Resend(resendKey);
         await resend.emails.send({
-          from: "AK Media Walls Website <onboarding@resend.dev>",
+          from: "Media Walls North Website <onboarding@resend.dev>",
           to: BUSINESS.email,
           replyTo: email,
           subject: `New quote request from ${name} (${postcode})`,
           text: [
-            `New lead from akmediawalls.co.uk`,
+            `New lead from mediawallsnorth.co.uk`,
             ``,
             `Name: ${name}`,
             `Phone: ${phone}`,

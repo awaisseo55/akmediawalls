@@ -1,7 +1,7 @@
 /**
  * Verified Unsplash photos actually showing media walls, TV walls, fireplace
  * walls, or slatted wood panelling (checked visually before use). Hotlinked
- * per the Unsplash License. Replace with real AK Media Walls project photos
+ * per the Unsplash License. Replace with real Media Walls North project photos
  * via the admin gallery uploader as they become available.
  */
 

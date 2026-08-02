@@ -36,7 +36,7 @@ export default async function AdminLeadsPage() {
                 <span>Preferred contact: {lead.preferredContact || "Not specified"}</span>
                 <span>{new Date(lead.createdAt).toLocaleString("en-GB")}</span>
                 {lead.photoUrl && (
-                  <a href={lead.photoUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-primary">
+                  <a href={lead.photoUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-brass">
                     View attached photo
                   </a>
                 )}

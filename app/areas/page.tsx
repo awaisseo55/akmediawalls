@@ -10,7 +10,7 @@ import { STOCK } from "@/lib/images";
 export const metadata: Metadata = {
   title: "Areas We Cover | Media Walls Across the North West",
   description:
-    "AK Media Walls installs bespoke media walls across Greater Manchester, Lancashire, Cheshire, and Merseyside. Find your local media wall specialist.",
+    "Media Walls North installs bespoke media walls across Greater Manchester, Lancashire, Cheshire, and Merseyside. Find your local media wall specialist.",
   alternates: { canonical: "/areas" },
 };
 

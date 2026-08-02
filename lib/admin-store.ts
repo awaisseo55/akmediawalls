@@ -69,7 +69,7 @@ export async function upsertAdminBlogPost(post: BlogPost): Promise<void> {
 
 const DEFAULT_SETTINGS: Settings = {
   phone: process.env.BUSINESS_PHONE || "07700 000000",
-  email: process.env.CONTACT_EMAIL || "hello@akmediawalls.co.uk",
+  email: process.env.CONTACT_EMAIL || "contact@mediawallsnorth.co.uk",
   serviceAreas: [
     "Manchester", "Preston", "Bolton", "Warrington", "Stockport", "Wigan",
     "Oldham", "Rochdale", "Salford", "Bury", "Tameside", "Liverpool",

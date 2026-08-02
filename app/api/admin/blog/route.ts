@@ -36,7 +36,7 @@ export async function POST(request: Request) {
   const excerpt = String(formData.get("excerpt") || "").trim();
   const metaDescription = String(formData.get("metaDescription") || "").trim();
   const bodyText = String(formData.get("content") || "").trim();
-  const author = String(formData.get("author") || "AK Media Walls Team").trim();
+  const author = String(formData.get("author") || "Media Walls North Team").trim();
   const image = formData.get("image");
 
   if (
@@ -58,6 +58,8 @@ export async function POST(request: Request) {
   const content = bodyText.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
   const wordCount = bodyText.split(/\s+/).length;
 
+  const today = new Date().toISOString().slice(0, 10);
+
   const post: BlogPost = {
     slug: slugify(title),
     title,
@@ -65,10 +67,14 @@ export async function POST(request: Request) {
     excerpt,
     metaDescription: metaDescription || excerpt,
     image: imageUrl || "",
-    date: new Date().toISOString().slice(0, 10),
+    date: today,
+    lastUpdated: today,
     readingTime: `${Math.max(1, Math.round(wordCount / 200))} min read`,
     author,
     content,
+    relatedServiceSlugs: [],
+    relatedLocationSlugs: [],
+    faqs: [],
   };
 
   await upsertAdminBlogPost(post);

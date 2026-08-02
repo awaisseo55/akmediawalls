@@ -15,7 +15,7 @@ export function LocationCard({ location }: { location: Location }) {
           </span>
         </div>
         <h3 className="font-serif text-xl font-semibold text-foreground">{location.city}</h3>
-        <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-transform group-hover:translate-x-0.5">
+        <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-brass transition-transform group-hover:translate-x-0.5">
           Media Walls in {location.city}
           <ArrowRight className="size-4" />
         </span>

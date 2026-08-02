@@ -1,4 +1,4 @@
-import { BUSINESS, SITE_URL } from "@/lib/constants";
+import { AUTHOR, BUSINESS, REVIEWER, SITE_URL } from "@/lib/constants";
 import type { FAQItem, Location } from "@/lib/types";
 
 function Script({ data }: { data: object }) {
@@ -8,6 +8,53 @@ function Script({ data }: { data: object }) {
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );
+}
+
+export function OrganizationJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}#organization`,
+        name: BUSINESS.name,
+        legalName: BUSINESS.legalName,
+        url: SITE_URL,
+        logo: `${SITE_URL}/logo.svg`,
+        image: `${SITE_URL}/logo.svg`,
+        telephone: BUSINESS.phone,
+        email: BUSINESS.email,
+        foundingDate: BUSINESS.founded,
+        founder: {
+          "@type": "Person",
+          name: AUTHOR.name,
+          jobTitle: AUTHOR.role,
+        },
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: BUSINESS.streetAddress,
+          addressLocality: BUSINESS.addressLocality,
+          addressRegion: BUSINESS.addressRegion,
+          postalCode: BUSINESS.postalCode,
+          addressCountry: BUSINESS.addressCountry,
+        },
+        sameAs: [BUSINESS.socials.facebook, BUSINESS.socials.instagram],
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}#website`,
+        url: SITE_URL,
+        name: BUSINESS.name,
+        publisher: { "@id": `${SITE_URL}#organization` },
+        potentialAction: {
+          "@type": "SearchAction",
+          target: `${SITE_URL}/blog?q={search_term_string}`,
+          "query-input": "required name=search_term_string",
+        },
+      },
+    ],
+  };
+  return <Script data={data} />;
 }
 
 export function LocalBusinessJsonLd({
@@ -137,14 +184,14 @@ export function ArticleJsonLd({
   url,
   image,
   datePublished,
-  author,
+  dateModified,
 }: {
   title: string;
   description: string;
   url: string;
   image: string;
   datePublished: string;
-  author: string;
+  dateModified?: string;
 }) {
   const data = {
     "@context": "https://schema.org",
@@ -153,12 +200,26 @@ export function ArticleJsonLd({
     description,
     image,
     datePublished,
-    dateModified: datePublished,
-    author: { "@type": "Person", name: author },
+    dateModified: dateModified || datePublished,
+    author: {
+      "@type": "Person",
+      name: AUTHOR.name,
+      jobTitle: AUTHOR.role,
+      url: `${SITE_URL}/about`,
+    },
+    reviewedBy: {
+      "@type": "Person",
+      name: REVIEWER.name,
+      jobTitle: REVIEWER.role,
+    },
     publisher: {
       "@type": "Organization",
       name: BUSINESS.name,
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/logo.svg`,
+      },
     },
     mainEntityOfPage: url,
   };

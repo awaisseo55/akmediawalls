@@ -45,7 +45,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Claire D.",
     location: "Fulwood, Preston",
     quote:
-      "We got three quotes and AK Media Walls were by far the most professional, and the finish on our new media wall proves it. Would not hesitate to recommend them.",
+      "We got three quotes and Media Walls North were by far the most professional, and the finish on our new media wall proves it. Would not hesitate to recommend them.",
     service: "Media Walls with Fireplace",
     rating: 5,
   },

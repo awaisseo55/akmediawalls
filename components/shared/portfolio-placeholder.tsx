@@ -19,7 +19,7 @@ export function PortfolioPlaceholder({
       <LayoutGrid className="size-8 text-brass" strokeWidth={1.25} />
       <p className="font-serif text-lg text-white/90">{label}</p>
       <p className="text-xs uppercase tracking-widest text-white/50">
-        AK Media Walls
+        Media Walls North
       </p>
     </div>
   );

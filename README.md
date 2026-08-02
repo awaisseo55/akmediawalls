@@ -1,6 +1,6 @@
-# AK Media Walls
+# Media Walls North
 
-Lead generation website for **AK Media Walls**, a bespoke media wall design
+Lead generation website for **Media Walls North**, a bespoke media wall design
 and installation business serving Manchester and North West England.
 
 Built with Next.js 15 (App Router, TypeScript), Tailwind CSS v4, shadcn/ui,

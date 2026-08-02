@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             {BUSINESS.legalName} (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is a media
             wall design and installation business based in {BUSINESS.addressLocality}, England. This
             policy explains how we collect and use personal data submitted through
-            akmediawalls.co.uk.
+            mediawallsnorth.co.uk.
           </p>
 
           <h2 className="font-serif text-2xl font-semibold text-foreground">2. What we collect</h2>

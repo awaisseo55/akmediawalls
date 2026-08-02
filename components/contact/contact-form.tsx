@@ -47,7 +47,7 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="flex flex-col items-center gap-4 rounded-lg border border-border bg-card p-10 text-center shadow-warm">
-        <CheckCircle2 className="size-12 text-primary" />
+        <CheckCircle2 className="size-12 text-success" />
         <h3 className="font-serif text-2xl font-semibold text-foreground">Thank you</h3>
         <p className="max-w-sm text-body">
           Your quote request has been received. We will be in touch within

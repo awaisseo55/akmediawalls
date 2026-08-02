@@ -27,7 +27,7 @@ export default async function AdminBlogPage() {
           {allPosts.map((post) => (
             <div key={post.slug} className="flex flex-wrap items-center justify-between gap-3 py-3">
               <div>
-                <Link href={`/blog/${post.slug}`} target="_blank" className="font-medium text-foreground hover:text-primary">
+                <Link href={`/blog/${post.slug}`} target="_blank" className="font-medium text-foreground hover:text-brass">
                   {post.title}
                 </Link>
                 <p className="text-xs text-muted">{post.date}</p>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
@@ -15,7 +16,7 @@ import { cn } from "@/lib/utils";
 function ServicesDropdown() {
   return (
     <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-1 text-sm font-medium text-foreground transition-colors hover:text-primary focus:outline-none">
+      <DropdownMenu.Trigger className="flex items-center gap-1 text-sm font-medium text-white transition-colors hover:text-brass focus:outline-none data-[state=open]:text-brass">
         Services
         <ChevronDown className="size-3.5" />
       </DropdownMenu.Trigger>
@@ -23,15 +24,15 @@ function ServicesDropdown() {
         <DropdownMenu.Content
           align="start"
           sideOffset={16}
-          className="z-50 w-80 rounded-lg border border-border bg-white p-2 shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
+          className="z-50 w-80 rounded-lg border border-border bg-card p-2 shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
         >
           {SERVICES.map((s) => (
             <DropdownMenu.Item key={s.slug} asChild>
               <Link
                 href={`/services/${s.slug}`}
-                className="block rounded-md px-3 py-2.5 outline-none transition-colors hover:bg-background-alt focus:bg-background-alt"
+                className="block rounded-md px-3 py-2.5 outline-none transition-colors hover:bg-card-hover focus:bg-card-hover"
               >
-                <span className="block text-sm font-medium text-foreground">
+                <span className="block text-sm font-medium text-white">
                   {s.shortName}
                 </span>
                 <span className="block text-xs text-muted">{s.tagline}</span>
@@ -41,7 +42,7 @@ function ServicesDropdown() {
           <DropdownMenu.Item asChild>
             <Link
               href="/services"
-              className="mt-1 block rounded-md px-3 py-2.5 text-sm font-medium text-primary outline-none transition-colors hover:bg-background-alt"
+              className="mt-1 block rounded-md px-3 py-2.5 text-sm font-semibold text-brass outline-none transition-colors hover:bg-card-hover"
             >
               View all services &rarr;
             </Link>
@@ -55,7 +56,7 @@ function ServicesDropdown() {
 function AreasDropdown() {
   return (
     <DropdownMenu.Root>
-      <DropdownMenu.Trigger className="flex items-center gap-1 text-sm font-medium text-foreground transition-colors hover:text-primary focus:outline-none">
+      <DropdownMenu.Trigger className="flex items-center gap-1 text-sm font-medium text-white transition-colors hover:text-brass focus:outline-none data-[state=open]:text-brass">
         Areas Covered
         <ChevronDown className="size-3.5" />
       </DropdownMenu.Trigger>
@@ -63,13 +64,13 @@ function AreasDropdown() {
         <DropdownMenu.Content
           align="start"
           sideOffset={16}
-          className="z-50 grid w-[36rem] grid-cols-2 gap-1 rounded-lg border border-border bg-white p-3 shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
+          className="z-50 grid w-[36rem] grid-cols-2 gap-1 rounded-lg border border-border bg-card p-3 shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
         >
           {LOCATIONS.map((l) => (
             <DropdownMenu.Item key={l.slug} asChild>
               <Link
                 href={`/areas/${l.slug}`}
-                className="rounded-md px-3 py-2 text-sm font-medium text-foreground outline-none transition-colors hover:bg-background-alt hover:text-primary focus:bg-background-alt"
+                className="rounded-md px-3 py-2 text-sm font-medium text-white outline-none transition-colors hover:bg-card-hover hover:text-brass focus:bg-card-hover"
               >
                 Media Walls in {l.city}
               </Link>
@@ -78,7 +79,7 @@ function AreasDropdown() {
           <DropdownMenu.Item asChild>
             <Link
               href="/areas"
-              className="col-span-2 mt-1 block rounded-md px-3 py-2.5 text-sm font-medium text-primary outline-none transition-colors hover:bg-background-alt"
+              className="col-span-2 mt-1 block rounded-md px-3 py-2.5 text-sm font-semibold text-brass outline-none transition-colors hover:bg-card-hover"
             >
               View all areas &rarr;
             </Link>
@@ -113,35 +114,41 @@ export function Header() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-40 w-full border-b border-transparent bg-background/95 backdrop-blur transition-shadow duration-200",
+        "sticky top-0 z-40 w-full border-b border-transparent bg-background/97 backdrop-blur transition-shadow duration-200",
         scrolled && "border-border shadow-warm"
       )}
     >
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="font-serif text-2xl font-semibold text-primary sm:text-[1.75rem]">
-          AK Media Walls
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image src="/logo.svg" alt="Media Walls North" width={190} height={40} priority className="h-9 w-auto sm:h-10" />
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
           <ServicesDropdown />
           <AreasDropdown />
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-foreground transition-colors hover:text-primary"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const active = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={cn(
+                  "text-sm font-medium text-white transition-colors hover:text-brass",
+                  active && "text-brass underline decoration-brass underline-offset-8"
+                )}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden items-center gap-5 lg:flex">
           <a
             href={`tel:${BUSINESS.phoneHref}`}
-            className="flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-primary"
+            className="flex items-center gap-2 text-sm font-medium text-white transition-colors hover:text-brass"
           >
-            <Phone className="size-4 text-accent-hover" />
+            <Phone className="size-4 text-brass" />
             {BUSINESS.phone}
           </a>
           <Button asChild>
@@ -151,7 +158,7 @@ export function Header() {
 
         <button
           aria-label="Toggle menu"
-          className="flex items-center justify-center rounded-md p-2 text-foreground lg:hidden"
+          className="flex items-center justify-center rounded-md p-2 text-white lg:hidden"
           onClick={() => setMobileOpen((v) => !v)}
         >
           {mobileOpen ? <X className="size-6" /> : <Menu className="size-6" />}
@@ -159,7 +166,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-background px-4 pb-8 pt-4 lg:hidden">
+        <div className="max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-card px-4 pb-8 pt-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             <p className="px-2 pb-1 pt-3 text-xs font-semibold uppercase tracking-widest text-muted">
               Services
@@ -169,7 +176,7 @@ export function Header() {
                 key={s.slug}
                 href={`/services/${s.slug}`}
                 onClick={() => setMobileOpen(false)}
-                className="rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-background-alt"
+                className="rounded-md px-2 py-2 text-sm font-medium text-white hover:bg-card-hover hover:text-brass"
               >
                 {s.shortName}
               </Link>
@@ -183,7 +190,7 @@ export function Header() {
                   key={l.slug}
                   href={`/areas/${l.slug}`}
                   onClick={() => setMobileOpen(false)}
-                  className="rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-background-alt"
+                  className="rounded-md px-2 py-2 text-sm font-medium text-white hover:bg-card-hover hover:text-brass"
                 >
                   {l.city}
                 </Link>
@@ -195,7 +202,7 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="rounded-md px-2 py-2 text-sm font-medium text-foreground hover:bg-background-alt"
+                  className="rounded-md px-2 py-2 text-sm font-medium text-white hover:bg-card-hover hover:text-brass"
                 >
                   {link.label}
                 </Link>
@@ -203,9 +210,9 @@ export function Header() {
             </div>
             <a
               href={`tel:${BUSINESS.phoneHref}`}
-              className="mt-4 flex items-center gap-2 px-2 text-sm font-medium text-foreground"
+              className="mt-4 flex items-center gap-2 px-2 text-sm font-medium text-white"
             >
-              <Phone className="size-4 text-accent-hover" />
+              <Phone className="size-4 text-brass" />
               {BUSINESS.phone}
             </a>
             <Button asChild className="mt-3">

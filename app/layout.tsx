@@ -41,6 +41,13 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -55,7 +62,7 @@ export default function RootLayout({
       className={`${cormorant.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-body">
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark" enableSystem={false}>
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
