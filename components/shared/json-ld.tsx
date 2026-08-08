@@ -91,7 +91,7 @@ export function LocalBusinessJsonLd({
       ? { "@type": "City", name: location.city }
       : {
           "@type": "AdministrativeArea",
-          name: "Greater Manchester and North West England",
+          name: "Manchester and Cities Across Northern England",
         },
     openingHoursSpecification: BUSINESS.hours.map((h) => ({
       "@type": "OpeningHoursSpecification",
@@ -138,7 +138,7 @@ export function ServiceJsonLd({
     },
     areaServed: {
       "@type": "AdministrativeArea",
-      name: "Greater Manchester and North West England",
+      name: "Manchester and Cities Across Northern England",
     },
   };
   return <Script data={data} />;

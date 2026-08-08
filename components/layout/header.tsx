@@ -7,11 +7,15 @@ import { usePathname } from "next/navigation";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { ChevronDown, Menu, Phone, X } from "lucide-react";
 
-import { BUSINESS, NAV_LINKS } from "@/lib/constants";
+import { BUSINESS, NAV_LINKS, PRIORITY_LOCATION_SLUGS } from "@/lib/constants";
 import { SERVICES } from "@/data/services";
 import { LOCATIONS } from "@/data/locations";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+
+const PRIORITY_LOCATIONS = PRIORITY_LOCATION_SLUGS.map((slug) =>
+  LOCATIONS.find((l) => l.slug === slug)
+).filter((l): l is (typeof LOCATIONS)[number] => Boolean(l));
 
 function ServicesDropdown() {
   return (
@@ -66,7 +70,7 @@ function AreasDropdown() {
           sideOffset={16}
           className="z-50 grid w-[36rem] grid-cols-2 gap-1 rounded-lg border border-border bg-card p-3 shadow-warm-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95"
         >
-          {LOCATIONS.map((l) => (
+          {PRIORITY_LOCATIONS.map((l) => (
             <DropdownMenu.Item key={l.slug} asChild>
               <Link
                 href={`/${l.slug}`}
@@ -81,7 +85,7 @@ function AreasDropdown() {
               href="/areas-we-cover"
               className="col-span-2 mt-1 block rounded-md px-3 py-2.5 text-sm font-semibold text-brass outline-none transition-colors hover:bg-card-hover"
             >
-              View all areas &rarr;
+              View all {LOCATIONS.length} areas &rarr;
             </Link>
           </DropdownMenu.Item>
         </DropdownMenu.Content>
@@ -185,7 +189,7 @@ export function Header() {
               Areas Covered
             </p>
             <div className="grid grid-cols-2 gap-x-2">
-              {LOCATIONS.map((l) => (
+              {PRIORITY_LOCATIONS.map((l) => (
                 <Link
                   key={l.slug}
                   href={`/${l.slug}`}
@@ -196,6 +200,13 @@ export function Header() {
                 </Link>
               ))}
             </div>
+            <Link
+              href="/areas-we-cover"
+              onClick={() => setMobileOpen(false)}
+              className="mt-1 block rounded-md px-2 py-2.5 text-sm font-semibold text-brass hover:bg-card-hover"
+            >
+              View all {LOCATIONS.length} areas &rarr;
+            </Link>
             <div className="mt-4 flex flex-col gap-1 border-t border-border pt-4">
               {[...NAV_LINKS].map((link) => (
                 <Link

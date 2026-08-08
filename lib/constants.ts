@@ -57,3 +57,30 @@ export const NAV_LINKS = [
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
 ];
+
+// The highest search-volume cities, shown in the header dropdown and the
+// homepage areas grid. Full coverage (49 cities) lives on /areas-we-cover.
+export const PRIORITY_LOCATION_SLUGS = [
+  "media-walls-manchester",
+  "media-walls-leeds",
+  "media-walls-sheffield",
+  "media-walls-liverpool",
+  "media-walls-newcastle-upon-tyne",
+  "media-walls-bradford",
+  "media-walls-bolton",
+  "media-walls-york",
+  "media-walls-stockport",
+  "media-walls-preston",
+  "media-walls-chester",
+  "media-walls-harrogate",
+];
+
+export const REGIONS_ORDER = [
+  "Greater Manchester",
+  "Cheshire",
+  "Lancashire",
+  "Merseyside",
+  "Cumbria",
+  "Yorkshire",
+  "North East",
+] as const;

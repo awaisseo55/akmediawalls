@@ -23,11 +23,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} | Bespoke Media Wall Installation, Manchester & the North West`,
+    default: `${SITE_NAME} | Bespoke Media Wall Installation, Manchester & Northern England`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Bespoke media wall design and installation across Manchester and the North West. Fireplace media walls, acoustic walls, TV mounting, and commercial fit-outs.",
+    "Bespoke media wall design and installation from Manchester to cities across Northern England. Fireplace media walls, acoustic walls, TV mounting, and commercial fit-outs.",
   openGraph: {
     type: "website",
     locale: "en_GB",

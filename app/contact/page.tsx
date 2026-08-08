@@ -11,11 +11,11 @@ import { STOCK } from "@/lib/images";
 export const metadata: Metadata = {
   title: { absolute: "Get a Free Quote | Contact | Media Walls North" },
   description:
-    "Request your free media wall quote today. Call us or fill in our form. We serve Manchester, Bolton, Preston, Wigan and surrounding areas.",
+    "Request your free media wall quote today. Call us or fill in our form. We serve Manchester and cities across Northern England.",
   alternates: { canonical: "/contact" },
   openGraph: {
     title: "Get a Free Quote | Contact | Media Walls North",
-    description: "Get a free, no-obligation media wall quote for your Manchester or North West home.",
+    description: "Get a free, no-obligation media wall quote for your home, from Manchester to cities across Northern England.",
     url: `${SITE_URL}/contact`,
   },
 };

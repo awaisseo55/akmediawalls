@@ -25,10 +25,10 @@ export function Footer() {
               <Image src="/logo.svg" alt="Media Walls North" width={190} height={44} className="h-9 w-auto" />
             </Link>
             <p className="max-w-xs text-sm leading-relaxed text-body">
-              Bespoke media wall design and installation across Manchester and
-              the North West. Fireplace media walls, acoustic walls, TV
-              mounting, and commercial fit-outs, built to a joinery standard
-              with a 10 year workmanship guarantee.
+              Bespoke media wall design and installation from our Manchester
+              base to cities across Northern England. Fireplace media walls,
+              acoustic walls, TV mounting, and commercial fit-outs, built to a
+              joinery standard with a 10 year workmanship guarantee.
             </p>
             <div className="flex items-center gap-3 pt-1">
               <a
@@ -110,7 +110,7 @@ export function Footer() {
                 <span>
                   {BUSINESS.addressLocality}, {BUSINESS.addressRegion}
                   <br />
-                  Serving Greater Manchester &amp; the North West
+                  Serving Manchester &amp; Cities Across Northern England
                 </span>
               </li>
               <li className="text-sm text-white">

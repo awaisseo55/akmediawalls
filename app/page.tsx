@@ -15,14 +15,14 @@ import { BlogPreview } from "@/components/sections/blog-preview";
 import { FinalCta } from "@/components/sections/final-cta";
 
 export const metadata: Metadata = {
-  title: { absolute: "Media Walls North | Bespoke Installation Manchester & NW" },
+  title: { absolute: "Media Walls North | Bespoke Installation, Manchester & N. England" },
   description:
-    "Bespoke media wall design and installation across Manchester and the North West. Fireplace walls, acoustic panels, TV mounting. Free quotes available.",
+    "Bespoke media wall design and installation from Manchester to cities across Northern England. Fireplace walls, acoustic panels, TV mounting. Free quotes.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Media Walls North | Bespoke Installation Manchester & NW",
+    title: "Media Walls North | Bespoke Installation, Manchester & N. England",
     description:
-      "Bespoke media wall design and installation across Manchester and the North West. Free quotes, 10 year guarantee.",
+      "Bespoke media wall design and installation from Manchester to cities across Northern England. Free quotes, 10 year guarantee.",
     url: SITE_URL,
   },
 };

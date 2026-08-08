@@ -39,17 +39,18 @@ export function HomeHero() {
           variants={item}
           className="text-xs font-semibold uppercase tracking-[0.25em] text-brass"
         >
-          Manchester&rsquo;s Trusted Media Wall Specialists
+          Serving Manchester and Cities Across Northern England
         </motion.span>
         <motion.h1
           variants={item}
           className="max-w-2xl font-serif text-4xl font-semibold leading-[1.1] text-white balance sm:text-5xl lg:text-6xl"
         >
-          Bespoke Media Walls, Designed &amp; Installed Across the North West
+          Bespoke Media Walls, Designed &amp; Installed Across Northern England
         </motion.h1>
         <motion.p variants={item} className="max-w-xl text-lg leading-relaxed text-white/85">
           From concept to completion. Handcrafted media walls with fireplaces,
-          acoustic panels, and premium finishes for Manchester homes.
+          acoustic panels, and premium finishes, from our Manchester base to
+          Yorkshire and the North East.
         </motion.p>
         <motion.div variants={item} className="mt-2 flex flex-col gap-4 sm:flex-row">
           <Button asChild size="lg">

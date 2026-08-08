@@ -14,7 +14,7 @@ import { Card } from "@/components/ui/card";
 export const metadata: Metadata = {
   title: { absolute: "About Us | Media Walls North" },
   description:
-    "Meet the team behind Media Walls North. Over 12 years of experience fitting bespoke media walls across Manchester and the North West.",
+    "Meet the team behind Media Walls North. Over 12 years of experience fitting bespoke media walls from Manchester to cities across Northern England.",
   alternates: { canonical: "/about" },
 };
 
@@ -66,8 +66,16 @@ export default function AboutPage() {
               designed, and finished so well that nobody could tell where
               the original wall ended and the new structure began. That
               standard has not changed in the 12 years since, as the
-              business has grown to cover Manchester and the wider North
-              West.
+              business has grown from a Manchester-only operation to cover
+              cities across Northern England.
+            </p>
+            <p className="leading-relaxed text-body">
+              We are still based in Manchester, and it is still where most
+              of our work happens, but homeowners as far afield as Yorkshire
+              and the North East now book us for the same reason our first
+              Manchester customers did: a joinery-standard finish and a
+              10 year guarantee, not a flat-pack unit with the cables left
+              on show.
             </p>
             <p className="leading-relaxed text-body">
               Every project is still personally reviewed before it goes
@@ -188,7 +196,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="font-serif text-lg font-semibold text-foreground">Local and accountable</h3>
                 <p className="mt-2 text-sm leading-relaxed text-body">
-                  Based in {BUSINESS.addressLocality}, we are a phone call away long after your installation is complete, not a name you never hear from again.
+                  Based in {BUSINESS.addressLocality}, with customers now across Northern England, we are a phone call away long after your installation is complete, not a name you never hear from again.
                 </p>
               </div>
             </div>
