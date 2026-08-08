@@ -5,10 +5,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Mail, MapPin, Phone } from "lucide-react";
 
-import { BUSINESS } from "@/lib/constants";
+import { BUSINESS, PRIORITY_LOCATION_SLUGS } from "@/lib/constants";
 import { SERVICES } from "@/data/services";
 import { LOCATIONS } from "@/data/locations";
 import { FacebookIcon, InstagramIcon } from "@/components/shared/social-icons";
+
+const FOOTER_LOCATIONS = PRIORITY_LOCATION_SLUGS.slice(0, 8)
+  .map((slug) => LOCATIONS.find((l) => l.slug === slug))
+  .filter((l): l is (typeof LOCATIONS)[number] => Boolean(l));
 
 export function Footer() {
   const pathname = usePathname();
@@ -71,7 +75,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white">Areas Covered</h3>
             <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2.5">
-              {LOCATIONS.map((l) => (
+              {FOOTER_LOCATIONS.map((l) => (
                 <li key={l.slug}>
                   <Link
                     href={`/${l.slug}`}
@@ -82,6 +86,12 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+            <Link
+              href="/areas-we-cover"
+              className="mt-3 inline-block text-sm font-semibold text-brass transition-colors hover:text-brass-hover"
+            >
+              View all {LOCATIONS.length} areas we cover &rarr;
+            </Link>
           </div>
 
           <div>
