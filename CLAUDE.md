@@ -111,11 +111,50 @@ Fonts: `--font-serif` (Cormorant Garamond, headings) and `--font-sans`
   related services, 2-3 locations, the gallery, pricing, and (for blog posts)
   other posts, using `next/link`.
 
+### Blog post rich content blocks
+
+`BlogPost.content` is still `string[]` (so admin-authored posts via `/admin`
+keep working with plain paragraphs and `## Heading` lines, untouched), but
+`components/blog/blog-content.tsx` (`BlogContent`) additionally recognises
+these `::tag`-prefixed block strings for the hand-written posts in
+`data/blog.ts`, rendered on-brand using the forest/brass/card tokens above.
+Do not templatize by copy-pasting the same blocks into every post: vary
+which block types each article uses.
+
+| Block | Syntax | Renders as |
+|---|---|---|
+| Heading | `"## Heading text"` | `<h2>`, also feeds the table of contents |
+| Paragraph | plain string | body paragraph |
+| Inline link | `"...our [Manchester media walls](/media-walls-manchester) page..."` | brass underlined link anywhere in a paragraph, list item, table cell, or tip/quote body |
+| Table | `"::table Col1 \| Col2\nRow1a \| Row1b\nRow2a \| Row2b"` (first line = header row, `\n`-separated rows within the one string) | styled table, forest header row |
+| Stat highlights | `"::stats Label:Value\|Label:Value\|Label:Value"` | grid of stat cards, brass value |
+| Tip / callout | `"::tip Title\|Body text"` | bordered brass callout with a sparkle icon |
+| Quote | `"::quote Quote text\|Attribution"` | pull-quote card; reuse a real line from `data/testimonials.ts` rather than inventing a new named review |
+| Checklist | `"::list Item one\|Item two\|Item three"` | bulleted list with check icons |
+| CTA | `"::cta Heading\|Description\|Button label\|/contact"` | forest CTA banner with an accent "Get Your Free Quote"-style button linking to `/contact` (or another href) |
+
+Every hand-written blog post should include: 1 stats block near the top,
+at least one table, 1-2 tip/quote callouts, 2-3 CTA blocks spaced through
+the article (not just at the very top/bottom), and inline links to related
+services, 2-3 locations, other blog posts, `/gallery`, and `/pricing`. Never
+shorten a post to add these, they're additions on top of the full-length
+copy, not a replacement for it.
+
 ## Admin panel (`/admin`)
 
 Password-gated via `ADMIN_PASSWORD`, session cookie is an HMAC signed with
 `SESSION_SECRET` (`lib/auth.ts`), verified in `middleware.ts` for every
 `/admin/*` route except `/admin/login`. One shared password, no roles.
+
+## Git workflow
+
+After making any change to this repo (code, content, or this file), commit
+it and push to `origin main` (unless the user explicitly says not to).
+Don't leave finished work uncommitted or unpushed waiting for a separate
+"push" request; asking after every single change is unnecessary friction
+the user has already opted out of. Still surface exactly what was committed
+and pushed in the summary, and still stop and check before anything
+destructive (force-push, reset --hard, history rewrite) as usual.
 
 ## Environment variables
 

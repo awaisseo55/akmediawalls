@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { BLOG_POSTS, getBlogPostBySlug } from "@/data/blog";
 import { getAdminBlogPosts } from "@/lib/admin-store";
 import { SITE_URL } from "@/lib/constants";
-import { slugify } from "@/lib/utils";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { ArticleJsonLd, FaqJsonLd } from "@/components/shared/json-ld";
 import { BlogCard } from "@/components/shared/blog-card";
@@ -16,6 +15,7 @@ import { AuthorByline } from "@/components/blog/author-byline";
 import { AuthorBioBoxes } from "@/components/blog/author-bio-boxes";
 import { TableOfContents } from "@/components/blog/table-of-contents";
 import { RelatedLinks } from "@/components/blog/related-links";
+import { BlogContent } from "@/components/blog/blog-content";
 import {
   Accordion,
   AccordionContent,
@@ -112,27 +112,7 @@ export default async function BlogPostPage({
             <TableOfContents content={post.content} />
           </div>
 
-          <div className="mt-10 flex flex-col gap-5">
-            {post.content.map((block, i) => {
-              if (block.startsWith("## ")) {
-                const heading = block.replace("## ", "");
-                return (
-                  <h2
-                    key={i}
-                    id={slugify(heading)}
-                    className="mt-4 scroll-mt-28 font-serif text-2xl font-semibold text-foreground"
-                  >
-                    {heading}
-                  </h2>
-                );
-              }
-              return (
-                <p key={i} className="text-base leading-relaxed text-body sm:text-lg">
-                  {block}
-                </p>
-              );
-            })}
-          </div>
+          <BlogContent content={post.content} />
 
           {(post.relatedServiceSlugs.length > 0 || post.relatedLocationSlugs.length > 0) && (
             <div className="mt-10">
