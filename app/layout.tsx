@@ -6,6 +6,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { WhatsAppButton } from "@/components/shared/whatsapp-button";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -69,6 +70,7 @@ export default function RootLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <WhatsAppButton />
         </ThemeProvider>
       </body>
     </html>
