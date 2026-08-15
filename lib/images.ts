@@ -20,6 +20,8 @@ export const STOCK = {
   tvMountWoodConsole: unsplash("1521607630287-ee2e81ad3ced"),
   tvMountWhiteConsole: unsplash("1586023492125-27b2c045efd7"),
   openPlanWoodFeatureWall: unsplash("1600607687939-ce8a6c25118c"),
+  broadbandRouterSetup: unsplash("1606904825846-647eb07f5be2"),
+  soundbarBelowTvCloseUp: unsplash("1604914416956-38b08c516877"),
 } as const;
 
 export type StockImageKey = keyof typeof STOCK;

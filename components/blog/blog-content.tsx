@@ -55,6 +55,18 @@ export function BlogContent({ content }: { content: string[] }) {
           );
         }
 
+        if (block.startsWith("### ")) {
+          const heading = block.replace("### ", "");
+          return (
+            <h3
+              key={key}
+              className="mt-2 font-serif text-xl font-semibold text-foreground"
+            >
+              {heading}
+            </h3>
+          );
+        }
+
         if (block.startsWith("::table")) {
           const lines = block
             .replace("::table", "")
