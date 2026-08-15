@@ -15,6 +15,7 @@ import { Breadcrumbs } from "@/components/shared/breadcrumbs";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { FaqSection } from "@/components/shared/faq-section";
 import { FinalCta } from "@/components/sections/final-cta";
+import { MidPageCta } from "@/components/sections/mid-page-cta";
 import { LocalBusinessJsonLd } from "@/components/shared/json-ld";
 import { PortfolioPlaceholder } from "@/components/shared/portfolio-placeholder";
 import { VideoShowcase } from "@/components/shared/video-showcase";
@@ -187,6 +188,11 @@ export default async function LocationPage({
       <VideoShowcase
         title={`Media Wall Installations Near ${location.city}`}
         description="Real projects, real homes across the North West."
+      />
+
+      <MidPageCta
+        title={`Thinking About a Media Wall in ${location.city}?`}
+        description="Get a free, no-obligation quote tailored to your room, TV, fireplace and preferred finish."
       />
 
       {/* Recent projects */}
