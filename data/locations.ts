@@ -6,7 +6,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-manchester",
     city: "Manchester",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Manchester | Media Walls North",
+    metaTitle: "Media Wall Installation Manchester",
     metaDescription:
       "Bespoke media wall installation in Manchester. Fireplace media walls, acoustic panels, TV mounting. Free quotes, 10 year guarantee.",
     heroImage: STOCK.heroWoodPanelMediaWall,
@@ -52,7 +52,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Being based in Manchester rather than travelling in from further afield changes how we work here. We can usually turn a quote request into a site visit within a few days, and because call-backs and snagging visits are a short drive rather than a special trip, we are genuinely quick to respond if you need us after the job is finished, not just during it.",
-      "We have fitted media walls in enough Manchester properties now, from Victorian terraces off Wilbraham Road to apartment blocks on Deansgate, to know the practical details that catch people out: which chimney breasts in Chorlton and Didsbury still have usable flues behind the plaster, how much clearance city centre lift access actually allows for a delivered TV, and where building management sign-off needs a week's notice rather than a phone call. That local knowledge shows up as fewer surprises on installation day, and a quote that holds up once we actually get into your home.",
+      "We have fitted media walls in enough Manchester properties now, from Victorian terraces off Wilbraham Road to apartment blocks on Deansgate, to know the practical details that catch people out: which chimney breasts in Chorlton and Didsbury still have usable flues behind the plaster, how much clearance city centre lift access actually allows for a delivered TV, and where building management sign-off needs a week's notice rather than a phone call. That local knowledge shows up as fewer surprises on installation day, and a quote that holds up once we actually get into your home. It also means we can be upfront about realistic timelines rather than vague estimates: a straightforward TV mount in a city centre flat usually books in within a week or two, while a full fireplace build in a Chorlton or Didsbury terrace, where we are often working around original coving, can take slightly longer to schedule given the extra care involved.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls in Chorlton and Didsbury",
+        description:
+          "The most requested style in Manchester's bay-fronted terraces, a floor-to-ceiling structure built into the existing chimney breast, usually finished in painted MDF or oak veneer with a recessed electric fire and fully hidden cabling. We keep the original coving and skirting intact, so the finished wall reads as part of the house rather than a later addition.",
+      },
+      {
+        title: "Slatted Wood Walls for Deansgate and Ancoats Apartments",
+        description:
+          "Vertical oak or walnut battens run floor to ceiling with the TV recessed flush and a floating shelf below, the style that photographs best and suits the plain, chimney-free walls typical of Manchester's newer apartment blocks. Warm LED lighting run behind the slats lifts an otherwise featureless rental or new-build lounge into a genuine talking point.",
+      },
+      {
+        title: "Acoustic Panel Walls for Withington and Fallowfield Extensions",
+        description:
+          "Felt-backed slats or fabric-wrapped panels genuinely calm the echo common in Withington and Fallowfield's larger open-plan knock-throughs, particularly once hard flooring goes in. The finish looks identical to a standard slatted wall from across the room, so you get the acoustic benefit without any compromise on how striking the wall looks.",
+      },
+      {
+        title: "Minimalist TV Mount Walls for City Centre Flats",
+        description:
+          "For Deansgate and Northern Quarter apartments where a full structural build is not practical, a flush TV mount with fully concealed cabling gives a clean, professional finish in half a day, often paired with a slim floating console or soundbar shelf, coordinated around lift bookings and building management sign-off.",
+      },
     ],
     postcodes: "M1 to M25",
     areasCovered: ["Didsbury", "Chorlton", "Salford Quays", "Ancoats", "Withington", "Fallowfield", "Northern Quarter", "Deansgate", "Prestwich", "Whitefield"],
@@ -84,7 +106,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-preston",
     city: "Preston",
     region: "Lancashire",
-    metaTitle: "Media Walls Preston | Fitted by Experts | Media Walls North",
+    metaTitle: "Media Walls Preston | Fitted by Experts",
     metaDescription:
       "Custom media wall installation in Preston. Bespoke designs for Fulwood, Penwortham, and surrounding areas. Free home consultation.",
     heroImage: STOCK.fireplaceSlattedInset,
@@ -130,7 +152,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Preston homeowners often tell us they were expecting a Manchester-based fitter to either charge a premium for the drive up the M6 or turn up late and rushed. We do neither: Preston is scheduled as a standard part of our weekly route, priced exactly the same as our closer coverage areas, and given the same care on site as any Manchester job.",
-      "We have worked across enough of Preston's housing stock now, from the tall Victorian bays near Winckley Square through to the newer estates off Watling Street Road, to know what actually varies from house to house here: original chimney breast depth in the older terraces, typical socket placement in 2000s-built semis, and how much clearance a Broughton or Longton new-build lounge realistically has for a full-height design. That experience means fewer surprises once we are on site and a quote that matches what we actually deliver.",
+      "We have worked across enough of Preston's housing stock now, from the tall Victorian bays near Winckley Square through to the newer estates off Watling Street Road, to know what actually varies from house to house here: original chimney breast depth in the older terraces, typical socket placement in 2000s-built semis, and how much clearance a Broughton or Longton new-build lounge realistically has for a full-height design. That experience means fewer surprises once we are on site and a quote that matches what we actually deliver. It also means we can talk you through realistic timelines rather than vague estimates: a straightforward TV mount in a Fulwood semi usually books in within two to three weeks, while a full fireplace build in a Winckley Square terrace, where we are often working around original coving, can take slightly longer to schedule given the extra care involved.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls Near Winckley Square",
+        description:
+          "Preston's tall Victorian bays near Winckley Square and Avenham Park typically have the ceiling height and original chimney breast to carry a full floor-to-ceiling design, usually oak veneer or painted MDF with a recessed electric fire. We work carefully around existing picture rails and coving so the finished wall sits comfortably within the room's period proportions.",
+      },
+      {
+        title: "Slatted Wood Walls for Broughton and Longton New-Builds",
+        description:
+          "Vertical oak or walnut battens with the TV recessed flush and warm LED lighting behind the slats, the style that suits Preston's newer show-home-standard lounges best. Without an existing fireplace to build around, a slatted feature wall gives an otherwise plain open-plan lounge-diner a genuine focal point without needing structural work.",
+      },
+      {
+        title: "Acoustic Panel Walls for Penwortham and Ashton-on-Ribble",
+        description:
+          "Felt-backed slats calm the echo typical of larger, sparsely furnished family lounges once hard flooring goes in, a common request from Penwortham and Ashton-on-Ribble homeowners after a knock-through extension. The finish looks the same as a standard slatted wall while genuinely softening the room.",
+      },
+      {
+        title: "TV Mount Walls for Fulwood and Ribbleton",
+        description:
+          "A flush TV mount with fully concealed wiring, usually completed within half a day, remains the most requested option for Fulwood and Ribbleton homeowners who want the cables gone without a full structural build. We can add a floating console or soundbar shelf beneath if you would like somewhere for a games console or speaker.",
+      },
     ],
     postcodes: "PR1 to PR5",
     areasCovered: ["Fulwood", "Penwortham", "Ashton-on-Ribble", "Ribbleton", "Broughton", "Longton"],
@@ -162,7 +206,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bolton",
     city: "Bolton",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installers Bolton | Media Walls North",
+    metaTitle: "Media Wall Installers Bolton",
     metaDescription:
       "Professional media wall fitting in Bolton. From fireplace feature walls to acoustic panels. Serving Horwich, Farnworth, Westhoughton.",
     heroImage: STOCK.fireplaceMarbleBuiltIn,
@@ -208,7 +252,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Bolton has become one of our busiest areas outside Manchester itself, and that volume of work means we have a genuinely deep local portfolio to show at your consultation, not just a handful of projects. From stone terraces off Chorley Old Road to the newer estates near Middlebrook, we can usually point to a comparable finished job nearby.",
-      "Because Bolton sits so close to our Manchester base, we can typically arrange a site visit within the same week, and any follow-up or snagging call is just as quick to schedule. That responsiveness matters more than people expect once a project is finished, whether it is a question about cleaning a fabric panel or wanting to add LED lighting six months later.",
+      "Because Bolton sits so close to our Manchester base, we can typically arrange a site visit within the same week, and any follow-up or snagging call is just as quick to schedule. That responsiveness matters more than people expect once a project is finished, whether it is a question about cleaning a fabric panel or wanting to add LED lighting six months later. That responsiveness also means we can schedule around your household rather than the other way round: many Bolton customers ask for evening measure-up visits after work, or a Saturday morning slot, and because we are not factoring in a long drive, we can usually accommodate either without pushing your installation date back.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Stone Terraces",
+        description:
+          "Bolton's stone-built terraces near the town centre and Farnworth often have deep original fireplace recesses, ideal for a fitted electric fire flanked by oak or walnut slatted panels. We build to keep the recess depth and proportions of these older rooms, so the finished wall complements the stonework rather than competing with it.",
+      },
+      {
+        title: "Full-Height Feature Walls for Bromley Cross and Harwood",
+        description:
+          "Larger reception rooms in Bromley Cross and Harwood carry a more ambitious design well: full floor-to-ceiling panelling either side of the fire, often combined with floating shelving and a marble-effect or slatted wood finish. These bigger rooms give us the scope to build something genuinely striking rather than a compact, boxed-in design.",
+      },
+      {
+        title: "Acoustic Slat Walls for Open-Plan Extensions",
+        description:
+          "Family homes with a knock-through extension, common across Westhoughton and Lostock, benefit from felt-backed acoustic slats that soften echo without sacrificing the striking, textured look of a standard media wall. It is one of our most requested upgrades once new hard flooring makes the room noticeably louder.",
+      },
+      {
+        title: "TV Mount and Minimalist Walls for Horwich New-Builds",
+        description:
+          "For Horwich's newer homes near Middlebrook, a flush TV mount with concealed wiring gives a clean, modern finish in half a day, usually with the option to add a slim floating console. It suits open-plan lounges that already have a contemporary decor and just need the cables dealt with properly.",
+      },
     ],
     postcodes: "BL1 to BL7",
     areasCovered: ["Horwich", "Farnworth", "Westhoughton", "Bromley Cross", "Lostock", "Harwood"],
@@ -240,10 +306,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-warrington",
     city: "Warrington",
     region: "Cheshire",
-    metaTitle: "Media Wall Fitters Warrington | Media Walls North",
+    metaTitle: "Media Wall Fitters Warrington",
     metaDescription:
       "Bespoke media walls designed and installed in Warrington. Covering Lymm, Grappenhall, Stockton Heath. Free quotes available.",
-    heroImage: STOCK.slattedWoodTvFloatingShelf,
+    heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Warrington sits between Manchester and Liverpool, and we cover it as a natural part of both routes. The town has a distinct property mix: the smarter, more established areas of Stockton Heath and Grappenhall, with their larger detached and semi-detached houses, and the newer estates spreading out around Birchwood and Great Sankey.",
       "Stockton Heath and Grappenhall generate a lot of our higher-end media wall enquiries, homeowners looking for a full floor-to-ceiling design with a fitted fire, marble-effect or slatted wood panels, and integrated shelving. These are typically larger reception rooms with the ceiling height to make a genuinely striking feature wall.",
@@ -286,7 +352,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Warrington sits directly between our Manchester base and our regular Liverpool route, which means it is never a special trip for us, just a normal stop on the way. That keeps scheduling straightforward and means we are not adding a premium for travel the way a smaller local fitter without our route coverage might.",
-      "We have delivered enough projects across both sides of Warrington now, the larger, more established homes of Stockton Heath and Grappenhall and the newer estates of Birchwood and Great Sankey, to know how differently these properties need to be approached. A Victorian-adjacent detached house with a proper chimney breast calls for a different design conversation than a 2015-built new-build lounge with no fireplace at all, and we adjust our recommendation accordingly rather than offering a one-size design.",
+      "We have delivered enough projects across both sides of Warrington now, the larger, more established homes of Stockton Heath and Grappenhall and the newer estates of Birchwood and Great Sankey, to know how differently these properties need to be approached. A Victorian-adjacent detached house with a proper chimney breast calls for a different design conversation than a 2015-built new-build lounge with no fireplace at all, and we adjust our recommendation accordingly rather than offering a one-size design. We also find that being genuinely local to both Stockton Heath and Great Sankey, rather than treating one side of Warrington as a priority, means we can offer the same appointment availability regardless of which part of the town you are in, and the same quality of finish whether the job is a modest TV mount or a full marble-effect fireplace build.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Stockton Heath and Grappenhall",
+        description:
+          "Warrington's most ambitious builds happen in these larger reception rooms: full floor-to-ceiling designs in marble-effect or slatted oak panelling, a fitted electric fire, and integrated shelving either side. The generous proportions of these Victorian-adjacent detached and semi-detached homes give us the scope for a genuinely showpiece result.",
+      },
+      {
+        title: "Slatted Wood Walls for Birchwood and Great Sankey",
+        description:
+          "Open-plan lounge-diners in these newer developments rarely have an existing chimney breast, so we build freestanding, floor-to-ceiling slatted walls in oak or walnut with the TV recessed flush and a floating shelf below, giving an otherwise standard new-build lounge a genuine feature.",
+      },
+      {
+        title: "Acoustic Panel Walls for Family Extensions",
+        description:
+          "Knock-through extensions across Warrington, particularly in the larger Great Sankey and Birchwood family homes, often echo once furnished sparsely. Felt-backed acoustic slats calm the room down while still delivering the same striking finish as a standard media wall.",
+      },
+      {
+        title: "TV Mount Walls for Lymm and Great Sankey",
+        description:
+          "A quicker, flush TV mount with fully concealed wiring suits homeowners in Lymm and Great Sankey who want the cables gone without committing to a full structural build, usually completed within half a day with an optional floating console beneath.",
+      },
     ],
     postcodes: "WA1 to WA5",
     areasCovered: ["Lymm", "Grappenhall", "Stockton Heath", "Birchwood", "Great Sankey"],
@@ -318,10 +406,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-stockport",
     city: "Stockport",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Stockport | Media Walls North",
+    metaTitle: "Media Wall Installation Stockport",
     metaDescription:
       "Professional media wall fitting in Stockport. Serving Bramhall, Cheadle, Hazel Grove, Marple. 10 year workmanship guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Stockport is one of our busiest areas, and it is easy to see why. The borough covers everything from the Victorian terraces of Heaton Moor and Reddish to the larger, more affluent homes of Bramhall, Hazel Grove, and Marple, giving us a huge range of media wall projects across a fairly small area.",
       "In Heaton Moor and Reddish, we regularly build fireplace media walls into period living rooms, working carefully around existing coving, picture rails, and alcove shelving so the finished wall looks original to the house rather than added on. These tend to be more compact rooms, so a well-proportioned design that does not overwhelm the space matters.",
@@ -364,7 +452,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Stockport is genuinely one of our highest volume areas, which means we can usually show you a completed project from the same type of street you live on, whether that is a Heaton Moor terrace, a Bramhall executive home, or a Merseyway apartment. That specific experience translates into a more accurate quote and fewer surprises once work starts.",
-      "Given how close Stockport sits to our Manchester base, we can typically arrange a free consultation within a few days rather than weeks, and any follow-up visit is just as easy to schedule. For a borough with such varied housing stock, from stone cottages in Marple to new apartment blocks in the town centre, that responsiveness lets us actually see your specific room before quoting, rather than guessing from photos.",
+      "Given how close Stockport sits to our Manchester base, we can typically arrange a free consultation within a few days rather than weeks, and any follow-up visit is just as easy to schedule. For a borough with such varied housing stock, from stone cottages in Marple to new apartment blocks in the town centre, that responsiveness lets us actually see your specific room before quoting, rather than guessing from photos. That range of experience also means our quotes are more accurate from the first visit: we already know roughly what to expect from a Heaton Moor terrace's coving and skirting, a Bramhall executive home's ceiling height, or a Merseyway apartment's lift access, so there are fewer revisions between the initial quote and the price you actually pay.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Heaton Moor and Reddish",
+        description:
+          "Compact Victorian front rooms here suit a fireplace media wall built carefully around existing coving and picture rails, usually in painted MDF or oak veneer, sized to complement rather than overwhelm a smaller period lounge. Getting the proportions right matters more in these rooms than in a larger, more open space.",
+      },
+      {
+        title: "Full-Height Feature Walls for Bramhall and Hazel Grove",
+        description:
+          "Larger executive-style homes carry a genuinely ambitious design well: full-height slatted oak or marble-effect panelling, integrated shelving, and a fitted electric fire, often with warm LED lighting built into the shelf edge. These are some of our most photographed Stockport projects.",
+      },
+      {
+        title: "Natural Material Walls for Marple's Stone Cottages",
+        description:
+          "Marple's mix of stone cottages and larger family homes calls for more traditional materials, oak or walnut slats rather than painted MDF, so the finished wall sits comfortably alongside exposed stone or beams rather than looking like a modern addition bolted on.",
+      },
+      {
+        title: "TV Mount Walls for Stockport Town Centre Apartments",
+        description:
+          "Near the Pyramid and Merseyway, a flush TV mount with concealed wiring is the most requested option, giving a clean finish without a full structural build, usually completed in half a day with lift access and building sign-off handled as standard.",
+      },
     ],
     postcodes: "SK1 to SK8",
     areasCovered: ["Bramhall", "Cheadle", "Hazel Grove", "Marple", "Reddish", "Heaton Moor"],
@@ -396,10 +506,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-wigan",
     city: "Wigan",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Wigan | Installation | Media Walls North",
+    metaTitle: "Media Walls Wigan | Installation",
     metaDescription:
       "Bespoke media wall installation across Wigan. Covering Standish, Aspull, Leigh, Atherton. Free no-obligation quotes.",
-    heroImage: STOCK.tvMountWoodConsole,
+    heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Wigan's housing stock runs from classic terraces close to the town centre and Wigan Pier, through to the larger semis and detached homes found in Standish, Aspull, and Ince. It is an area we have built up a solid base of work in, with projects ranging from compact TV mounting jobs to full fireplace media walls.",
       "Closer to the town centre and in areas like Hindley and Ince, terraced housing means we are frequently designing around an existing chimney breast, keeping the proportions of the room in mind so the finished media wall complements rather than dominates a smaller lounge. Standish and Aspull, just north of the town, have a good number of larger detached properties, and here we tend to build more expansive designs with full-height slatted wood or painted panels either side of a central fireplace.",
@@ -442,7 +552,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Wigan's mix of dense terraced streets near the town centre and larger, more spread-out housing in Standish and Aspull means we adjust our design approach street by street rather than applying one template borough-wide. A compact Ince terrace and a five-bedroom Standish detached house need genuinely different proportions of media wall, and we plan for that from the first visit.",
-      "We run regular installations throughout the Wigan borough as part of our standard M6-adjacent route, which keeps quotes consistent with our other coverage areas rather than carrying a premium for a special trip. Combined with our full 10 year workmanship guarantee, that gives Wigan homeowners the same standard of service as our closer Manchester projects.",
+      "We run regular installations throughout the Wigan borough as part of our standard M6-adjacent route, which keeps quotes consistent with our other coverage areas rather than carrying a premium for a special trip. Combined with our full 10 year workmanship guarantee, that gives Wigan homeowners the same standard of service as our closer Manchester projects. We also find that pricing consistently by size and specification rather than by area means a Wigan quote never feels like an afterthought compared to our closer Manchester projects. A Standish detached home and an equivalent Chorlton property are quoted on the same basis, and the standard of finish and the workmanship guarantee are identical.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Wigan Town Centre and Hindley",
+        description:
+          "Terraced streets near Wigan Pier and Hindley typically have an existing chimney breast and a fairly compact front room, so we design fireplace media walls, usually painted MDF or oak veneer, sized to keep the room feeling balanced rather than boxed in.",
+      },
+      {
+        title: "Full-Height Slatted Walls for Standish and Aspull",
+        description:
+          "Larger detached homes in Standish and Aspull carry a bigger, more expansive design well: full-height slatted wood or painted panels either side of a central fireplace, sometimes with floating shelving, giving these bigger reception rooms a genuine centrepiece.",
+      },
+      {
+        title: "Freestanding Media Walls for Leigh and Atherton New-Builds",
+        description:
+          "Newer open-plan lounges across Leigh, Atherton, and Tyldesley rarely have a chimney breast to work around, so we build freestanding media walls, typically painted MDF with a recessed electric fire as the focal point of the room.",
+      },
+      {
+        title: "TV Mount Walls Across the Wigan Borough",
+        description:
+          "For homeowners who want a clean, cable-free finish without a full structural build, our TV wall mounting and concealed wiring service is completed in half a day, popular with Ince and Hindley terraces as well as newer estate homes.",
+      },
     ],
     postcodes: "WN1 to WN8",
     areasCovered: ["Standish", "Aspull", "Hindley", "Ince", "Leigh", "Atherton", "Tyldesley"],
@@ -474,10 +606,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-oldham",
     city: "Oldham",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Fitters Oldham | Media Walls North",
+    metaTitle: "Media Wall Fitters Oldham",
     metaDescription:
       "Custom media walls designed and fitted in Oldham. Serving Shaw, Royton, Chadderton, Failsworth. Free home visits.",
-    heroImage: STOCK.slattedWoodLedCove,
+    heroImage: STOCK.slattedWoodTexture,
     intro: [
       "Oldham's hillside terraces and stone-built homes give us some of the most characterful chimney breasts we work with anywhere in the North West. In Saddleworth villages like Lees, and further out towards Delph and Dobcross, original stone fireplaces and deep recesses are common, and we design media walls that respect that character while still delivering a modern fitted fire and concealed TV setup.",
       "Closer to Oldham town centre and in Chadderton and Failsworth, the housing is a mix of traditional terraces and inter-war semis, and here we see a fairly even split between fireplace media walls and freestanding designs, depending on whether the original chimney breast is still in place. Shaw and Royton, to the north of the town, have a good number of larger family homes where we regularly fit full acoustic or slatted wood feature walls.",
@@ -520,7 +652,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Oldham's range of property types, from Saddleworth's stone cottages and converted barns to Chadderton and Failsworth's inter-war semis, means a one-size approach genuinely does not work here. We have built up specific experience with the deep original fireplaces and exposed beams typical of the Saddleworth villages, which is a different design conversation to a Failsworth semi with a plain plastered wall.",
-      "Because we start every Oldham project with a home visit rather than a phone quote, we can recommend the material that actually suits your property, whether that means natural oak slats to sit alongside stone and beams, or a clean painted finish for a more contemporary Chadderton semi, rather than pushing the same design regardless of the house.",
+      "Because we start every Oldham project with a home visit rather than a phone quote, we can recommend the material that actually suits your property, whether that means natural oak slats to sit alongside stone and beams, or a clean painted finish for a more contemporary Chadderton semi, rather than pushing the same design regardless of the house. That means the material conversation happens early rather than as an afterthought: for a Saddleworth stone cottage we will usually be discussing oak or walnut slats and how they sit against exposed beams from the first visit, while a Failsworth semi conversation is more likely to focus on colour and a clean, contemporary painted finish.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Saddleworth Stone Cottages",
+        description:
+          "Original stone fireplaces and exposed beams in Saddleworth villages like Lees, Delph, and Dobcross call for natural oak or walnut slats rather than painted MDF, so the finished media wall complements the character of the building instead of covering it up.",
+      },
+      {
+        title: "Acoustic Slat Walls for Shaw and Royton",
+        description:
+          "Larger family homes in Shaw and Royton, particularly those with open-plan extensions, benefit from felt-backed acoustic slats that genuinely reduce echo while still delivering the textured, striking look of a standard slatted media wall.",
+      },
+      {
+        title: "Fireplace and Freestanding Walls for Chadderton and Failsworth",
+        description:
+          "This mix of traditional terraces and inter-war semis splits fairly evenly between fireplace-focused designs where an original chimney breast remains, and freestanding builds where it does not, usually finished in painted MDF for a clean, contemporary look.",
+      },
+      {
+        title: "TV Mount Walls Across the Oldham Borough",
+        description:
+          "A flush TV mount with concealed wiring, completed within half a day, suits Oldham town centre terraces and Failsworth semis alike where a full structural build is not needed, with an optional floating console for a soundbar or games console.",
+      },
     ],
     postcodes: "OL1 to OL4, OL8, OL9",
     areasCovered: ["Shaw", "Royton", "Chadderton", "Failsworth", "Lees", "Saddleworth"],
@@ -552,10 +706,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-rochdale",
     city: "Rochdale",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Rochdale | Media Walls North",
+    metaTitle: "Media Wall Installation Rochdale",
     metaDescription:
       "Professional media wall fitting in Rochdale. Bespoke designs for Littleborough, Milnrow, Heywood. Free consultation.",
-    heroImage: STOCK.openPlanWoodFeatureWall,
+    heroImage: STOCK.tvMountWoodConsole,
     intro: [
       "Rochdale gives us a good spread of work, from the terraced streets close to the town centre and Rochdale Town Hall, out to the more affluent, semi-rural areas of Norden and Bamford. Further out towards Littleborough and Milnrow, closer to the Pennines, stone-built cottages and larger detached homes bring a similar character to what we see in Saddleworth.",
       "In the town centre terraces, media wall projects are usually fireplace-focused, working with an existing chimney breast in a fairly compact front room, so getting the proportions right matters more than in a larger space. Norden and Bamford, with their bigger detached and semi-detached homes, are where we build some of our more elaborate designs, often a full-height media wall with integrated shelving and a marble-effect or slatted wood finish.",
@@ -598,7 +752,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Rochdale spans everything from tight town centre terraces to semi-rural stone cottages near Hollingworth Lake, and we have delivered projects across that whole range, which means we bring the right material recommendation rather than a default one. A Littleborough barn conversion and a Rochdale town centre terrace need genuinely different approaches, and we plan for that difference from the first visit.",
-      "Every Rochdale quote is backed by our full 10 year workmanship guarantee, the same as every other area we cover, and because we visit before quoting rather than pricing from photos, what we quote is what you actually pay, barring anything unexpected found once work starts, which we would always discuss with you first.",
+      "Every Rochdale quote is backed by our full 10 year workmanship guarantee, the same as every other area we cover, and because we visit before quoting rather than pricing from photos, what we quote is what you actually pay, barring anything unexpected found once work starts, which we would always discuss with you first. We find that same range shows up in the finishing details too: a Norden or Bamford build is more likely to include integrated shelving and a marble-effect panel, while a Littleborough or Milnrow project usually calls for natural oak against exposed stone, and we plan the material list around that from the very first conversation.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Rochdale Town Centre Terraces",
+        description:
+          "Compact front rooms near Rochdale Town Hall typically have an existing chimney breast, so we build fireplace-focused media walls sized to suit a smaller room, usually painted MDF or oak veneer with a fitted electric fire.",
+      },
+      {
+        title: "Full-Height Walls for Norden and Bamford",
+        description:
+          "Bigger detached and semi-detached homes in Norden and Bamford carry a more elaborate design well, full-height panelling with integrated shelving and a marble-effect or slatted wood finish, often among our most ambitious Rochdale builds.",
+      },
+      {
+        title: "Natural Material Walls for Littleborough and Milnrow",
+        description:
+          "Stone cottages and barn conversions near the Pennines call for oak veneer or slats rather than painted MDF, so the finished media wall sits comfortably against exposed stone or beams rather than looking like a modern addition.",
+      },
+      {
+        title: "TV Mount Walls for Heywood and Middleton",
+        description:
+          "A quicker, flush TV mount with concealed wiring suits Heywood and Middleton homeowners after a clean finish without a full structural build, usually completed within half a day.",
+      },
     ],
     postcodes: "OL11 to OL16",
     areasCovered: ["Littleborough", "Milnrow", "Heywood", "Middleton", "Norden"],
@@ -630,7 +806,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-salford",
     city: "Salford",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Salford | Installation | Media Walls North",
+    metaTitle: "Media Walls Salford | Installation",
     metaDescription:
       "Custom media wall installation across Salford. Covering Walkden, Swinton, Eccles, Worsley. 10 year guarantee.",
     heroImage: STOCK.tvMountWhiteConsole,
@@ -676,7 +852,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Salford's range, from Quays-side apartments to Worsley's larger family homes, means we rarely see two identical projects here, and we have deliberately built up experience across that whole range rather than specialising in just one property type. That matters when a Quays apartment needs building management coordination that a Worsley detached house never will.",
-      "Being immediately next door to our Manchester base means Salford enquiries move quickly: we can usually arrange a free consultation within a few days, and follow-up visits after installation are just as easy to schedule, which matters if you want to add lighting or storage to a media wall some months after the original build.",
+      "Being immediately next door to our Manchester base means Salford enquiries move quickly: we can usually arrange a free consultation within a few days, and follow-up visits after installation are just as easy to schedule, which matters if you want to add lighting or storage to a media wall some months after the original build. That breadth also means we can be upfront about what suits your specific property rather than defaulting to whichever design we last built: a Quays apartment is very unlikely to need or want a full fireplace structure, while a Worsley detached home rarely calls for the compact, minimal treatment that suits a flat.",
+    ],
+    popularStyles: [
+      {
+        title: "TV Mount and Minimalist Walls for Salford Quays",
+        description:
+          "Modern waterside apartments near the Quays and MediaCityUK rarely have a chimney breast, so a flush TV mount with fully concealed wiring is the most requested style, giving a clean finish in half a day with lift access and building sign-off coordinated as standard.",
+      },
+      {
+        title: "Fireplace Media Walls for Worsley",
+        description:
+          "Worsley's larger detached and semi-detached homes, many with mock-Tudor character, suit a full floor-to-ceiling fireplace media wall in slatted oak or marble-effect panelling, one of our most requested premium builds across the whole Salford area.",
+      },
+      {
+        title: "Fireplace and Freestanding Walls for Eccles and Swinton",
+        description:
+          "Traditional terraces and semis here split between fireplace-focused designs where the original chimney breast remains and freestanding builds in more recently renovated homes, usually finished in painted MDF or oak veneer depending on the room's character.",
+      },
+      {
+        title: "Freestanding Media Walls for Walkden and Irlam",
+        description:
+          "Newer housing developments to the west and south rarely have an existing fireplace, so we build freestanding media walls with a recessed electric fire as the focal point, typically in a clean painted finish to suit a contemporary lounge.",
+      },
     ],
     postcodes: "M5, M6, M7, M27, M30, M44",
     areasCovered: ["Walkden", "Swinton", "Eccles", "Irlam", "Worsley", "Monton"],
@@ -708,10 +906,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bury",
     city: "Bury",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installers Bury | Media Walls North",
+    metaTitle: "Media Wall Installers Bury",
     metaDescription:
       "Bespoke media walls for homes in Bury. Serving Ramsbottom, Tottington, Radcliffe, Whitefield. Free quotes.",
-    heroImage: STOCK.fireplaceSlattedInset,
+    heroImage: STOCK.openPlanWoodFeatureWall,
     intro: [
       "Bury has become a strong area for us, particularly among homeowners in Ramsbottom and Tottington who are renovating stone cottages and larger semis, and in Prestwich and Whitefield, where a mix of period terraces and 1930s semis line the streets closer to Manchester.",
       "Ramsbottom and Tottington sit closer to the West Pennine Moors, and the housing here often means original stone fireplaces and generous room proportions, which we love working with. Media walls in this area tend to use natural materials, oak or walnut slats, to complement the existing stonework rather than a painted, more urban finish.",
@@ -754,7 +952,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Bury covers two quite different worlds for us: the stone cottages and larger semis of Ramsbottom and Tottington near the Pennine edge, and the 1930s bay-fronted semis of Prestwich and Whitefield closer to Manchester. We deliberately recommend different materials for each, natural oak or walnut for the former, painted MDF or soft veneer for the latter, rather than pushing one look regardless of the house.",
-      "Every Bury project starts with a free home visit, not a phone or photo quote, which matters given how much the right design varies between a Radcliffe apartment and a Ramsbottom stone cottage. That visit is also where we can show you examples from similar properties nearby, since we have a solid track record across the whole borough by now.",
+      "Every Bury project starts with a free home visit, not a phone or photo quote, which matters given how much the right design varies between a Radcliffe apartment and a Ramsbottom stone cottage. That visit is also where we can show you examples from similar properties nearby, since we have a solid track record across the whole borough by now. We find that distinction matters most at the quoting stage: a Ramsbottom stone cottage quote will usually include a higher proportion of natural material cost, while a Whitefield or Prestwich semi quote leans more towards labour and joinery time, and we break both down clearly so you can see exactly what you are paying for.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Ramsbottom and Tottington",
+        description:
+          "Stone cottages near the West Pennine Moors often have original fireplaces and generous room proportions, and we favour oak or walnut slats here to complement the existing stonework rather than a painted, more urban finish.",
+      },
+      {
+        title: "Fireplace Media Walls for Prestwich and Whitefield",
+        description:
+          "Classic 1930s semis with bay windows and chimney breasts either side of the lounge remain our most requested Bury project, usually finished in painted MDF or a soft veneer to suit the traditional character of the street.",
+      },
+      {
+        title: "Acoustic Slat Walls for Tottington Family Homes",
+        description:
+          "Larger family homes with open-plan extensions benefit from felt-backed acoustic slats that soften the echo that comes with hard flooring, while still delivering the same striking, textured finish as a standard media wall.",
+      },
+      {
+        title: "TV Mount Walls for Radcliffe and Bury Town Centre",
+        description:
+          "Newer apartment developments near the market suit a flush TV mount with concealed wiring, giving a clean finish without a full structural build, usually completed within half a day.",
+      },
     ],
     postcodes: "BL8, BL9",
     areasCovered: ["Ramsbottom", "Tottington", "Radcliffe", "Whitefield", "Prestwich"],
@@ -786,10 +1006,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-tameside",
     city: "Tameside",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Tameside | Fitting | Media Walls North",
+    metaTitle: "Media Walls Tameside | Fitting",
     metaDescription:
       "Media wall installation across Tameside. Covering Ashton-under-Lyne, Stalybridge, Hyde, Denton. Free home consultation.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Tameside covers a lot of ground, from the market town feel of Ashton-under-Lyne, through the canal-side character of Stalybridge, down to Denton, Hyde, and Droylsden. It is a borough we have built up steady, consistent work across, largely thanks to the strong mix of period terraces and semis that suit a fireplace media wall so well.",
       "Stalybridge, sitting on the edge of the Pennines, has a good number of stone-built terraces and cottages, often with original fireplaces still intact. We regularly restore the character of these rooms with a media wall that keeps the existing recess and chimney breast proportions, adding a fitted electric fire and concealed TV without losing the period feel.",
@@ -832,7 +1052,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Tameside's towns each have a slightly different housing character, Stalybridge's stone terraces, Ashton-under-Lyne's broader Victorian and inter-war mix, and the newer developments around Denton and Hyde, and we have delivered consistent work across all of them rather than favouring one town over another.",
-      "Sitting between our Manchester base and our Stockport coverage area makes Tameside straightforward to schedule reliably, and every project, whichever town it is in, comes with the same free consultation and full 10 year workmanship guarantee as the rest of our coverage area.",
+      "Sitting between our Manchester base and our Stockport coverage area makes Tameside straightforward to schedule reliably, and every project, whichever town it is in, comes with the same free consultation and full 10 year workmanship guarantee as the rest of our coverage area. That familiarity also helps when it comes to timelines: a Stalybridge fireplace restoration often needs a little longer for careful work around original stonework, while a straightforward Denton or Hyde freestanding build can usually be booked in and completed within a couple of weeks of your first enquiry.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Stalybridge Stone Terraces",
+        description:
+          "Original stone fireplace recesses, common in Stalybridge's canal-side terraces, are ideal for a fitted electric fire and media wall that preserves the period character of the room, usually finished in oak veneer rather than painted MDF to sit comfortably against the existing stonework.",
+      },
+      {
+        title: "Fireplace Media Walls for Ashton-under-Lyne and Droylsden",
+        description:
+          "Victorian terraces and inter-war semis across Ashton-under-Lyne and Droylsden remain our most requested Tameside project, usually finished in painted MDF to suit the traditional street scene, built carefully around the existing chimney breast and coving.",
+      },
+      {
+        title: "Acoustic Panel Walls for Open-Plan Semis",
+        description:
+          "Larger semis with an open-plan extension, found throughout Ashton-under-Lyne and Droylsden, benefit from felt-backed acoustic slats that soften echo once hard flooring is fitted, while still delivering the same striking, textured finish as a standard media wall.",
+      },
+      {
+        title: "Freestanding Media Walls for Denton and Hyde",
+        description:
+          "Newer housing across Denton and Hyde often lacks an existing chimney breast, so we build freestanding media walls with a recessed electric fire as the focal point, typically finished in a clean painted style to suit a modern lounge.",
+      },
     ],
     postcodes: "OL6, OL7, SK14, SK15, SK16",
     areasCovered: ["Ashton-under-Lyne", "Stalybridge", "Hyde", "Denton", "Droylsden"],
@@ -864,10 +1106,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-liverpool",
     city: "Liverpool",
     region: "Merseyside",
-    metaTitle: "Media Wall Installation Liverpool | Media Walls North",
+    metaTitle: "Media Wall Installation Liverpool",
     metaDescription:
       "Bespoke media walls designed and installed in Liverpool. Serving Woolton, Allerton, Aigburth, Crosby. Free quotes.",
-    heroImage: STOCK.heroWoodPanelMediaWall,
+    heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Liverpool is the furthest west we travel on a regular basis, and it has become a genuinely busy part of our schedule. The city's housing ranges from the tall Georgian and Victorian terraces around Aigburth and Allerton, to the converted warehouse apartments near the city centre, and the suburban semis of Woolton, Crosby, and Formby.",
       "Around Aigburth and Allerton, generous Victorian rooms with high ceilings and deep bay windows give us the space to build genuinely impressive full-height media walls, often with a fitted fire and slatted wood or marble-effect panelling either side. These are some of our most photographed projects, simply because the room proportions do so much of the visual work already.",
@@ -910,7 +1152,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Liverpool is far enough from our Manchester base that we schedule it deliberately, grouping appointments together on dedicated days rather than fitting it in as an afterthought, which means the standard of design attention and finish is identical to our closer coverage areas, not a scaled-down version for a longer trip.",
-      "We have built specific experience with Liverpool's distinctive housing, the tall bay-fronted Victorian terraces of Aigburth and Allerton in particular, alongside the more contemporary demands of city centre apartment conversions. That range means we bring the right recommendation whether you are in a Georgian terrace or a converted warehouse flat.",
+      "We have built specific experience with Liverpool's distinctive housing, the tall bay-fronted Victorian terraces of Aigburth and Allerton in particular, alongside the more contemporary demands of city centre apartment conversions. That range means we bring the right recommendation whether you are in a Georgian terrace or a converted warehouse flat. That grouped scheduling also works in your favour on price: because we plan several Liverpool visits together rather than making individual round trips, we do not add a distance premium, so an Aigburth or Woolton quote is built the same way as an equivalent Manchester one.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Aigburth and Allerton",
+        description:
+          "Tall Victorian bay-fronted rooms here give us the ceiling height for genuinely striking floor-to-ceiling designs, usually a fitted fire flanked by slatted oak or marble-effect panelling either side, among the most photographed media walls in our entire portfolio.",
+      },
+      {
+        title: "Minimalist Walls for City Centre Apartment Conversions",
+        description:
+          "Converted warehouse and new-build apartments near the city centre call for a compact, freestanding media wall or a flush TV mount, designed to sit comfortably within an already contemporary interior without adding unnecessary bulk to a smaller room.",
+      },
+      {
+        title: "Fireplace Media Walls for Woolton and West Derby",
+        description:
+          "1930s and post-war semis across Woolton and West Derby suit a fireplace media wall built into the existing chimney breast, usually finished in painted MDF or a soft veneer to match the traditional character of these streets.",
+      },
+      {
+        title: "Acoustic Slat Walls for Crosby and Formby",
+        description:
+          "Larger family homes in Crosby and Formby, particularly those with an open-plan extension, benefit from a bespoke acoustic media wall that genuinely reduces echo while adding real texture and warmth to the room.",
+      },
     ],
     postcodes: "L1 to L19, L23, L37, L12",
     areasCovered: ["Woolton", "Allerton", "Aigburth", "Crosby", "Formby", "West Derby"],
@@ -942,10 +1206,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-altrincham",
     city: "Altrincham",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Altrincham | Bespoke Installation | Media Walls North",
+    metaTitle: "Media Walls Altrincham | Bespoke Installation",
     metaDescription:
       "Bespoke media wall installation in Altrincham. Serving Hale, Timperley, Broadheath. Fireplace, acoustic and TV mounting. Free quotes, updated for 2026.",
-    heroImage: STOCK.tvMountWhiteConsole,
+    heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "Altrincham has changed a great deal over the past decade, and its market town revival around Altrincham Market and Stamford Park has brought a wave of homeowners keen to bring the same design confidence into their living rooms. The town's housing mix runs from Edwardian villas near the Bowdon border through to 1930s semis in Broadheath and family homes in Timperley and Hale.",
       "In the larger Edwardian and inter-war villas close to Hale and the Bowdon boundary, most of our work involves a full fireplace media wall built into an existing chimney breast, keeping the room's original proportions and picture rails intact. These properties tend to have the ceiling height for a genuinely striking full-height design.",
@@ -988,7 +1252,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Altrincham's mix of Edwardian villas near Hale and more compact 1930s semis in Timperley and Broadheath means the right media wall design varies considerably from street to street, and we plan for that from the first visit rather than offering a single template.",
-      "Because Altrincham sits so close to our Manchester base, we can usually turn a quote request into a home visit within a few days, and any follow-up or snagging call afterwards is just as easy to arrange, which matters more than people expect once the installation is finished.",
+      "Because Altrincham sits so close to our Manchester base, we can usually turn a quote request into a home visit within a few days, and any follow-up or snagging call afterwards is just as easy to arrange, which matters more than people expect once the installation is finished. That local knowledge also speeds up the quoting process itself: we can usually give you a realistic price range on the first visit rather than needing to come back with revisions, since we already know what to expect from an Edwardian villa's chimney breast or a Broadheath semi's typical socket layout.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Hale and the Bowdon Border",
+        description:
+          "Edwardian and inter-war villas near Hale keep their original chimney breast more often than not, which suits a full-height fireplace media wall with a fitted electric fire, oak veneer panelling, and picture rails left fully intact either side.",
+      },
+      {
+        title: "Freestanding Media Walls for Timperley and Broadheath",
+        description:
+          "1930s semis across Timperley and Broadheath rarely have a working fireplace, so we build freestanding walls with a recessed electric fire and a clean, painted or slatted finish, well suited to a knock-through lounge-diner extension.",
+      },
+      {
+        title: "Acoustic Panel Walls for Open-Plan Extensions",
+        description:
+          "Altrincham's popular lounge-diner extensions, especially across Timperley, often echo once hard flooring goes in. Felt-backed acoustic slats calm the room noticeably while still giving the same striking finish as a standard slatted media wall.",
+      },
+      {
+        title: "TV Mount Walls for Altrincham Town Centre",
+        description:
+          "For a flat above the market or a Broadheath apartment, a flush TV mount with fully concealed wiring gives a clean, professional finish in half a day, with an optional floating console for a soundbar or games console beneath.",
+      },
     ],
     postcodes: "WA14, WA15",
     areasCovered: ["Bowdon", "Hale", "Timperley", "Broadheath", "Hale Barns", "Altrincham town centre"],
@@ -1020,10 +1306,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bowdon",
     city: "Bowdon",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Bowdon | Bespoke Design | Media Walls North",
+    metaTitle: "Media Walls Bowdon | Bespoke Design",
     metaDescription:
       "Premium media wall design and installation in Bowdon. Serving Hale Barns, Ashley Heath, Well Green. Free consultation, 10 year guarantee.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Bowdon is one of the most affluent conservation areas in Trafford, and its large Victorian and Edwardian villas, many set back from the road on generous plots around Bowdon village and St Mary's Church, are among the most rewarding properties we work in. Ceiling heights and room proportions here allow for genuinely ambitious full-height designs.",
       "Further out towards Hale Barns and Ashley Heath, the housing is a mix of substantial detached homes, some newly built to a high specification, and older properties that have been extensively renovated. These larger reception rooms and open-plan family spaces suit a full media wall with integrated shelving and premium slatted wood or marble-effect panelling.",
@@ -1066,7 +1352,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Bowdon's larger period villas and newer executive homes in Hale Barns and Ashley Heath call for a different level of material and detailing conversation than a standard semi, and we bring that same care to every consultation here, from matching veneer grain to planning lighting recesses that suit the existing decor.",
-      "We treat every Bowdon quote as a genuine design project rather than a standard fit, starting with a home visit to understand the room, the existing finishes, and how the family actually uses the space, before recommending materials that will still look right in ten years, not just on installation day.",
+      "We treat every Bowdon quote as a genuine design project rather than a standard fit, starting with a home visit to understand the room, the existing finishes, and how the family actually uses the space, before recommending materials that will still look right in ten years, not just on installation day. That level of care shows up in the small details too: we will match veneer grain direction across panel joins, plan lighting recesses around existing coving rather than through it, and sequence the work so any plaster or paint touch-ups blend invisibly into the surrounding wall.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls Around Bowdon Village",
+        description:
+          "Victorian and Edwardian villas near St Mary's Church have the ceiling height and proportions for our most ambitious fireplace media walls, typically natural veneer panelling with a fitted electric fire and integrated shelving either side.",
+      },
+      {
+        title: "Premium Media Walls for Hale Barns and Ashley Heath",
+        description:
+          "Larger executive homes, some newly built to a high specification, suit a full media wall with integrated shelving and marble-effect or slatted wood panelling, designed to match the quality of an already premium interior.",
+      },
+      {
+        title: "Acoustic Feature Walls for Open-Plan Family Spaces",
+        description:
+          "Extended kitchen-diners and open-plan family rooms across Hale Barns benefit from a bespoke acoustic media wall, adding genuine texture and sound absorption without compromising on the striking, high-end finish expected in this part of Trafford.",
+      },
+      {
+        title: "TV Mount Walls for Well Green",
+        description:
+          "For a Well Green apartment or a quicker upgrade, our TV wall mounting and concealed wiring service delivers a flush, professional finish with every cable fully hidden, still finished to the same premium standard as our larger Bowdon builds.",
+      },
     ],
     postcodes: "WA14",
     areasCovered: ["Hale Barns", "Ashley Heath", "Well Green", "Bowdon village", "Altrincham border"],
@@ -1098,10 +1406,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-sale",
     city: "Sale",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Sale | Media Walls North",
+    metaTitle: "Media Wall Installation Sale",
     metaDescription:
       "Custom media wall installation in Sale. Covering Ashton-on-Mersey, Brooklands, Sale Moor, M33. Free quotes, updated for 2026.",
-    heroImage: STOCK.slattedWoodTexture,
+    heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Sale's position on the Metrolink line into Manchester has made it one of Trafford's most in-demand family suburbs, and the area's mix of 1930s semis in Sale Moor, Edwardian terraces near Ashton-on-Mersey, and the smarter Brooklands conservation area gives us a good spread of media wall projects across the M33 postcode.",
       "In Sale Moor and the streets closer to the town centre, most homes are 1930s semis without a working fireplace, so we typically build a freestanding media wall with a recessed electric fire, finished to suit the clean, more contemporary look many of these renovated semis are going for.",
@@ -1144,7 +1452,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Sale's housing runs from Sale Moor's 1930s semis to Brooklands' larger Edwardian houses, and we adjust our recommendation to suit each, rather than assuming every M33 project needs the same design.",
-      "Because Sale sits so close to our Manchester base, we can usually arrange a free consultation within a few days, and follow-up visits are just as straightforward, which matters if you want to add lighting or make small changes after the initial installation.",
+      "Because Sale sits so close to our Manchester base, we can usually arrange a free consultation within a few days, and follow-up visits are just as straightforward, which matters if you want to add lighting or make small changes after the initial installation. We find that same variety extends to timelines too: a freestanding Sale Moor build without an existing chimney breast to work around is often quicker to complete than a Brooklands fireplace project, where preserving original coving and cornicing takes extra care.",
+    ],
+    popularStyles: [
+      {
+        title: "Freestanding Media Walls for Sale Moor",
+        description:
+          "1930s semis across Sale Moor rarely have a working fireplace, so we build freestanding media walls with a recessed electric fire, usually in a clean, contemporary finish to suit the renovated, open-plan lounges common in this part of Sale.",
+      },
+      {
+        title: "Fireplace Media Walls for Ashton-on-Mersey and Brooklands",
+        description:
+          "Edwardian and inter-war houses in Ashton-on-Mersey and the Brooklands conservation area typically retain their original chimney breast, ideal for a fireplace media wall that keeps picture rails and cornicing fully intact.",
+      },
+      {
+        title: "Acoustic Panel Walls for Family Living Rooms",
+        description:
+          "Open-plan extensions across Sale Moor and Ashton-on-Mersey benefit from felt-backed acoustic slats that noticeably reduce echo, giving the room the same striking, textured finish as a standard media wall while genuinely calming the space.",
+      },
+      {
+        title: "TV Mount Walls for Sale Waterside Apartments",
+        description:
+          "Newer apartments near Sale Water Park suit a slimline, flush TV mount with fully concealed wiring, giving a clean, cable-free finish without a full structural build, usually completed within half a day.",
+      },
     ],
     postcodes: "M33",
     areasCovered: ["Ashton-on-Mersey", "Brooklands", "Sale Moor", "Sale town centre", "Sale Waterside"],
@@ -1176,10 +1506,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-trafford",
     city: "Trafford",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Trafford | Professional Fitting | Media Walls North",
+    metaTitle: "Media Walls Trafford | Professional Fitting",
     metaDescription:
       "Media wall installation across Trafford. Covering Stretford, Urmston, Old Trafford, Davyhulme. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.openPlanWoodFeatureWall,
+    heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Trafford as a borough covers a huge range of housing, and beyond Altrincham, Sale, and Bowdon, which we cover in detail on their own pages, our Trafford coverage focuses on Stretford, Urmston, Old Trafford, and Davyhulme, an area shaped heavily by its industrial past and now home to a strong mix of terraced streets and post-war semis.",
       "Stretford and the streets around Old Trafford, close to the football and cricket grounds, are mostly Victorian and Edwardian terraces, where fireplace media walls built into an existing chimney breast remain the most common project, usually in fairly compact front rooms where getting the proportions right is important.",
@@ -1222,7 +1552,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Trafford's housing changes considerably within a few miles, from Old Trafford's dense Victorian terraces to Davyhulme's more spacious 1930s semis, and we plan the design around the specific room rather than a single borough-wide template.",
-      "As part of our standard Greater Manchester route, Trafford is never a special trip for us, which keeps pricing consistent with our other coverage areas and means a follow-up visit or snagging call is always straightforward to arrange.",
+      "As part of our standard Greater Manchester route, Trafford is never a special trip for us, which keeps pricing consistent with our other coverage areas and means a follow-up visit or snagging call is always straightforward to arrange. That variation also shows in typical timelines: a compact Old Trafford terrace build usually books in and completes faster than a full-height Davyhulme design, and we will always give you a realistic estimate for your specific project rather than a generic borough-wide figure.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Stretford and Old Trafford",
+        description:
+          "Victorian and Edwardian terraces close to the football and cricket grounds suit a fireplace media wall built carefully into the existing chimney breast, sized to keep a compact front room feeling balanced rather than crowded.",
+      },
+      {
+        title: "Full Media Walls for Urmston and Davyhulme",
+        description:
+          "1930s and post-war semis with larger gardens and more generous reception rooms carry a full media wall well, usually a recessed fire with painted or slatted wood panels either side, often as part of a wider lounge renovation.",
+      },
+      {
+        title: "Acoustic Feature Walls for Family Lounges",
+        description:
+          "Open-plan lounges across Urmston and Davyhulme, particularly those with a rear extension, benefit from a bespoke acoustic media wall that softens echo while adding real texture and a genuine focal point to the room.",
+      },
+      {
+        title: "TV Mount Walls Near Trafford Park",
+        description:
+          "New apartment developments around Trafford Park and the Trafford Centre suit a compact, slimline TV mount with fully concealed wiring, giving a clean finish without adding bulk to a smaller room, usually completed in half a day.",
+      },
     ],
     postcodes: "M32, M41",
     areasCovered: ["Stretford", "Urmston", "Old Trafford", "Davyhulme", "Trafford Park"],
@@ -1254,10 +1606,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bramhall",
     city: "Bramhall",
     region: "Greater Manchester",
-    metaTitle: "Media Walls Bramhall | Professional Installers | Media Walls North",
+    metaTitle: "Media Walls Bramhall | Professional Installers",
     metaDescription:
       "Bespoke media wall installers in Bramhall. Serving Woodford, Bramhall Green, Cheadle Hulme border, SK7. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.slattedWoodTexture,
     intro: [
       "Bramhall is one of Stockport's most sought-after suburbs, known for its large 1930s detached houses, mature tree-lined roads, and the influence of Bramhall Park and the golf course on the area's character. It gives us some of our most generously proportioned living rooms to design for anywhere in Greater Manchester.",
       "In the classic 1930s detached homes around Bramhall Green and the park, reception rooms are typically large enough for a full floor-to-ceiling media wall, and we regularly combine a fitted electric fire with integrated shelving and slatted wood or marble-effect panelling either side.",
@@ -1300,7 +1652,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Bramhall's larger detached houses need a media wall designed to the scale of the room, not a design lifted from a smaller terrace, and we adjust proportions, panel widths, and shelving depth accordingly on every project here.",
-      "Given how much work we have completed in Bramhall specifically, we can usually show you a comparable finished project from the same style of street, whether that is a classic Bramhall Green detached house or a more recently extended Woodford family home.",
+      "Given how much work we have completed in Bramhall specifically, we can usually show you a comparable finished project from the same style of street, whether that is a classic Bramhall Green detached house or a more recently extended Woodford family home. That proportioning conversation happens at the very first visit: we will measure ceiling height, chimney breast depth, and the full width of the wall before suggesting panel widths and shelving depth, so the finished design never feels undersized for a Bramhall reception room.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Bramhall Green",
+        description:
+          "Classic 1930s detached houses around Bramhall Park have the room size for our most generous fireplace media walls, typically a fitted electric fire with integrated shelving and slatted wood or marble-effect panelling either side.",
+      },
+      {
+        title: "Media Walls for Extended Kitchen-Diners in Woodford",
+        description:
+          "Recently extended open-plan kitchen-diners in Woodford suit a full media wall as the natural focal point, often combining a recessed fire with floating shelving and warm LED lighting run along the shelf edge.",
+      },
+      {
+        title: "Acoustic Slat Walls for Larger Family Rooms",
+        description:
+          "Bramhall's bigger reception rooms genuinely benefit from felt-backed acoustic slats, which soften echo across a large hard-floored space while still delivering the same striking, textured finish as a standard slatted media wall.",
+      },
+      {
+        title: "TV Mount Walls for Bramhall Village",
+        description:
+          "For a quicker upgrade near Bramhall village centre, our TV wall mounting and concealed wiring service gives a clean, cable-free finish in half a day, without the need for a full structural build.",
+      },
     ],
     postcodes: "SK7",
     areasCovered: ["Woodford", "Bramhall Green", "Bramhall Park", "Cheadle Hulme border", "Bramhall village"],
@@ -1332,10 +1706,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-cheadle",
     city: "Cheadle",
     region: "Greater Manchester",
-    metaTitle: "Media Wall Installation Cheadle | Media Walls North",
+    metaTitle: "Media Wall Installation Cheadle",
     metaDescription:
       "Professional media wall fitting in Cheadle. Covering Cheadle Hulme, Gatley, Heald Green, SK8. Free consultation, 10 year guarantee.",
-    heroImage: STOCK.fireplaceSlattedInset,
+    heroImage: STOCK.tvMountWoodConsole,
     intro: [
       "Cheadle sits between Stockport and Manchester Airport, and its mix of interwar semis, larger detached homes in Cheadle Hulme, and newer apartment developments near Cheadle Royal gives us a good spread of media wall projects across the SK8 postcode.",
       "In the interwar semis common around Cheadle village and Gatley, we typically build a freestanding media wall, since these properties rarely have a working fireplace, usually finished with a recessed electric fire and clean painted or slatted panels to suit a modernised lounge.",
@@ -1378,7 +1752,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Cheadle's housing stock varies noticeably between the interwar semis of Cheadle village and the larger detached homes of Cheadle Hulme, and we design each media wall to suit the specific room rather than a single SK8-wide template.",
-      "We visit Cheadle regularly as part of our standard Stockport-adjacent route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Cheadle regularly as part of our standard Stockport-adjacent route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That range also means our material recommendations differ noticeably: a Cheadle village semi is more likely to suit a clean painted finish, while a larger Cheadle Hulme detached home carries a premium slatted wood or marble-effect design better, and we will always steer you towards what actually suits your room.",
+    ],
+    popularStyles: [
+      {
+        title: "Freestanding Media Walls for Cheadle Village and Gatley",
+        description:
+          "Interwar semis across Cheadle village and Gatley rarely have a working fireplace, so we build freestanding media walls with a recessed electric fire, usually in a clean painted or slatted finish to suit a modernised lounge.",
+      },
+      {
+        title: "Full-Height Fireplace Walls for Cheadle Hulme",
+        description:
+          "Larger detached and semi-detached homes on Cheadle Hulme's private estates carry a more ambitious full-height design well, often with integrated shelving and a premium slatted wood finish either side of the television.",
+      },
+      {
+        title: "Acoustic Panel Walls for Modernised Lounges",
+        description:
+          "Renovated open-plan lounges across Cheadle benefit from felt-backed acoustic slats, which soften echo once hard flooring is fitted while still giving the same striking finish as a standard slatted media wall.",
+      },
+      {
+        title: "TV Mount Walls for Heald Green New-Builds",
+        description:
+          "Newer developments near Heald Green and the airport suit a flush TV mount with fully concealed wiring, giving a clean, contemporary finish without a full structural build, usually completed within half a day.",
+      },
     ],
     postcodes: "SK8",
     areasCovered: ["Cheadle Hulme", "Gatley", "Heald Green", "Cheadle village", "Cheadle Royal"],
@@ -1410,10 +1806,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-alderley-edge",
     city: "Alderley Edge",
     region: "Cheshire",
-    metaTitle: "Media Wall Installers Alderley Edge | Media Walls North",
+    metaTitle: "Media Wall Installers Alderley Edge",
     metaDescription:
       "Bespoke media wall installers in Alderley Edge. Serving Nether Alderley, Chorley, Prestbury border, SK9. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.tvMountWhiteConsole,
     intro: [
       "Alderley Edge is one of Cheshire's most affluent villages, known for its large detached houses, period country properties near the escarpment that gives the village its name, and a steady flow of newer prestige developments. It gives us some of the most substantial reception rooms we work in anywhere in our coverage area.",
       "In the larger period houses around Nether Alderley and towards the Chorley boundary, we regularly design full floor-to-ceiling media walls with a fitted electric fire, natural veneer panelling, and integrated shelving, taking advantage of the generous ceiling heights typical of these older properties.",
@@ -1456,7 +1852,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Alderley Edge's period country houses and newer executive builds each call for a different design conversation, and we start every consultation with a genuine assessment of the room and existing finishes rather than a standard proposal.",
-      "We treat every Alderley Edge project as a bespoke design job, selecting materials that will suit the property in ten years, not just look good in photographs on installation day.",
+      "We treat every Alderley Edge project as a bespoke design job, selecting materials that will suit the property in ten years, not just look good in photographs on installation day. That assessment covers more than the wall itself: we look at existing skirting profiles, door architraves, and even nearby joinery so the new structure reads as though it was designed alongside the rest of the house, not added afterwards.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Nether Alderley",
+        description:
+          "Period country properties near the escarpment carry a full floor-to-ceiling media wall exceptionally well, typically natural veneer panelling with a fitted electric fire and integrated shelving, taking full advantage of generous ceiling heights.",
+      },
+      {
+        title: "Contemporary Media Walls Near the Village Centre",
+        description:
+          "Newer executive homes towards the Prestbury border suit a cleaner, more contemporary freestanding media wall in a painted or slatted finish, designed to complement an already high-specification interior rather than compete with it.",
+      },
+      {
+        title: "Acoustic Feature Walls for Open-Plan Living Spaces",
+        description:
+          "Large open-plan living spaces, common in Alderley Edge's newer executive builds, benefit from a bespoke acoustic media wall that adds genuine texture and sound absorption without any compromise on the premium finish expected here.",
+      },
+      {
+        title: "Minimalist TV Mount Walls for High-Specification Interiors",
+        description:
+          "For a quicker, no-fuss upgrade, a flush TV mount with fully concealed wiring delivers a clean finish that suits a high-specification interior, without a full structural build or any visible cabling.",
+      },
     ],
     postcodes: "SK9",
     areasCovered: ["Nether Alderley", "Chorley", "Prestbury border", "Alderley Edge village", "The Edge"],
@@ -1488,10 +1906,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-knutsford",
     city: "Knutsford",
     region: "Cheshire",
-    metaTitle: "Media Walls Knutsford | Bespoke Installation | Media Walls North",
+    metaTitle: "Media Walls Knutsford | Bespoke Installation",
     metaDescription:
       "Bespoke media wall design and installation in Knutsford. Covering Mobberley, Over Peover, Plumley, Toft, WA16. Free quotes for 2026.",
-    heroImage: STOCK.slattedWoodTvFloatingShelf,
+    heroImage: STOCK.openPlanWoodFeatureWall,
     intro: [
       "Knutsford's Georgian high street and proximity to Tatton Park set the tone for the wider WA16 area, which includes a good mix of period townhouses in the town itself and larger rural properties out towards Mobberley, Over Peover, Plumley, and Toft.",
       "In the town centre and streets close to King Street, period properties often have generous room heights that suit a full fireplace media wall, and we work carefully to keep original coving and skirting intact when tying the new structure into an existing chimney breast.",
@@ -1534,7 +1952,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Knutsford's mix of Georgian town centre properties and larger rural homes in Mobberley, Over Peover, and Toft calls for genuinely different material choices, and we recommend what suits your specific property rather than a one-size design.",
-      "We know the practical differences between a King Street townhouse and a converted Toft farmhouse, from typical chimney breast depth to how natural materials age against exposed beams, and that experience shows up in a more accurate quote from the first visit.",
+      "We know the practical differences between a King Street townhouse and a converted Toft farmhouse, from typical chimney breast depth to how natural materials age against exposed beams, and that experience shows up in a more accurate quote from the first visit. That practical knowledge extends to timelines and access too: a King Street townhouse job usually needs careful coordination around limited on-street parking, while a Toft or Mobberley rural property gives us more room to work but a longer drive between visits, and we plan for both from the outset.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Knutsford Town Centre",
+        description:
+          "Georgian townhouses near King Street often have generous room heights that suit a full fireplace media wall, and we work carefully to keep original coving and skirting intact when tying the new structure into an existing chimney breast.",
+      },
+      {
+        title: "Natural Material Walls for Mobberley and Over Peover",
+        description:
+          "Larger detached and converted farmhouse-style properties out towards Mobberley and Over Peover call for natural oak or walnut veneer, chosen to sit comfortably alongside exposed beams and more rural interior finishes.",
+      },
+      {
+        title: "Acoustic Feature Walls for Toft Barn Conversions",
+        description:
+          "Converted barns and extensions in Toft and Over Peover benefit from a bespoke acoustic media wall using natural oak or walnut finishes, adding warmth and genuinely softening echo in these larger, often high-ceilinged spaces.",
+      },
+      {
+        title: "Contemporary Media Walls for Plumley",
+        description:
+          "Modern executive housing towards Plumley and Northwich suits a clean, contemporary freestanding media wall with a recessed fire, designed to sit comfortably within a more recently built, open-plan interior.",
+      },
     ],
     postcodes: "WA16",
     areasCovered: ["Mobberley", "Over Peover", "Plumley", "Toft", "Knutsford town centre"],
@@ -1566,10 +2006,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-wilmslow",
     city: "Wilmslow",
     region: "Cheshire",
-    metaTitle: "Media Walls Wilmslow | Bespoke Design | Media Walls North",
+    metaTitle: "Media Walls Wilmslow | Bespoke Design",
     metaDescription:
       "Premium media wall installation in Wilmslow. Covering Handforth, Alderley Park, Pownall, Styal, SK9. Free consultation, 10 year guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Wilmslow sits at the heart of Cheshire's so-called Golden Triangle, and its large detached executive homes, many close to Alderley Park and the Pownall area, are among the most substantial properties we work in. Styal and Handforth, on the town's edges, bring a broader mix of housing alongside the National Trust land at Styal Country Park.",
       "In the larger executive homes around Pownall Park and towards Alderley Park, reception rooms are typically generous enough for a full floor-to-ceiling media wall, and we regularly combine a fitted fire with integrated shelving and premium slatted wood or marble-effect panels.",
@@ -1612,7 +2052,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Wilmslow's larger executive homes call for a design conversation focused on scale and premium materials, and we bring that same care to every consultation here, from panel proportions to integrated lighting.",
-      "We treat every Wilmslow project as a genuine design job, starting with a home visit to understand the room and existing finishes before recommending materials that will suit the property for years, not just look good on installation day.",
+      "We treat every Wilmslow project as a genuine design job, starting with a home visit to understand the room and existing finishes before recommending materials that will suit the property for years, not just look good on installation day. That care extends to sequencing on site too: we plan larger Pownall and Alderley Park builds around your household's routine, protecting existing flooring and furniture throughout, so a multi-day install feels considerably less disruptive than the finished result might suggest.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Pownall and Alderley Park",
+        description:
+          "Substantial executive homes here carry a genuinely ambitious floor-to-ceiling design, typically a fitted fire with integrated shelving and premium slatted wood or marble-effect panelling, built to match the quality of an already high-specification interior.",
+      },
+      {
+        title: "Media Walls for Handforth Semis and New Builds",
+        description:
+          "Handforth's wider mix of 1930s semis and newer developments suits both fireplace and freestanding designs depending on the property, usually a recessed electric fire with a clean painted or slatted finish either way.",
+      },
+      {
+        title: "Natural Material Walls for Styal",
+        description:
+          "Styal's more rural character near Quarry Bank Mill occasionally calls for natural oak or walnut veneer rather than painted MDF, chosen to sit comfortably alongside period features and exposed timber where present.",
+      },
+      {
+        title: "Acoustic Feature Walls for Larger Family Rooms",
+        description:
+          "Open-plan family rooms across Wilmslow's newer executive builds benefit from a bespoke acoustic media wall, adding genuine texture and sound absorption without any compromise on the premium finish expected here.",
+      },
     ],
     postcodes: "SK9",
     areasCovered: ["Handforth", "Alderley Park", "Pownall", "Styal", "Wilmslow town centre"],
@@ -1644,10 +2106,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-macclesfield",
     city: "Macclesfield",
     region: "Cheshire",
-    metaTitle: "Media Walls Macclesfield | Bespoke Design | Media Walls North",
+    metaTitle: "Media Walls Macclesfield | Bespoke Design",
     metaDescription:
       "Bespoke media wall installation in Macclesfield. Covering Prestbury, Broken Cross, Tytherington, Bollington, SK10-SK11. Free quotes.",
-    heroImage: STOCK.slattedWoodLedCove,
+    heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Macclesfield's history as a silk town has left it with a strong stock of Georgian and Victorian townhouses close to the centre, alongside more affluent areas towards Prestbury and newer estate housing in Tytherington and Broken Cross. Bollington, on the edge of the Peak District, brings a similar stone-built character to what we see in Saddleworth.",
       "In the town centre and streets near the old silk mills, Victorian terraces often have a working chimney breast, and fireplace media walls built into these existing recesses are our most common Macclesfield project. Prestbury, one of Cheshire's most affluent villages, brings larger period and executive homes where we build more ambitious full-height designs.",
@@ -1690,7 +2152,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Macclesfield's range of property types, from Georgian town centre terraces to Prestbury's larger executive homes and Bollington's stone cottages, means a one-size approach does not work here, and we plan the design around your specific property from the first visit.",
-      "We know the practical differences that matter across SK10 and SK11, from typical chimney breast depth in a town centre terrace to how natural materials age against Bollington's stonework, and that experience translates into a more accurate quote once we see your room.",
+      "We know the practical differences that matter across SK10 and SK11, from typical chimney breast depth in a town centre terrace to how natural materials age against Bollington's stonework, and that experience translates into a more accurate quote once we see your room. That difference shows up most clearly in scheduling too: a Bollington cottage project usually needs a little longer to source and fit natural stone-complementing materials, while a Tytherington or Broken Cross freestanding build can typically be completed within a couple of visits.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Macclesfield Town Centre",
+        description:
+          "Victorian terraces near the old silk mills typically have a working chimney breast, so fireplace media walls built into these existing recesses remain our most requested Macclesfield project, usually finished in painted MDF or oak veneer.",
+      },
+      {
+        title: "Full-Height Walls for Prestbury",
+        description:
+          "One of Cheshire's most affluent villages, Prestbury's larger period and executive homes carry a more ambitious full-height design well, often combining a fitted fire with integrated shelving and premium panelling either side.",
+      },
+      {
+        title: "Freestanding Media Walls for Tytherington and Broken Cross",
+        description:
+          "1990s and 2000s estate homes here rarely have an existing fireplace, so we build freestanding media walls with a recessed electric fire, suited to the more contemporary open-plan layout typical of these properties.",
+      },
+      {
+        title: "Natural Material Walls for Bollington",
+        description:
+          "Stone cottages and converted mill buildings on the edge of the Peak District call for natural oak or walnut finishes, chosen to sit comfortably against exposed stone rather than a painted, more urban look.",
+      },
     ],
     postcodes: "SK10, SK11",
     areasCovered: ["Prestbury", "Broken Cross", "Tytherington", "Bollington", "Macclesfield town centre"],
@@ -1722,10 +2206,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-chester",
     city: "Chester",
     region: "Cheshire",
-    metaTitle: "Media Walls Chester | Bespoke Design & Install | Media Walls North",
+    metaTitle: "Media Walls Chester | Bespoke Design & Install",
     metaDescription:
       "Bespoke media wall design and installation in Chester. Covering Hoole, Handbridge, Boughton, Upton, Blacon, CH1-CH4. Free quotes.",
-    heroImage: STOCK.heroWoodPanelMediaWall,
+    heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "Chester's Roman walls, black-and-white timber buildings, and Georgian townhouses give the city a character unlike anywhere else in our coverage area, and that carries through to the housing in Hoole and Handbridge, where Victorian terraces sit close to the city centre. Boughton, Upton, and Blacon bring a broader mix of inter-war and post-war family housing further out.",
       "In Hoole and Handbridge, Victorian terraces are common, and fireplace media walls built into an existing chimney breast are our most requested project, usually in a fairly compact front room where getting the proportions right is important given the period detailing typical of these streets.",
@@ -1768,7 +2252,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Chester's mix of Victorian terraces in Hoole and Handbridge and larger detached homes in Boughton and Upton means the right media wall design varies considerably, and we plan proportions around your specific room from the first visit.",
-      "Given Chester's distance from our Manchester base, we schedule it deliberately as part of our regular Cheshire route, which keeps our design attention and finish standard identical to our closer coverage areas rather than a scaled-down version for the longer trip.",
+      "Given Chester's distance from our Manchester base, we schedule it deliberately as part of our regular Cheshire route, which keeps our design attention and finish standard identical to our closer coverage areas rather than a scaled-down version for the longer trip. That deliberate scheduling also means Chester bookings are grouped sensibly rather than squeezed in: we typically confirm a visit window a little further in advance than for our closer areas, which lets us plan the trip properly and give your project the same unhurried attention as a Manchester job.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Hoole and Handbridge",
+        description:
+          "Victorian terraces close to the city centre suit a fireplace media wall built carefully around the existing chimney breast, sized to keep a compact period front room feeling balanced rather than overwhelmed.",
+      },
+      {
+        title: "Full-Height Walls for Boughton and Upton",
+        description:
+          "Larger detached and semi-detached homes here carry a more ambitious full-height design well, often combining a fitted fire with slatted wood panels and floating shelving either side of the television.",
+      },
+      {
+        title: "Freestanding Media Walls for Blacon",
+        description:
+          "Newer developments on the city's western edge rarely have an existing chimney breast, so we build freestanding media walls with a recessed electric fire in a clean, contemporary finish.",
+      },
+      {
+        title: "TV Mount Walls Near the City Walls",
+        description:
+          "For an apartment close to Chester's historic centre, a flush TV mount with fully concealed wiring gives a clean finish without any structural work, respecting the character of properties within and near the walls.",
+      },
     ],
     postcodes: "CH1 to CH4",
     areasCovered: ["Hoole", "Handbridge", "Boughton", "Upton", "Blacon"],
@@ -1800,10 +2306,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-crewe",
     city: "Crewe",
     region: "Cheshire",
-    metaTitle: "Media Wall Installers Crewe | Free Quotes | Media Walls North",
+    metaTitle: "Media Wall Installers Crewe | Free Quotes",
     metaDescription:
       "Media wall installers in Crewe. Serving Nantwich, Wistaston, Sandbach border, Haslington, CW1-CW3. Free quotes, updated for 2026.",
-    heroImage: STOCK.tvMountWoodConsole,
+    heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Crewe's identity as a railway town has left it with streets of solid Victorian terraces built for railway workers, alongside newer estate housing in Wistaston and Haslington, and a more rural character towards Nantwich and the Sandbach border.",
       "In the older terraces close to the town centre, fireplace media walls built into an existing chimney breast are our most common project, usually in a fairly compact front room where a well-proportioned design matters more than a large-scale build.",
@@ -1846,7 +2352,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Crewe's terraced streets and newer estates in Wistaston and Haslington each need a different approach to proportion and material, and we plan the design around your specific room rather than a single template.",
-      "We schedule Crewe as a regular part of our route rather than a special trip, which keeps pricing consistent with our closer coverage areas and means a follow-up visit is always easy to arrange.",
+      "We schedule Crewe as a regular part of our route rather than a special trip, which keeps pricing consistent with our closer coverage areas and means a follow-up visit is always easy to arrange. That same range shows up in typical project length too: a compact town centre terrace TV mount is usually a single-day job, while a larger rural build towards Nantwich, often using premium natural materials, can take several days from first fix to final finish.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Crewe Town Centre",
+        description:
+          "Victorian terraces built for railway workers suit a fireplace media wall built into the existing chimney breast, sized to keep a compact front room feeling balanced, usually finished in painted MDF or oak veneer.",
+      },
+      {
+        title: "Freestanding Media Walls for Wistaston and Haslington",
+        description:
+          "1990s and 2000s estate homes here rarely have a working fireplace, so we build freestanding media walls with a recessed electric fire and clean painted finish, suited to a contemporary open-plan lounge.",
+      },
+      {
+        title: "Natural Material Walls Towards Nantwich",
+        description:
+          "Larger detached and rural properties towards Nantwich and the Sandbach border often call for natural oak veneer rather than painted MDF, chosen to suit a more traditional interior and generous room proportions.",
+      },
+      {
+        title: "TV Mount Walls Across Crewe",
+        description:
+          "For a quicker upgrade in Crewe town centre or a Wistaston semi, a flush TV mount with fully concealed wiring gives a clean, cable-free finish in half a day, with an optional floating console beneath.",
+      },
     ],
     postcodes: "CW1 to CW3",
     areasCovered: ["Nantwich", "Wistaston", "Sandbach border", "Haslington", "Crewe town centre"],
@@ -1878,10 +2406,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-blackburn",
     city: "Blackburn",
     region: "Lancashire",
-    metaTitle: "Media Walls Blackburn | Free Quotes | Media Walls North",
+    metaTitle: "Media Walls Blackburn | Free Quotes",
     metaDescription:
       "Media wall installation in Blackburn. Covering Ewood, Cherry Tree, Feniscowles, Wilpshire, BB1-BB2. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceSlattedInset,
+    heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Blackburn's mill town heritage has left it with streets of solid Victorian terraces close to the town centre and around Ewood, while Cherry Tree, Feniscowles, and Wilpshire, further out, bring larger semis and detached homes with more generous reception rooms.",
       "In the Victorian terraces near Ewood and the town centre, fireplace media walls built into an existing chimney breast are our most requested project, usually in a compact front room where proportion matters more than scale.",
@@ -1924,7 +2452,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Blackburn's terraced streets near Ewood and the larger semis of Cherry Tree and Wilpshire call for different proportions of design, and we plan for that from the first visit rather than a single template.",
-      "We visit Blackburn as a standard part of our Lancashire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Blackburn as a standard part of our Lancashire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That proportioning conversation happens early, usually at the first visit, where we measure the room and talk through whether a compact Ewood terrace suits a fireplace-focused build or whether a larger Cherry Tree lounge has the scope for something more ambitious.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls Near Ewood and the Town Centre",
+        description:
+          "Solid Victorian terraces here suit a fireplace media wall built into the existing chimney breast, sized to keep a compact front room feeling balanced, usually finished in painted MDF to match the traditional street.",
+      },
+      {
+        title: "Full-Height Walls for Cherry Tree and Wilpshire",
+        description:
+          "Larger inter-war and post-war semis with more generous reception rooms carry a full-height design well, often a fitted fire with slatted wood panels either side, among our more ambitious Blackburn builds.",
+      },
+      {
+        title: "Acoustic Panel Walls for Feniscowles Extensions",
+        description:
+          "Open-plan extensions in Feniscowles benefit from felt-backed acoustic slats that soften the echo common in a larger, hard-floored space while still delivering the same striking finish as a standard media wall.",
+      },
+      {
+        title: "TV Mount Walls Across Blackburn",
+        description:
+          "For a quicker, no-fuss upgrade, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish in half a day, popular across both terraced streets and larger family homes.",
+      },
     ],
     postcodes: "BB1, BB2",
     areasCovered: ["Ewood", "Cherry Tree", "Feniscowles", "Wilpshire", "Blackburn town centre"],
@@ -1956,10 +2506,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-burnley",
     city: "Burnley",
     region: "Lancashire",
-    metaTitle: "Media Wall Installers Burnley | Media Walls North",
+    metaTitle: "Media Wall Installers Burnley",
     metaDescription:
       "Media wall installers in Burnley. Serving Padiham, Nelson, Colne, Brierfield, Cliviger, BB10-BB12. Free quotes, updated for 2026.",
-    heroImage: STOCK.openPlanWoodFeatureWall,
+    heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Burnley's cotton mill heritage shows up clearly in its housing, with dense terraced streets close to the town centre and around Padiham, Nelson, and Colne, and a more rural character towards Cliviger and Brierfield on the edge of the Pennines.",
       "In the terraces near the town centre and Padiham, fireplace media walls built into an existing chimney breast are our most common project, and we take particular care with proportion given the typically compact front rooms in this housing stock.",
@@ -2002,7 +2552,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Burnley's terraced streets in Padiham and Nelson need a genuinely well-proportioned design to avoid overwhelming a compact front room, and we plan for that from the first visit.",
-      "We visit Burnley as a regular part of our East Lancashire route, which keeps pricing consistent with our other coverage areas and means follow-up visits are always easy to arrange.",
+      "We visit Burnley as a regular part of our East Lancashire route, which keeps pricing consistent with our other coverage areas and means follow-up visits are always easy to arrange. We find that distinction guides the whole consultation: in Padiham or Nelson we are usually discussing chimney breast depth and proportion, while a Cliviger visit is more likely to focus on how a natural material finish will sit against existing stonework.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Padiham and the Town Centre",
+        description:
+          "Dense terraced streets here suit a fireplace media wall built carefully into the existing chimney breast, with particular care given to proportion given the typically compact front rooms in this housing stock.",
+      },
+      {
+        title: "Acoustic Media Walls for Nelson, Colne, and Brierfield",
+        description:
+          "A growing number of these terraces have been extended or renovated for open-plan living, and here a bespoke acoustic media wall genuinely manages the echo that comes with a larger, hard-floored space.",
+      },
+      {
+        title: "Natural Material Walls for Cliviger",
+        description:
+          "More detached and stone-built properties towards the moors suit natural oak or walnut finishes rather than painted MDF, chosen to sit comfortably alongside the area's rural, stone-built character.",
+      },
+      {
+        title: "TV Mount Walls Across Burnley",
+        description:
+          "For a quicker, no-fuss upgrade in Burnley town centre or Padiham, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish in half a day.",
+      },
     ],
     postcodes: "BB10 to BB12",
     areasCovered: ["Padiham", "Nelson", "Colne", "Brierfield", "Cliviger"],
@@ -2034,10 +2606,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-blackpool",
     city: "Blackpool",
     region: "Lancashire",
-    metaTitle: "Media Wall Fitters Blackpool | Media Walls North",
+    metaTitle: "Media Wall Fitters Blackpool",
     metaDescription:
       "Media wall fitters in Blackpool. Covering Bispham, Cleveleys, Marton, South Shore, FY1-FY4. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.tvMountWhiteConsole,
+    heroImage: STOCK.slattedWoodTexture,
     intro: [
       "Blackpool's seaside character shapes much of its housing, with Victorian terraces near the centre, many converted to flats and guesthouses over the years, and more residential bungalows and semis further out in Bispham and Cleveleys. Marton and South Shore bring a mix of inter-war semis and newer family housing.",
       "In the converted terraces and flats close to the seafront and town centre, compact TV mounting and slimline media wall designs are the most common request, suited to smaller rooms where a full structural build would not make sense.",
@@ -2080,7 +2652,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Blackpool's mix of converted seafront flats and larger bungalows in Bispham and Cleveleys calls for very different design approaches, and we recommend the right scale of project for your specific property rather than a one-size design.",
-      "We schedule Blackpool as a dedicated part of our Lancashire coast route, which keeps our finish standard identical to our closer coverage areas and means booking a free consultation is still straightforward despite the distance.",
+      "We schedule Blackpool as a dedicated part of our Lancashire coast route, which keeps our finish standard identical to our closer coverage areas and means booking a free consultation is still straightforward despite the distance. That scale conversation starts at the enquiry stage: for a seafront flat we will usually ask about room dimensions and lift or stair access before the visit, while a Bispham bungalow consultation moves straight into discussing a full freestanding design.",
+    ],
+    popularStyles: [
+      {
+        title: "Compact Media Walls for Seafront Flats",
+        description:
+          "Converted terraces and guesthouses near the seafront and town centre suit compact TV mounting and slimline media wall designs, built for smaller rooms where a full structural build would not make sense.",
+      },
+      {
+        title: "Freestanding Media Walls for Bispham and Cleveleys",
+        description:
+          "Bungalows and larger semis to the north suit a freestanding media wall with a recessed fire and clean painted finish, giving these properties a genuinely modern focal point in the lounge.",
+      },
+      {
+        title: "Fireplace Media Walls for Marton and South Shore",
+        description:
+          "Family housing here often still has a working chimney breast, suiting a fireplace media wall built into the existing recess, usually finished in painted MDF to match a traditional interior.",
+      },
+      {
+        title: "TV Mount Walls Across Blackpool",
+        description:
+          "A flush TV mount with fully concealed wiring remains the most requested option across converted flats near the seafront, giving a clean finish without adding bulk to a smaller room, usually within half a day.",
+      },
     ],
     postcodes: "FY1 to FY4",
     areasCovered: ["Bispham", "Cleveleys", "Marton", "South Shore", "Blackpool town centre"],
@@ -2112,10 +2706,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-lancaster",
     city: "Lancaster",
     region: "Lancashire",
-    metaTitle: "Media Wall Installers Lancaster | Media Walls North",
+    metaTitle: "Media Wall Installers Lancaster",
     metaDescription:
       "Media wall installers in Lancaster. Serving Morecambe, Heysham, Bare, Bowerham, LA1-LA4. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.slattedWoodTexture,
+    heroImage: STOCK.tvMountWoodConsole,
     intro: [
       "Lancaster's history as a castle town has left it with elegant Georgian terraces close to the centre, alongside a strong student population from Lancaster University, and a closer relationship with the seaside towns of Morecambe, Heysham, and Bare than any other city we cover.",
       "In the Georgian terraces near the castle and university, fireplace media walls that respect original coving and cornicing are our most common project, usually in well-proportioned front rooms with generous ceiling height.",
@@ -2158,7 +2752,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Lancaster's Georgian terraces need a design that respects existing period detailing, while Morecambe and Heysham's coastal properties often call for a more compact approach, and we adjust our recommendation to suit each.",
-      "We schedule Lancaster as a regular part of our northern Lancashire route, which keeps pricing consistent with our closer coverage areas and means a free consultation is still straightforward to arrange despite the distance.",
+      "We schedule Lancaster as a regular part of our northern Lancashire route, which keeps pricing consistent with our closer coverage areas and means a free consultation is still straightforward to arrange despite the distance. That understanding of the local housing extends to student and shared housing too: we regularly coordinate installation timing around term dates and landlord sign-off for properties near the university, without it slowing down the overall project.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls Near the Castle and University",
+        description:
+          "Elegant Georgian terraces here suit a fireplace media wall that respects original coving and cornicing, taking advantage of the generous ceiling height typical of these well-proportioned front rooms.",
+      },
+      {
+        title: "Media Walls for Bowerham",
+        description:
+          "A mix of Victorian terraces and inter-war semis in Bowerham suits both fireplace and freestanding media walls depending on the property, usually finished in painted MDF or oak veneer.",
+      },
+      {
+        title: "Compact Coastal Walls for Morecambe and Heysham",
+        description:
+          "Converted terraces and bungalows along the coast share a similar seaside character to Blackpool, suiting compact media wall designs built for smaller rooms without a full structural build.",
+      },
+      {
+        title: "TV Mount Walls for Bare and the Coast",
+        description:
+          "For a quicker upgrade in a coastal property near Bare, a flush TV mount with fully concealed wiring gives a clean, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "LA1 to LA4",
     areasCovered: ["Morecambe", "Heysham", "Bare", "Bowerham", "Lancaster city centre"],
@@ -2190,10 +2806,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-southport",
     city: "Southport",
     region: "Lancashire",
-    metaTitle: "Media Wall Installers Southport | Media Walls North",
+    metaTitle: "Media Wall Installers Southport",
     metaDescription:
       "Media wall installers in Southport. Covering Birkdale, Ainsdale, Formby border, Churchtown, PR8-PR9. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.tvMountWhiteConsole,
     intro: [
       "Southport's elegant Victorian seaside character is most visible along Lord Street, and it carries through to the large villas of Birkdale and Ainsdale, while Churchtown and the streets towards the Formby border bring a mix of inter-war semis and detached family homes.",
       "In Birkdale and Ainsdale, large Victorian and Edwardian villas are common, and here we regularly build full floor-to-ceiling fireplace media walls, taking advantage of the generous ceiling heights and room proportions typical of these properties.",
@@ -2236,7 +2852,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Southport's large Birkdale and Ainsdale villas call for a different scale of design than a Lord Street apartment, and we recommend the right approach for your specific property rather than a single template.",
-      "We schedule Southport as a dedicated part of our Merseyside coast route, which keeps our finish standard identical to our closer coverage areas and means a free consultation is still straightforward to arrange.",
+      "We schedule Southport as a dedicated part of our Merseyside coast route, which keeps our finish standard identical to our closer coverage areas and means a free consultation is still straightforward to arrange. That range means our first visit is as much about listening as measuring: a Birkdale villa consultation usually centres on how ambitious the design can be, while a Lord Street apartment conversation is more about making the most of a compact, already well-finished room.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Birkdale and Ainsdale",
+        description:
+          "Large Victorian and Edwardian villas here have the ceiling height for genuinely impressive full-height media walls, typically a fitted fire with slatted wood or marble-effect panelling either side.",
+      },
+      {
+        title: "Freestanding Media Walls for Churchtown",
+        description:
+          "1930s and post-war semis towards the Formby border suit a freestanding media wall with a recessed fire, well suited to a more modernised, open-plan lounge.",
+      },
+      {
+        title: "Compact Media Walls Near Lord Street",
+        description:
+          "Converted apartments and townhouses close to the seafront suit compact, slimline media wall designs, built to fit a smaller room without adding unnecessary bulk to an already well-finished interior.",
+      },
+      {
+        title: "TV Mount Walls Across Southport",
+        description:
+          "A flush TV mount with fully concealed wiring remains the most requested option for apartments near the town centre, giving a clean, professional finish in half a day.",
+      },
     ],
     postcodes: "PR8, PR9",
     areasCovered: ["Birkdale", "Ainsdale", "Formby border", "Churchtown", "Southport town centre"],
@@ -2268,10 +2906,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-st-helens",
     city: "St Helens",
     region: "Merseyside",
-    metaTitle: "Media Walls St Helens | Free Quotes | Media Walls North",
+    metaTitle: "Media Walls St Helens | Free Quotes",
     metaDescription:
       "Media wall installation in St Helens. Covering Rainford, Newton-le-Willows, Haydock, Billinge, WA9-WA11. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.tvMountWoodConsole,
+    heroImage: STOCK.openPlanWoodFeatureWall,
     intro: [
       "St Helens' glass-making heritage has left it with solid Victorian and inter-war terraces close to the town centre, while Rainford, Newton-le-Willows, Haydock, and Billinge bring a wider mix of semis, detached homes, and newer estate developments further out.",
       "In the terraces near the town centre, fireplace media walls built into an existing chimney breast are our most common project, and we design carefully to suit the compact proportions typical of this housing.",
@@ -2314,7 +2952,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "St Helens sits directly between our Manchester base and our regular Liverpool and Warrington routes, which means it is never a special trip for us, just a normal stop along the way.",
-      "We have delivered projects across the full range of St Helens' housing, from town centre terraces to Rainford's larger detached homes, and adjust our design recommendation to suit each rather than offering a one-size approach.",
+      "We have delivered projects across the full range of St Helens' housing, from town centre terraces to Rainford's larger detached homes, and adjust our design recommendation to suit each rather than offering a one-size approach. That flexibility also shows up in how we schedule follow-up visits: because St Helens sits on our regular route rather than requiring a special trip, a snagging call or a request to add lighting after the initial build is just as easy to arrange as it would be for a Manchester project.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for St Helens Town Centre",
+        description:
+          "Victorian and inter-war terraces here suit a fireplace media wall built carefully around the existing chimney breast, designed to keep a compact front room feeling well-proportioned rather than crowded.",
+      },
+      {
+        title: "Full-Height Walls for Rainford and Billinge",
+        description:
+          "These village-like areas have a good number of larger detached and semi-detached homes, where we build more ambitious full-height designs with integrated shelving and slatted wood panels either side.",
+      },
+      {
+        title: "Freestanding Media Walls for Newton-le-Willows and Haydock",
+        description:
+          "Steady new-build development in these areas means most homes lack an existing chimney breast, so we build freestanding media walls with a recessed fire as the natural focal point.",
+      },
+      {
+        title: "TV Mount Walls Across St Helens",
+        description:
+          "For a quicker, no-fuss upgrade, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish in half a day, popular across both town centre terraces and newer estates.",
+      },
     ],
     postcodes: "WA9 to WA11",
     areasCovered: ["Rainford", "Newton-le-Willows", "Haydock", "Billinge", "St Helens town centre"],
@@ -2346,10 +3006,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-carlisle",
     city: "Carlisle",
     region: "Cumbria",
-    metaTitle: "Media Walls Carlisle | Bespoke Installation | Media Walls North",
+    metaTitle: "Media Walls Carlisle | Bespoke Installation",
     metaDescription:
       "Bespoke media wall installation in Carlisle. Covering Stanwix, Denton Holme, Currock, Botcherby, CA1-CA3. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Carlisle's character as England's northernmost city and a historic border town shows in its red sandstone architecture and solid Victorian terraces, particularly around Stanwix, Denton Holme, and Currock, with Botcherby bringing a more modern mix of post-war and newer housing.",
       "In Stanwix, one of Carlisle's more established residential areas, larger Victorian and Edwardian houses often retain an original chimney breast, and fireplace media walls here take advantage of generous room proportions and period detailing.",
@@ -2392,7 +3052,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Carlisle is far enough from our Manchester base that we schedule it deliberately, grouping appointments together on dedicated route days rather than fitting it in as an afterthought, so the standard of finish is identical to our closer coverage areas.",
-      "We have built specific experience with Carlisle's mix of Stanwix's larger period houses and Denton Holme's more compact terraces, and that range means we bring the right recommendation for your specific property.",
+      "We have built specific experience with Carlisle's mix of Stanwix's larger period houses and Denton Holme's more compact terraces, and that range means we bring the right recommendation for your specific property. We build that experience into every quote too: a Stanwix consultation usually covers ceiling height and period detailing in some depth, while a Denton Holme or Botcherby visit focuses more on making the most of a compact or already modern room.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Stanwix",
+        description:
+          "Larger Victorian and Edwardian houses here often retain an original chimney breast, suiting a fireplace media wall that takes advantage of generous room proportions and period detailing, usually in oak veneer or painted MDF.",
+      },
+      {
+        title: "Fireplace Media Walls for Denton Holme and Currock",
+        description:
+          "Victorian terraces closer to the city centre suit a fireplace media wall designed around typically compact front rooms, built carefully into the existing chimney breast to keep the space feeling balanced.",
+      },
+      {
+        title: "Freestanding Media Walls for Botcherby",
+        description:
+          "Newer post-war housing here usually lacks an existing fireplace, so we build freestanding media walls with a recessed electric fire in a clean, contemporary finish suited to a modern lounge.",
+      },
+      {
+        title: "TV Mount Walls Across Carlisle",
+        description:
+          "For a quicker upgrade in any of our Carlisle coverage areas, a flush TV mount with fully concealed wiring delivers a clean finish in half a day, with an optional floating console beneath.",
+      },
     ],
     postcodes: "CA1 to CA3",
     areasCovered: ["Stanwix", "Denton Holme", "Currock", "Botcherby", "Carlisle city centre"],
@@ -2424,10 +3106,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-leeds",
     city: "Leeds",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation Leeds | Free Quotes | Media Walls North",
+    metaTitle: "Media Wall Installation Leeds | Free Quotes",
     metaDescription:
       "Bespoke media wall installation in Leeds. Covering Roundhay, Chapel Allerton, Headingley, Alwoodley, LS1-LS18. Free quotes, 2026.",
-    heroImage: STOCK.heroWoodPanelMediaWall,
+    heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Leeds is one of the largest cities in our coverage area, and its housing reflects that scale: grand Victorian villas in Roundhay and Alwoodley, characterful terraces in Chapel Allerton and Headingley, and a fast-growing stock of city centre apartments around the Headrow and Victoria Quarter.",
       "In Roundhay and Alwoodley, large detached and semi-detached houses are common, and we regularly build full floor-to-ceiling fireplace media walls here, taking advantage of generous room proportions and, in many cases, a working period chimney breast.",
@@ -2470,7 +3152,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Leeds is large enough that a Roundhay detached house, a Chapel Allerton terrace, and a city centre apartment all need genuinely different design approaches, and we plan for that difference from the first visit rather than a single template.",
-      "We schedule Leeds as a dedicated part of our Yorkshire route, grouping appointments together to keep the same standard of design attention as our closer coverage areas, while still offering a free consultation within a reasonable timeframe.",
+      "We schedule Leeds as a dedicated part of our Yorkshire route, grouping appointments together to keep the same standard of design attention as our closer coverage areas, while still offering a free consultation within a reasonable timeframe. We find that same range shapes the first conversation: a Roundhay visit is usually about how ambitious a full-height design can be, while a city centre apartment consultation focuses more on lift bookings, building management sign-off, and making the most of a compact room.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Roundhay and Alwoodley",
+        description:
+          "Grand Victorian villas here carry a genuinely striking full-height design well, typically a fitted fire with slatted wood or marble-effect panelling either side, taking full advantage of generous ceiling heights.",
+      },
+      {
+        title: "Fireplace and Acoustic Walls for Chapel Allerton and Headingley",
+        description:
+          "Popular Victorian and Edwardian terraces here suit both a fireplace media wall built into the existing chimney breast and, in renovated open-plan extensions, a bespoke acoustic media wall to manage echo.",
+      },
+      {
+        title: "Compact Media Walls for Leeds City Centre",
+        description:
+          "Apartment developments near the Headrow and Victoria Quarter suit compact, slimline media wall designs or a flush TV mount, coordinated around lift access and building management sign-off as standard.",
+      },
+      {
+        title: "TV Mount Walls Across Leeds",
+        description:
+          "For a quicker, no-fuss upgrade anywhere across LS1 to LS18, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "LS1 to LS18",
     areasCovered: ["Roundhay", "Chapel Allerton", "Headingley", "Alwoodley", "Cookridge"],
@@ -2502,10 +3206,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-bradford",
     city: "Bradford",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation Bradford | Media Walls North",
+    metaTitle: "Media Wall Installation Bradford",
     metaDescription:
       "Media wall installation in Bradford. Covering Bingley, Baildon, Shipley, Wyke, Idle, Thornbury, BD1-BD18. Free quotes for 2026.",
-    heroImage: STOCK.slattedWoodLedCove,
+    heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "Bradford's wool trade history has left it with an unusually grand stock of Victorian architecture, from large merchant villas to dense back-to-back terraces, spread across a wide area that includes the more affluent stone-built villages of Bingley, Baildon, and Shipley, as well as Wyke, Idle, and Thornbury closer to the city.",
       "In Bingley, Baildon, and Shipley, stone-built terraces and larger villas are common, and here we regularly build fireplace media walls that work with existing stone fireplaces and deep original recesses, similar to the character we see in Saddleworth.",
@@ -2548,7 +3252,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Bradford's stone-built villages and denser Victorian terraces need genuinely different design approaches, and we bring the same care to a Bingley stone fireplace as we would to a Wyke terrace, adjusting materials to suit each.",
-      "We visit Bradford as a scheduled part of our Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange.",
+      "We visit Bradford as a scheduled part of our Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange. That range also affects typical project length: a Bingley stone fireplace restoration often takes a little longer given the care needed around original stonework, while a straightforward Wyke or Idle freestanding build is usually quicker to complete.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Bingley and Baildon",
+        description:
+          "Stone-built terraces and villas here often have deep original fireplace recesses, ideal for a fitted electric fire and media wall finished in oak veneer to complement the existing stonework rather than cover it.",
+      },
+      {
+        title: "Media Walls for Wyke, Idle, and Thornbury",
+        description:
+          "This mix of Victorian terraces and inter-war semis splits between fireplace-focused designs where the original chimney breast survives and freestanding builds where it does not, usually in painted MDF.",
+      },
+      {
+        title: "Acoustic Slat Walls for Shipley Family Homes",
+        description:
+          "Larger family homes in Shipley with open-plan extensions benefit from felt-backed acoustic slats that soften echo while still delivering the same striking, textured finish as a standard media wall.",
+      },
+      {
+        title: "Compact Media Walls for Bradford City Centre",
+        description:
+          "Regenerated apartment and townhouse developments in the city centre suit a flush TV mount or a compact, slimline media wall, designed to fit a smaller room without a full structural build.",
+      },
     ],
     postcodes: "BD1 to BD18",
     areasCovered: ["Bingley", "Baildon", "Shipley", "Wyke", "Idle", "Thornbury"],
@@ -2580,10 +3306,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-halifax",
     city: "Halifax",
     region: "Yorkshire",
-    metaTitle: "Media Walls Halifax | Free Quotes | Media Walls North",
+    metaTitle: "Media Walls Halifax | Free Quotes",
     metaDescription:
       "Media wall installation in Halifax. Covering Hebden Bridge, Sowerby Bridge, Elland, HX1-HX7. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceSlattedInset,
+    heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Halifax's Pennine mill town heritage is most visible at the Piece Hall, and it carries through to the stone-built terraces found across the town and out towards Hebden Bridge, Sowerby Bridge, and Elland, each with a slightly different character shaped by the steep valley landscape.",
       "In Halifax itself and Elland, stone terraces with original fireplaces are common, and fireplace media walls that respect existing stonework and deep recesses are our most requested project.",
@@ -2626,7 +3352,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Halifax's valley towns each have their own character, from Elland's straightforward stone terraces to Hebden Bridge's converted mills, and we recommend materials that genuinely suit the property rather than a standard finish.",
-      "We visit Halifax regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Halifax regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That local knowledge also shapes timelines: an Elland stone terrace fireplace build usually books in and completes fairly quickly, while a Hebden Bridge project using premium natural materials to match exposed stone and timber can take a little longer to plan and source.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Halifax and Elland",
+        description:
+          "Stone terraces here often have deep original fireplace recesses, ideal for a fitted electric fire and media wall that respects the existing stonework, usually finished in oak veneer rather than painted MDF.",
+      },
+      {
+        title: "Natural Material Walls for Hebden Bridge",
+        description:
+          "Converted mill buildings and hillside cottages call for a more considered material choice, typically natural oak or walnut, chosen to sit well against exposed stone and timber rather than a painted finish.",
+      },
+      {
+        title: "Media Walls for Sowerby Bridge",
+        description:
+          "A mix of stone terraces and newer canal-side apartments here suits both fireplace-focused designs and, for the apartments, a compact flush TV mount with fully concealed wiring.",
+      },
+      {
+        title: "TV Mount Walls Across Halifax",
+        description:
+          "For a quicker, no-fuss upgrade anywhere in HX1 to HX7, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish in half a day.",
+      },
     ],
     postcodes: "HX1 to HX7",
     areasCovered: ["Hebden Bridge", "Sowerby Bridge", "Elland", "Halifax town centre"],
@@ -2658,10 +3406,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-huddersfield",
     city: "Huddersfield",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation Huddersfield | Media Walls North",
+    metaTitle: "Media Wall Installation Huddersfield",
     metaDescription:
       "Media wall installation in Huddersfield. Covering Almondbury, Marsh, Lindley, Meltham, Holmfirth, HD1-HD8. Free quotes for 2026.",
-    heroImage: STOCK.openPlanWoodFeatureWall,
+    heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Huddersfield's Victorian mill heritage and university city status shape a varied housing mix, from grand stone terraces in Marsh and Lindley to more traditional streets in Almondbury, with Meltham and Holmfirth bringing a distinctly rural Pennine character further into the valleys.",
       "Marsh and Lindley, popular with professionals and university staff, have a good stock of larger stone-built terraces and semis, where fireplace media walls that respect original stonework are our most common project.",
@@ -2704,7 +3452,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Huddersfield's range, from Marsh's stone terraces to Holmfirth's rural cottages, calls for genuinely different design conversations, and we plan for that from the first visit rather than a single template.",
-      "We visit Huddersfield regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange.",
+      "We visit Huddersfield regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange. That same range shapes our material recommendations from the first visit: a Marsh or Lindley consultation usually centres on matching existing stonework, while a Holmfirth or Meltham visit is more likely to focus on how natural oak will age against exposed beams.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Marsh and Lindley",
+        description:
+          "Larger stone-built terraces here suit a fireplace media wall that respects the existing stonework and generous proportions, usually finished in oak veneer to complement rather than compete with the building's character.",
+      },
+      {
+        title: "Media Walls for Almondbury",
+        description:
+          "Older terraces and semis here often still have a working chimney breast, suiting a fireplace media wall built carefully into the existing recess, usually in painted MDF for a clean, traditional finish.",
+      },
+      {
+        title: "Natural Material Walls for Meltham and Holmfirth",
+        description:
+          "Rural Pennine properties, including stone cottages and larger detached homes, call for natural oak or walnut finishes that sit comfortably alongside exposed stone and beams rather than a painted, more urban look.",
+      },
+      {
+        title: "TV Mount Walls Across Huddersfield",
+        description:
+          "For Almondbury terraces or university-adjacent flats, a flush TV mount with fully concealed wiring delivers a clean finish in half a day, without the need for a full structural build.",
+      },
     ],
     postcodes: "HD1 to HD8",
     areasCovered: ["Almondbury", "Marsh", "Lindley", "Meltham", "Holmfirth"],
@@ -2736,10 +3506,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-wakefield",
     city: "Wakefield",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installers Wakefield | Media Walls North",
+    metaTitle: "Media Wall Installers Wakefield",
     metaDescription:
       "Media wall installers in Wakefield. Covering Ossett, Horbury, Sandal, Crigglestone, Outwood, WF1-WF5. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.slattedWoodTvFloatingShelf,
+    heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Wakefield's cathedral city status and its ongoing regeneration around the Hepworth gallery sit alongside a solid stock of Victorian terraces and more affluent suburbs in Sandal and Horbury, with Ossett, Crigglestone, and Outwood bringing a mix of former mining town terraces and newer estate housing.",
       "Sandal, one of Wakefield's more established residential areas, has larger detached and semi-detached houses, and here we regularly build full fireplace media walls, taking advantage of generous room proportions.",
@@ -2782,7 +3552,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Wakefield's mix of Sandal's larger detached houses and Ossett and Horbury's market town terraces calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We visit Wakefield regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Wakefield regularly as part of our West Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That same range guides material choices from the outset: a Sandal consultation usually moves quickly to discussing premium panelling and integrated shelving, while an Ossett or Horbury visit is more likely to focus on working carefully around an existing period chimney breast.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Sandal",
+        description:
+          "Larger detached and semi-detached houses here carry a genuinely ambitious fireplace media wall well, typically a fitted fire with integrated shelving and premium slatted wood or painted panelling either side.",
+      },
+      {
+        title: "Fireplace Media Walls for Ossett and Horbury",
+        description:
+          "These historic market towns have a good mix of stone terraces and Victorian houses, where a fireplace media wall that respects the original chimney breast remains the most requested project.",
+      },
+      {
+        title: "Acoustic Panel Walls for Family Extensions",
+        description:
+          "Open-plan extensions across Horbury and Ossett benefit from felt-backed acoustic slats that soften echo once hard flooring is fitted, while still giving the same striking finish as a standard slatted wall.",
+      },
+      {
+        title: "Freestanding Media Walls for Crigglestone and Outwood",
+        description:
+          "Newer estate housing in these areas typically lacks an existing chimney breast, so we build freestanding media walls with a recessed electric fire as the natural focal point of the room.",
+      },
     ],
     postcodes: "WF1 to WF5",
     areasCovered: ["Ossett", "Horbury", "Sandal", "Crigglestone", "Outwood"],
@@ -2814,10 +3606,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-sheffield",
     city: "Sheffield",
     region: "Yorkshire",
-    metaTitle: "Media Walls Sheffield | Bespoke Installation | Media Walls North",
+    metaTitle: "Media Walls Sheffield | Bespoke Installation",
     metaDescription:
       "Bespoke media wall installation in Sheffield. Covering Ecclesall, Fulwood, Ranmoor, Hillsborough, S1-S17. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.slattedWoodTexture,
     intro: [
       "Sheffield's hillside geography creates real variety within a short distance, from the leafy, affluent streets of Ecclesall, Fulwood, and Ranmoor in the west, with their large Victorian and Edwardian houses, to the denser terraces around Hillsborough closer to the city centre.",
       "In Ecclesall, Fulwood, and Ranmoor, large detached and semi-detached houses are common, and we regularly build full floor-to-ceiling fireplace media walls here, taking advantage of the generous ceiling heights and room proportions typical of these leafy suburbs.",
@@ -2860,7 +3652,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Sheffield's hillside layout means Ecclesall's large detached houses and Hillsborough's terraces need genuinely different design approaches, and we plan proportions and materials around your specific room rather than a single template.",
-      "We schedule Sheffield as a regular part of our Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange.",
+      "We schedule Sheffield as a regular part of our Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always straightforward to arrange. That variety shapes the whole consultation: an Ecclesall or Ranmoor visit usually moves quickly into discussing scale and premium panelling, while a Hillsborough terrace conversation is more about keeping a compact period front room well-proportioned.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Ecclesall, Fulwood, and Ranmoor",
+        description:
+          "Large Victorian and Edwardian houses in Sheffield's leafy western suburbs carry a genuinely striking floor-to-ceiling design well, typically a fitted fire with premium slatted wood or marble-effect panelling either side.",
+      },
+      {
+        title: "Fireplace Media Walls for Hillsborough",
+        description:
+          "Victorian terraces closer to the city centre suit a fireplace media wall built carefully into the existing chimney breast, sized to keep a typically compact front room feeling balanced rather than crowded.",
+      },
+      {
+        title: "Acoustic Panel Walls for Renovated Extensions",
+        description:
+          "Open-plan lounges across Sheffield's western suburbs, particularly those with a knock-through extension, benefit from felt-backed acoustic slats that genuinely reduce echo while adding real texture to the room.",
+      },
+      {
+        title: "Compact Media Walls for Sheffield Apartments",
+        description:
+          "Steel-heritage conversions and student-adjacent apartment blocks near the city centre suit a compact, slimline media wall or a flush TV mount, without adding bulk to a smaller room.",
+      },
     ],
     postcodes: "S1 to S17",
     areasCovered: ["Ecclesall", "Fulwood", "Ranmoor", "Hillsborough", "Millhouses"],
@@ -2892,7 +3706,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-rotherham",
     city: "Rotherham",
     region: "Yorkshire",
-    metaTitle: "Media Walls Rotherham | Professional Installation | Media Walls North",
+    metaTitle: "Media Walls Rotherham | Professional Installation",
     metaDescription:
       "Professional media wall installation in Rotherham. Covering Wickersley, Whiston, Kimberworth, Aston, S60-S66. Free quotes, 2026.",
     heroImage: STOCK.tvMountWoodConsole,
@@ -2938,7 +3752,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Rotherham's terraced streets in Kimberworth and the larger executive homes of Wickersley and Whiston call for different proportions of design, and we plan for that from the first visit rather than a single template.",
-      "We visit Rotherham as a regular part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Rotherham as a regular part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That same distinction guides scheduling too: a Kimberworth terrace TV mount is usually a same-day job, while a full-height Wickersley or Whiston build with integrated shelving typically needs a few days from first fix to final finish.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Kimberworth and the Town Centre",
+        description:
+          "Solid terraced streets here suit a fireplace media wall built carefully into the existing chimney breast, sized to keep a compact front room feeling balanced, usually finished in painted MDF or oak veneer.",
+      },
+      {
+        title: "Full-Height Walls for Wickersley and Whiston",
+        description:
+          "Larger 1970s to 2000s detached and executive homes carry a more ambitious full-height media wall well, often with integrated shelving and a premium slatted wood or painted finish either side.",
+      },
+      {
+        title: "Natural Material Walls Near Aston",
+        description:
+          "More rural properties towards Wentworth Woodhouse, including larger period and converted homes, suit natural oak or walnut finishes chosen to sit comfortably within a more traditional interior.",
+      },
+      {
+        title: "TV Mount Walls Across Rotherham",
+        description:
+          "For a quicker upgrade in Rotherham town centre or Aston, a flush TV mount with fully concealed wiring gives a clean, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "S60 to S66",
     areasCovered: ["Wickersley", "Whiston", "Kimberworth", "Aston", "Rotherham town centre"],
@@ -2970,10 +3806,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-barnsley",
     city: "Barnsley",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation Barnsley | Media Walls North",
+    metaTitle: "Media Wall Installation Barnsley",
     metaDescription:
       "Media wall installation in Barnsley. Covering Wombwell, Cudworth, Penistone, Hoyland, S70-S75. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.slattedWoodTexture,
+    heroImage: STOCK.tvMountWhiteConsole,
     intro: [
       "Barnsley's former mining heritage is visible in its stone and brick terraces, spread across the town centre and former colliery villages like Wombwell, Cudworth, and Hoyland, while Penistone, closer to the Peak District, brings a more rural, semi-detached and stone-built character.",
       "In Wombwell, Cudworth, and Hoyland, terraced streets are common, and fireplace media walls built into an existing chimney breast are our most requested project, designed carefully to suit the compact front rooms typical of this housing.",
@@ -3016,7 +3852,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Barnsley's terraced villages and Penistone's more rural stone cottages call for different material choices, and we recommend what suits your specific property rather than a one-size design.",
-      "We visit Barnsley regularly as part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Barnsley regularly as part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That distinction also affects typical material cost: a Penistone quote will usually include a higher proportion of natural material cost for oak or walnut veneer, while a Wombwell or Cudworth quote leans more towards labour and joinery time for a painted finish.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Wombwell and Cudworth",
+        description:
+          "Former colliery village terraces here suit a fireplace media wall built carefully into the existing chimney breast, sized for the compact front rooms typical of this housing, usually finished in painted MDF.",
+      },
+      {
+        title: "Natural Material Walls for Penistone",
+        description:
+          "Stone-built cottages and larger detached homes towards the Pennines call for natural oak or walnut finishes, chosen to sit comfortably against exposed stone rather than a painted, more urban look.",
+      },
+      {
+        title: "Fireplace Media Walls for Hoyland",
+        description:
+          "Terraced streets in this former colliery village suit a fireplace media wall built into the existing recess, designed to keep the room feeling balanced and true to its period character.",
+      },
+      {
+        title: "TV Mount Walls for Barnsley Town Centre",
+        description:
+          "For Victorian terraces or newer apartment developments in the town centre, a flush TV mount with fully concealed wiring delivers a clean finish in half a day, without a full structural build.",
+      },
     ],
     postcodes: "S70 to S75",
     areasCovered: ["Wombwell", "Cudworth", "Penistone", "Hoyland", "Barnsley town centre"],
@@ -3048,10 +3906,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-doncaster",
     city: "Doncaster",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation Doncaster | Media Walls North",
+    metaTitle: "Media Wall Installation Doncaster",
     metaDescription:
       "Media wall installation in Doncaster. Covering Bessacarr, Thorne, Armthorpe, Bentley, DN1-DN12. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.openPlanWoodFeatureWall,
     intro: [
       "Doncaster's railway and racecourse heritage shapes much of the town, with Victorian terraces near the centre and around Bentley, while Bessacarr, one of the more affluent suburbs, brings larger detached and semi-detached homes with generous gardens close to the racecourse itself.",
       "In Bessacarr, larger family homes are common, and here we regularly build full fireplace media walls with integrated shelving, taking advantage of the more generous room sizes typical of this suburb.",
@@ -3094,7 +3952,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Doncaster's mix of Bessacarr's larger homes and Bentley's terraced streets calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We visit Doncaster regularly as part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange.",
+      "We visit Doncaster regularly as part of our South Yorkshire route, which keeps pricing consistent with our other coverage areas and means a follow-up visit is always easy to arrange. That same range shapes the first conversation: a Bessacarr consultation usually centres on integrated shelving and a premium finish, while a Bentley terrace visit focuses more on working carefully around an existing period chimney breast.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Bessacarr",
+        description:
+          "Larger family homes near the racecourse carry a genuinely ambitious fireplace media wall well, typically a fitted fire with integrated shelving, taking advantage of the more generous room sizes typical of this suburb.",
+      },
+      {
+        title: "Fireplace Media Walls for Bentley",
+        description:
+          "Victorian and inter-war terraces closer to the town centre suit a fireplace media wall built into the existing chimney breast, sized to keep a compact front room feeling balanced.",
+      },
+      {
+        title: "Freestanding Media Walls for Thorne and Armthorpe",
+        description:
+          "Newer estate housing in these areas often lacks an existing fireplace, so we build freestanding media walls with a recessed electric fire in a clean, contemporary finish.",
+      },
+      {
+        title: "TV Mount Walls Across Doncaster",
+        description:
+          "For Bentley terraces or Doncaster town centre flats, a flush TV mount with fully concealed wiring delivers a clean, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "DN1 to DN12",
     areasCovered: ["Bessacarr", "Thorne", "Armthorpe", "Bentley", "Doncaster town centre"],
@@ -3126,10 +4006,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-harrogate",
     city: "Harrogate",
     region: "Yorkshire",
-    metaTitle: "Media Walls Harrogate | Bespoke Design | Media Walls North",
+    metaTitle: "Media Walls Harrogate | Bespoke Design",
     metaDescription:
       "Bespoke media wall design and installation in Harrogate. Covering Killinghall, Pannal, Starbeck, Beckwithshaw, HG1-HG3. Free quotes.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.heroWoodPanelMediaWall,
     intro: [
       "Harrogate's genteel spa town character, most visible around the Stray and the Royal Pump Room, sets a high standard of interior finish that carries through to its Georgian and Victorian terraces and the larger detached homes found in Pannal, Killinghall, and Beckwithshaw.",
       "In the Georgian and Victorian townhouses near the town centre, fireplace media walls that respect original coving and cornicing are our most requested project, usually in well-proportioned rooms with generous ceiling height.",
@@ -3172,7 +4052,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Harrogate's Georgian townhouses and Pannal's larger executive homes each call for a different design conversation, and we start every consultation with a genuine assessment of the room and existing finishes.",
-      "We treat every Harrogate project as a bespoke design job, selecting materials that will suit the property for years, in keeping with the town's overall standard of finish.",
+      "We treat every Harrogate project as a bespoke design job, selecting materials that will suit the property for years, in keeping with the town's overall standard of finish. That same standard extends to how we sequence the work itself, protecting existing flooring, skirting, and furniture throughout a multi-day build so the finished room reveals itself properly rather than showing signs of the process along the way.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls Near the Stray",
+        description:
+          "Georgian and Victorian townhouses close to the town centre suit a fireplace media wall that respects original coving and cornicing, taking advantage of the generous ceiling height typical of these well-proportioned rooms.",
+      },
+      {
+        title: "Full-Height Walls for Pannal and Beckwithshaw",
+        description:
+          "Larger detached and executive homes here carry a more ambitious full-height design well, often combining integrated shelving with premium slatted wood or marble-effect panels either side of a fitted fire.",
+      },
+      {
+        title: "Media Walls for Killinghall and Starbeck",
+        description:
+          "A mix of Victorian terraces and inter-war semis suits both fireplace and freestanding media walls depending on the property, usually finished in painted MDF or oak veneer.",
+      },
+      {
+        title: "TV Mount Walls for a Quicker Upgrade",
+        description:
+          "For a straightforward, no-fuss upgrade anywhere across Harrogate, our TV wall mounting and concealed wiring service delivers a flush, cable-free finish suited to a high-specification interior.",
+      },
     ],
     postcodes: "HG1 to HG3",
     areasCovered: ["Killinghall", "Pannal", "Starbeck", "Beckwithshaw", "Harrogate town centre"],
@@ -3204,10 +4106,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-ripon",
     city: "Ripon",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installers Ripon | Media Walls North",
+    metaTitle: "Media Wall Installers Ripon",
     metaDescription:
       "Media wall installers in Ripon. Covering Boroughbridge, Bishop Monkton, Sharow, HG4. Free quotes, 10 year workmanship guarantee.",
-    heroImage: STOCK.slattedWoodLedCove,
+    heroImage: STOCK.fireplaceSlattedInset,
     intro: [
       "Ripon, England's smallest cathedral city, has a Georgian market town character around its market square and cathedral, with the surrounding villages of Boroughbridge, Bishop Monkton, and Sharow bringing a distinctly rural North Yorkshire feel to the wider HG4 area.",
       "In Ripon itself, Georgian and Victorian townhouses near the market square are common, and fireplace media walls that respect existing coving and period detailing are our most requested project.",
@@ -3250,7 +4152,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Ripon's Georgian townhouses and the surrounding villages of Boroughbridge and Bishop Monkton call for different material choices, and we recommend what suits your specific property rather than a one-size design.",
-      "We schedule Ripon as part of our North Yorkshire route alongside Harrogate and York, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Ripon as part of our North Yorkshire route alongside Harrogate and York, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. That practical knowledge extends to access and timing too: a market square townhouse job usually needs careful coordination around limited parking, while a Boroughbridge or Bishop Monkton rural property gives us more room to work but a longer drive between visits.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls Near the Market Square",
+        description:
+          "Georgian and Victorian townhouses in Ripon suit a fireplace media wall that respects existing coving and period detailing, usually finished in oak veneer or painted MDF to match the townhouse character.",
+      },
+      {
+        title: "Natural Material Walls for Boroughbridge and Bishop Monkton",
+        description:
+          "Stone cottages and larger detached properties in these historic villages call for natural oak or walnut finishes, chosen to sit comfortably alongside exposed stone and beams rather than a painted look.",
+      },
+      {
+        title: "Media Walls for Sharow",
+        description:
+          "Larger family homes in Sharow suit both fireplace-focused and freestanding media wall designs depending on the property, usually finished to complement an already well-kept traditional interior.",
+      },
+      {
+        title: "TV Mount Walls Across Ripon",
+        description:
+          "For Sharow or Ripon town centre homeowners wanting a quicker upgrade, a flush TV mount with fully concealed wiring gives a clean finish without a full structural build.",
+      },
     ],
     postcodes: "HG4",
     areasCovered: ["Boroughbridge", "Bishop Monkton", "Sharow", "Ripon market square"],
@@ -3282,10 +4206,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-york",
     city: "York",
     region: "Yorkshire",
-    metaTitle: "Media Wall Installation York | Media Walls North",
+    metaTitle: "Media Wall Installation York",
     metaDescription:
       "Bespoke media wall installation in York. Covering Fulford, Heworth, Rawcliffe, Osbaldwick, Acomb, YO1-YO26. Free quotes for 2026.",
-    heroImage: STOCK.heroWoodPanelMediaWall,
+    heroImage: STOCK.fireplaceMarbleBuiltIn,
     intro: [
       "York's historic walled city centre, with its listed buildings and restrictions around the Minster and the Shambles, means many of our projects here require extra care, while the surrounding suburbs of Fulford, Heworth, Rawcliffe, Osbaldwick, and Acomb offer a more straightforward mix of Victorian terraces and newer family housing.",
       "In Fulford and Heworth, close to the city centre, Victorian and Edwardian terraces are common, and fireplace media walls built into an existing chimney breast, respecting listed-adjacent detailing where relevant, are our most requested project.",
@@ -3328,7 +4252,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "York's historic centre requires extra care around listed building considerations, and we always check with you and, where relevant, the local authority before finalising a design for a city centre property.",
-      "Outside the walls, Fulford, Heworth, Rawcliffe, and Acomb each bring a different housing character, and we adjust our design and material recommendation to suit, from Victorian terraces to new-build estate homes in Osbaldwick.",
+      "Outside the walls, Fulford, Heworth, Rawcliffe, and Acomb each bring a different housing character, and we adjust our design and material recommendation to suit, from Victorian terraces to new-build estate homes in Osbaldwick. That care extends to the paperwork side too: for city centre projects we keep a clear record of what was agreed with you and, where relevant, any conservation guidance followed, so there is never ambiguity about what was approved before work began.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Fulford and Heworth",
+        description:
+          "Victorian and Edwardian terraces close to the city centre suit a fireplace media wall built carefully into the existing chimney breast, respecting listed-adjacent detailing typical of properties near York's historic core.",
+      },
+      {
+        title: "Freestanding Media Walls for Rawcliffe and Acomb",
+        description:
+          "Inter-war semis and newer estate housing to the west suit a freestanding media wall with a recessed fire, well suited to a more contemporary open-plan lounge without an existing chimney breast.",
+      },
+      {
+        title: "Media Walls for Osbaldwick New-Builds",
+        description:
+          "Steady new-build development in Osbaldwick means we regularly fit media walls into show-home-standard living rooms, typically a slatted wood or painted finish designed to suit an already modern interior.",
+      },
+      {
+        title: "TV Mount Walls Within the City Walls",
+        description:
+          "For city centre properties within the historic walls, a flush TV mount with fully concealed wiring is carried out with extra care around listed building considerations where relevant.",
+      },
     ],
     postcodes: "YO1 to YO26",
     areasCovered: ["Fulford", "Heworth", "Rawcliffe", "Osbaldwick", "Acomb"],
@@ -3360,10 +4306,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-hull",
     city: "Hull",
     region: "Yorkshire",
-    metaTitle: "Media Walls Hull | Professional Fitters | Media Walls North",
+    metaTitle: "Media Walls Hull | Professional Fitters",
     metaDescription:
       "Media wall installation in Hull. Covering Hessle, Cottingham, Kirk Ella, Willerby, Anlaby, HU1-HU10. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceSlattedInset,
+    heroImage: STOCK.fireplaceGreyWallTv,
     intro: [
       "Hull's maritime history and ongoing waterfront regeneration around Hull Marina sit alongside a strong stock of Victorian terraces closer to the centre, while Hessle, Cottingham, Kirk Ella, Willerby, and Anlaby, to the west, bring some of the city's more affluent, larger family housing.",
       "In Kirk Ella and Willerby, large detached and semi-detached houses are common, and we regularly build full fireplace media walls here, taking advantage of the generous room proportions typical of these more affluent villages.",
@@ -3406,7 +4352,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Hull is far enough from our Manchester base that we schedule it deliberately, grouping appointments together so the standard of design attention and finish matches our closer coverage areas.",
-      "We have built specific experience with Hull's more affluent western villages, Kirk Ella and Willerby in particular, alongside the more traditional terraced housing closer to the city centre, and adjust our recommendation accordingly.",
+      "We have built specific experience with Hull's more affluent western villages, Kirk Ella and Willerby in particular, alongside the more traditional terraced housing closer to the city centre, and adjust our recommendation accordingly. That grouped scheduling also keeps pricing fair: because we plan several Hull appointments together rather than making individual trips, a Kirk Ella or Hessle quote is built the same way as an equivalent closer-to-base project, without a distance premium.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Kirk Ella and Willerby",
+        description:
+          "Large detached and semi-detached houses in these more affluent villages carry a genuinely ambitious fireplace media wall well, typically integrated shelving with premium slatted wood or painted panelling either side.",
+      },
+      {
+        title: "Fireplace Media Walls for Hessle and Anlaby",
+        description:
+          "Victorian terraces and inter-war semis here suit a fireplace media wall built around the existing chimney breast, alongside a growing number of freestanding designs in more modernised homes.",
+      },
+      {
+        title: "Media Walls for Cottingham",
+        description:
+          "This large village on Hull's edge has a good stock of both period and newer housing, suiting both fireplace-focused and freestanding designs depending on the specific property.",
+      },
+      {
+        title: "TV Mount Walls Across Hull",
+        description:
+          "For Hessle or Anlaby terraces, a flush TV mount with fully concealed wiring delivers a clean, cable-free finish in half a day, without the need for a full structural build.",
+      },
     ],
     postcodes: "HU1 to HU10",
     areasCovered: ["Hessle", "Cottingham", "Kirk Ella", "Willerby", "Anlaby"],
@@ -3438,10 +4406,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-newcastle-upon-tyne",
     city: "Newcastle upon Tyne",
     region: "North East",
-    metaTitle: "Media Walls Newcastle upon Tyne | Media Walls North",
+    metaTitle: "Media Walls Newcastle upon Tyne",
     metaDescription:
       "Media wall installation in Newcastle upon Tyne. Covering Jesmond, Gosforth, Heaton, South Gosforth, NE1-NE7. Free quotes, 2026.",
-    heroImage: STOCK.heroWoodPanelMediaWall,
+    heroImage: STOCK.slattedWoodTvFloatingShelf,
     intro: [
       "Newcastle upon Tyne's grand Georgian Grainger Town sits alongside the Victorian and Edwardian terraces of Jesmond and Heaton, with Gosforth and South Gosforth, to the north, bringing some of the city's largest and most affluent detached and semi-detached homes.",
       "In Gosforth and South Gosforth, larger family homes are common, and we regularly build full floor-to-ceiling fireplace media walls here, taking advantage of the generous room proportions typical of these established suburbs.",
@@ -3484,7 +4452,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Newcastle is far enough from our Manchester base that we schedule it deliberately as a dedicated North East route day, grouping appointments together so the standard of design attention matches our closer coverage areas.",
-      "We have built specific experience with Newcastle's distinctive housing, Gosforth's larger detached homes in particular, alongside the more compact demands of Quayside apartment conversions, and bring the right recommendation for each.",
+      "We have built specific experience with Newcastle's distinctive housing, Gosforth's larger detached homes in particular, alongside the more compact demands of Quayside apartment conversions, and bring the right recommendation for each. That grouped scheduling also means our attention to detail never drops for the extra distance: panel proportions, lighting recesses, and material matching are planned with the same care on a Gosforth or Jesmond job as they would be on a Manchester one.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Gosforth and South Gosforth",
+        description:
+          "Large, established family homes here carry a genuinely striking full-height design well, typically a fitted fire with integrated shelving and premium slatted wood or marble-effect panelling either side.",
+      },
+      {
+        title: "Fireplace Media Walls for Jesmond and Heaton",
+        description:
+          "Victorian and Edwardian terraces popular with professionals and university staff suit a fireplace media wall that respects original coving and picture rails, usually finished in oak veneer or painted MDF.",
+      },
+      {
+        title: "Compact Media Walls for the Quayside",
+        description:
+          "Apartment developments around Newcastle's Quayside suit a compact, slimline media wall or a flush TV mount, coordinated around building access, designed to fit a smaller room without adding bulk.",
+      },
+      {
+        title: "Acoustic Feature Walls for Renovated Terraces",
+        description:
+          "Open-plan extensions in Jesmond and Heaton's renovated Victorian terraces benefit from a bespoke acoustic media wall, softening echo while adding real texture to the room.",
+      },
     ],
     postcodes: "NE1 to NE7",
     areasCovered: ["Jesmond", "Gosforth", "Heaton", "South Gosforth", "Newcastle city centre"],
@@ -3516,10 +4506,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-gateshead",
     city: "Gateshead",
     region: "North East",
-    metaTitle: "Media Wall Installers Gateshead | Media Walls North",
+    metaTitle: "Media Wall Installers Gateshead",
     metaDescription:
       "Media wall installers in Gateshead. Covering Low Fell, Wrekenton, Whickham, Bill Quay, NE8-NE11. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.slattedWoodTvFloatingShelf,
+    heroImage: STOCK.slattedWoodLedCove,
     intro: [
       "Gateshead's industrial Tyneside heritage and its striking regeneration around the Sage and BALTIC at Gateshead Quays sit alongside terraced streets in Bill Quay and Wrekenton, with Low Fell and Whickham, to the south, bringing more affluent, larger semi-detached and detached housing.",
       "In Low Fell and Whickham, larger family homes are common, and here we regularly build full fireplace media walls, taking advantage of the more generous room proportions typical of these established suburbs.",
@@ -3562,7 +4552,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Gateshead's mix of Low Fell's larger homes and Bill Quay's terraced streets calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We schedule Gateshead alongside our Newcastle route, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Gateshead alongside our Newcastle route, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. That same range shapes the first visit: a Low Fell or Whickham consultation usually moves into discussing scale and integrated shelving, while a Bill Quay or Wrekenton visit is more about keeping a compact terraced front room well-proportioned.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Low Fell and Whickham",
+        description:
+          "Larger, more affluent family homes here carry a genuinely ambitious fireplace media wall well, taking advantage of the more generous room proportions typical of these established Gateshead suburbs.",
+      },
+      {
+        title: "Media Walls for Bill Quay and Wrekenton",
+        description:
+          "Victorian and inter-war terraces here suit a fireplace media wall built carefully into the existing chimney breast, designed to suit the typically compact front rooms common in this housing.",
+      },
+      {
+        title: "Compact Media Walls for Gateshead Quays",
+        description:
+          "Newer apartment developments along the regenerated riverside suit compact TV mounting and slimline media wall designs, better suited to the space than a full structural build.",
+      },
+      {
+        title: "Acoustic Feature Walls for Renovated Homes",
+        description:
+          "Open-plan renovations in Whickham and Low Fell benefit from a bespoke acoustic media wall that softens echo while adding a genuinely striking feature wall to the room.",
+      },
     ],
     postcodes: "NE8 to NE11",
     areasCovered: ["Low Fell", "Wrekenton", "Whickham", "Bill Quay", "Gateshead Quays"],
@@ -3594,10 +4606,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-sunderland",
     city: "Sunderland",
     region: "North East",
-    metaTitle: "Media Wall Installation Sunderland | Media Walls North",
+    metaTitle: "Media Wall Installation Sunderland",
     metaDescription:
       "Media wall installation in Sunderland. Covering Ashbrook, Roker, Tunstall, East Herrington, SR1-SR6. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.fireplaceGreyWallTv,
+    heroImage: STOCK.slattedWoodTexture,
     intro: [
       "Sunderland's shipbuilding heritage shapes much of its terraced housing, particularly close to the river and around Roker, while Ashbrook and Tunstall, to the west, bring larger, more affluent semi-detached and detached homes, and East Herrington offers a mix of newer estate housing.",
       "In Ashbrook and Tunstall, larger family homes are common, and we regularly build full fireplace media walls here, taking advantage of the more generous room proportions typical of these established suburbs.",
@@ -3640,7 +4652,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Sunderland's mix of Ashbrook's larger homes and Roker's coastal terraces calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We schedule Sunderland alongside our wider North East route, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Sunderland alongside our wider North East route, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. That same range shapes our first conversation: an Ashbrook or Tunstall visit usually centres on scale and premium panelling, while a Roker consultation is more likely to focus on working carefully around an existing period chimney breast near the coast.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Ashbrook and Tunstall",
+        description:
+          "Larger, more affluent family homes here carry a genuinely ambitious fireplace media wall well, taking advantage of the more generous room proportions typical of these established Sunderland suburbs.",
+      },
+      {
+        title: "Fireplace Media Walls for Roker",
+        description:
+          "Victorian and Edwardian terraces close to the coast suit a fireplace media wall built into the existing chimney breast, usually finished in painted MDF or oak veneer to suit the traditional streetscape.",
+      },
+      {
+        title: "Freestanding Media Walls for East Herrington",
+        description:
+          "Newer estate housing on the city's edges typically lacks an existing fireplace, so we build freestanding media walls with a recessed electric fire in a clean, contemporary painted finish.",
+      },
+      {
+        title: "TV Mount Walls Across Sunderland",
+        description:
+          "For Roker terraces or Sunderland city centre flats, a flush TV mount with fully concealed wiring delivers a clean, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "SR1 to SR6",
     areasCovered: ["Ashbrook", "Roker", "Tunstall", "East Herrington", "Sunderland city centre"],
@@ -3672,10 +4706,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-durham",
     city: "Durham",
     region: "North East",
-    metaTitle: "Media Walls Durham | Bespoke Installation | Media Walls North",
+    metaTitle: "Media Walls Durham | Bespoke Installation",
     metaDescription:
       "Bespoke media wall installation in Durham. Covering Gilesgate, Neville's Cross, Framwellgate Moor, Belmont, DH1. Free quotes, 2026.",
-    heroImage: STOCK.fireplaceMarbleBuiltIn,
+    heroImage: STOCK.tvMountWoodConsole,
     intro: [
       "Durham's cathedral city status and its university, set within the historic peninsula formed by the River Wear, give the city a distinctive character, with Georgian terraces near the centre and a broader mix of housing in Gilesgate, Neville's Cross, Framwellgate Moor, and Belmont.",
       "In Neville's Cross, larger detached and semi-detached houses are common, popular with university staff and professionals, and we regularly build full fireplace media walls here, taking advantage of generous room proportions.",
@@ -3718,7 +4752,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Durham's mix of Neville's Cross's larger homes and Gilesgate's terraced streets calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We schedule Durham as part of our North East route alongside Newcastle and Sunderland, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Durham as part of our North East route alongside Newcastle and Sunderland, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. That range also covers shared and student housing near the university: we regularly coordinate installation timing around term dates and landlord sign-off for properties in Gilesgate and near the city centre, without it slowing the overall project down.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Neville's Cross",
+        description:
+          "Larger detached and semi-detached houses popular with university staff and professionals carry a genuinely ambitious fireplace media wall well, taking advantage of generous room proportions typical of this Durham suburb.",
+      },
+      {
+        title: "Media Walls for Gilesgate and Framwellgate Moor",
+        description:
+          "Victorian terraces and inter-war semis here suit a fireplace media wall built around an existing chimney breast, alongside more compact designs for the area's student-adjacent housing.",
+      },
+      {
+        title: "Freestanding Media Walls for Belmont",
+        description:
+          "Newer estate housing on the city's edge typically lacks an existing fireplace, so we build freestanding media walls with a recessed electric fire in a clean, contemporary finish.",
+      },
+      {
+        title: "TV Mount Walls Across Durham",
+        description:
+          "For Gilesgate terraces or student-adjacent properties near the city centre, a flush TV mount with fully concealed wiring delivers a clean, cable-free finish in half a day.",
+      },
     ],
     postcodes: "DH1",
     areasCovered: ["Gilesgate", "Neville's Cross", "Framwellgate Moor", "Belmont", "Durham city centre"],
@@ -3750,10 +4806,10 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-darlington",
     city: "Darlington",
     region: "North East",
-    metaTitle: "Media Walls Darlington | Professional Fitting | Media Walls North",
+    metaTitle: "Media Walls Darlington | Professional Fitting",
     metaDescription:
       "Professional media wall fitting in Darlington. Covering Cockerton, Mowden, Blackwell, Neasham, DL1-DL3. Free quotes, 10 year guarantee.",
-    heroImage: STOCK.tvMountWoodConsole,
+    heroImage: STOCK.tvMountWhiteConsole,
     intro: [
       "Darlington's Quaker heritage and market town character sit alongside a solid stock of Victorian terraces in Cockerton and around the town centre, while Mowden and Blackwell, to the south west, bring some of the town's most affluent, larger detached housing, and Neasham has a more rural, village feel.",
       "In Mowden and Blackwell, larger detached and semi-detached houses are common, and we regularly build full fireplace media walls here, taking advantage of generous room proportions typical of these established suburbs.",
@@ -3796,7 +4852,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Darlington's mix of Mowden's larger homes and Cockerton's terraced streets calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We schedule Darlington as part of our North East route alongside Durham and Middlesbrough, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Darlington as part of our North East route alongside Durham and Middlesbrough, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. We find that distinction guides material recommendations from the first visit too: a Mowden or Blackwell consultation usually moves towards premium panelling and integrated shelving, while a Neasham visit is more likely to focus on natural materials that suit a more rural property.",
+    ],
+    popularStyles: [
+      {
+        title: "Fireplace Media Walls for Mowden and Blackwell",
+        description:
+          "Larger detached and semi-detached houses in Darlington's most affluent suburbs carry a genuinely ambitious fireplace media wall well, taking advantage of generous room proportions typical of these established streets.",
+      },
+      {
+        title: "Media Walls for Cockerton",
+        description:
+          "Victorian and inter-war terraces closer to the town centre suit a fireplace media wall built carefully into the existing chimney breast, sized to keep a compact front room feeling balanced.",
+      },
+      {
+        title: "Natural Material Walls Near Neasham",
+        description:
+          "Rural properties towards the Tees, including larger period homes, call for natural oak or walnut finishes chosen to suit a more traditional interior rather than a painted, urban look.",
+      },
+      {
+        title: "TV Mount Walls Across Darlington",
+        description:
+          "For Cockerton terraces or Darlington town centre flats, a flush TV mount with fully concealed wiring delivers a clean, cable-free finish, usually completed within half a day.",
+      },
     ],
     postcodes: "DL1 to DL3",
     areasCovered: ["Cockerton", "Mowden", "Blackwell", "Neasham", "Darlington town centre"],
@@ -3828,7 +4906,7 @@ export const LOCATIONS: Location[] = [
     slug: "media-walls-middlesbrough",
     city: "Middlesbrough",
     region: "North East",
-    metaTitle: "Media Wall Installation Middlesbrough | Media Walls North",
+    metaTitle: "Media Wall Installation Middlesbrough",
     metaDescription:
       "Media wall installation in Middlesbrough. Covering Marton, Nunthorpe, Linthorpe, Acklam, TS1-TS8. Free quotes, 10 year guarantee.",
     heroImage: STOCK.openPlanWoodFeatureWall,
@@ -3874,7 +4952,29 @@ export const LOCATIONS: Location[] = [
     ],
     whyChooseParagraphs: [
       "Middlesbrough's mix of Marton's larger homes and Linthorpe's terraced streets calls for different design approaches, and we plan proportions and materials around your specific room from the first visit.",
-      "We schedule Middlesbrough as part of our North East route alongside Darlington and Durham, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation.",
+      "We schedule Middlesbrough as part of our North East route alongside Darlington and Durham, which keeps our finish standard identical to our closer coverage areas while still offering a reasonable timeframe for a free consultation. That same range shapes the first visit: a Marton or Nunthorpe consultation usually moves into discussing scale and integrated shelving, while a Linthorpe terrace visit is more about keeping a compact period front room feeling balanced rather than crowded.",
+    ],
+    popularStyles: [
+      {
+        title: "Full-Height Fireplace Walls for Marton and Nunthorpe",
+        description:
+          "Larger, more affluent family homes here carry a genuinely ambitious fireplace media wall well, taking advantage of the more generous room proportions typical of these established Middlesbrough suburbs.",
+      },
+      {
+        title: "Fireplace Media Walls for Linthorpe and Acklam",
+        description:
+          "Victorian and inter-war terraces and semis here suit a fireplace media wall built around the existing chimney breast, alongside a growing number of freestanding designs in more modernised homes.",
+      },
+      {
+        title: "Compact Media Walls for Town Centre Apartments",
+        description:
+          "Recent regeneration around Centre Square has brought a small but growing number of apartment projects, where compact TV mounting and slimline media wall designs suit the space better than a full structural build.",
+      },
+      {
+        title: "Acoustic Feature Walls for Renovated Family Lounges",
+        description:
+          "Open-plan extensions in Nunthorpe and Acklam's larger homes benefit from a bespoke acoustic media wall that softens echo while adding a genuinely striking feature wall to the room.",
+      },
     ],
     postcodes: "TS1 to TS8",
     areasCovered: ["Marton", "Nunthorpe", "Linthorpe", "Acklam", "Middlesbrough town centre"],

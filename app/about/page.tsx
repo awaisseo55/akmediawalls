@@ -12,7 +12,7 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { Card } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: { absolute: "About Us | Media Walls North" },
+  title: { absolute: "About Us" },
   description:
     "Meet the team behind Media Walls North. Over 12 years of experience fitting bespoke media walls from Manchester to cities across Northern England.",
   alternates: { canonical: "/about" },

@@ -9,7 +9,7 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Our Media Wall Services | Media Walls North" },
+  title: { absolute: "Our Media Wall Services" },
   description:
     "Fireplace media walls, acoustic panels, TV mounting, slatted wood feature walls. Bespoke design and installation across the North West.",
   alternates: { canonical: "/services" },

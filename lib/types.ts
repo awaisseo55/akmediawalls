@@ -36,6 +36,7 @@ export type Location = {
   servicesIntro: { serviceSlug: string; paragraph: string }[];
   whyUs: string[];
   whyChooseParagraphs: string[];
+  popularStyles: { title: string; description: string }[];
   postcodes: string;
   areasCovered: string[];
   areasParagraph: string;

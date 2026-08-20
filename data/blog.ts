@@ -5,7 +5,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "how-to-design-the-perfect-media-wall-2026",
     title: "How to Design the Perfect Media Wall for Your Living Room in 2026",
-    metaTitle: "How to Design the Perfect Media Wall | Media Walls North",
+    metaTitle: "How to Design the Perfect Media Wall",
     category: "Design Ideas",
     excerpt:
       "From material choice to TV height and lighting, here is how to plan a media wall that suits your room, not just a photo you saved online.",

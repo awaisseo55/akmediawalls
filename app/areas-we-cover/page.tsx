@@ -10,9 +10,8 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Areas We Cover | Media Walls North" },
-  description:
-    "Media Walls North installs bespoke media walls in 49 cities across Greater Manchester, Cheshire, Lancashire, Yorkshire, and the North East. Find your city.",
+  title: { absolute: "Areas We Cover" },
+  description: `Media Walls North installs bespoke media walls in ${LOCATIONS.length} cities across Greater Manchester, Cheshire, Lancashire, Yorkshire, and the North East. Find your city.`,
   alternates: { canonical: "/areas-we-cover" },
 };
 

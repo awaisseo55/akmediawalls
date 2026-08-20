@@ -8,7 +8,6 @@ import { LOCATIONS, getLocationBySlug } from "@/data/locations";
 import { SERVICES, getServiceBySlug } from "@/data/services";
 import { GALLERY } from "@/data/gallery";
 import { BLOG_POSTS } from "@/data/blog";
-import { MEDIA_WALL_STYLES } from "@/data/media-wall-styles";
 import { SITE_URL } from "@/lib/constants";
 import { PageHero } from "@/components/shared/page-hero";
 import { Breadcrumbs } from "@/components/shared/breadcrumbs";
@@ -175,7 +174,7 @@ export default async function LocationPage({
             className="mx-auto mb-12"
           />
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-            {MEDIA_WALL_STYLES.map((style) => (
+            {location.popularStyles.map((style) => (
               <div key={style.title} className="rounded-lg border border-border bg-card p-6 shadow-warm">
                 <h3 className="font-serif text-lg font-semibold text-foreground">{style.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-body">{style.description}</p>

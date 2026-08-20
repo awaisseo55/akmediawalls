@@ -11,7 +11,7 @@ import { FinalCta } from "@/components/sections/final-cta";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Our Work | Media Wall Portfolio | Media Walls North" },
+  title: { absolute: "Our Work | Media Wall Portfolio" },
   description:
     "Browse our portfolio of bespoke media wall installations across Manchester, Bolton, Preston, Wigan and the North West.",
   alternates: { canonical: "/gallery" },

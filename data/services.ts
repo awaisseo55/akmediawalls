@@ -7,7 +7,7 @@ export const SERVICES: Service[] = [
     name: "Media Walls with Fireplace",
     shortName: "Fireplace Media Walls",
     tagline: "Your TV and fire, built into one seamless feature wall",
-    metaTitle: "Fireplace Media Walls | Design & Install | Media Walls North",
+    metaTitle: "Fireplace Media Walls | Design & Install",
     metaDescription:
       "Electric fireplace media walls built into stunning feature walls. LED lighting, concealed wiring, bespoke designs. Free quotes.",
     heroImage: STOCK.fireplaceSlattedInset,
@@ -88,7 +88,7 @@ export const SERVICES: Service[] = [
     name: "Bespoke Acoustic Media Walls",
     shortName: "Acoustic Media Walls",
     tagline: "Fabric and wood-slat panels that look premium and sound better",
-    metaTitle: "Acoustic Panel Media Walls | Media Walls North",
+    metaTitle: "Acoustic Panel Media Walls",
     metaDescription:
       "Bespoke acoustic and fabric media walls for a premium finish. Sound-absorbing panels with integrated TV mounting. Free consultation.",
     heroImage: STOCK.slattedWoodTexture,
@@ -148,7 +148,7 @@ export const SERVICES: Service[] = [
     name: "TV Wall Mounting & Concealed Wiring",
     shortName: "TV Wall Mounting",
     tagline: "A flush-mounted TV with every cable hidden inside the wall",
-    metaTitle: "TV Wall Mounting & Cable Hiding | Media Walls North",
+    metaTitle: "TV Wall Mounting & Cable Hiding",
     metaDescription:
       "Professional TV mounting with fully concealed wiring. Clean, flush finish on any wall type. Serving Manchester and the North West.",
     heroImage: STOCK.tvMountWoodConsole,
@@ -208,7 +208,7 @@ export const SERVICES: Service[] = [
     name: "Commercial & Slatted Wood Walls",
     shortName: "Commercial & Slatted Walls",
     tagline: "Feature walls and media walls for offices, salons, and hospitality spaces",
-    metaTitle: "Slatted Wood Feature Walls | Media Walls North",
+    metaTitle: "Slatted Wood Feature Walls",
     metaDescription:
       "Oak and walnut slatted wood feature walls for homes and commercial spaces. Bespoke design, expert fitting, 10 year guarantee.",
     heroImage: STOCK.slattedWoodLedCove,

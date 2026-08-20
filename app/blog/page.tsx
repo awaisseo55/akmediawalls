@@ -8,7 +8,7 @@ import { BlogCard } from "@/components/shared/blog-card";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Media Wall Ideas & Guides | Blog | Media Walls North" },
+  title: { absolute: "Media Wall Ideas & Guides | Blog" },
   description:
     "Design inspiration, cost guides, and expert tips for your media wall project. Written by our installation team.",
   alternates: { canonical: "/blog" },

@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 import { STOCK } from "@/lib/images";
 
 export const metadata: Metadata = {
-  title: { absolute: "Media Wall Prices & Costs | Media Walls North" },
+  title: { absolute: "Media Wall Prices & Costs" },
   description:
     "Media wall pricing guide from £800. Use our cost calculator to estimate your project. Free no-obligation quotes available.",
   alternates: { canonical: "/pricing" },
