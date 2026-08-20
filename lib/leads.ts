@@ -25,20 +25,27 @@ async function ensureLocalDir() {
 export async function saveLead(lead: Lead) {
   const key = `leads/${lead.createdAt.replace(/[:.]/g, "-")}-${lead.id}.json`;
 
-  if (hasBlob) {
-    await put(key, JSON.stringify(lead, null, 2), {
-      access: "public",
-      contentType: "application/json",
-      addRandomSuffix: false,
-    });
-    return;
-  }
+  try {
+    if (hasBlob) {
+      await put(key, JSON.stringify(lead, null, 2), {
+        access: "public",
+        contentType: "application/json",
+        addRandomSuffix: false,
+      });
+      return;
+    }
 
-  await ensureLocalDir();
-  await writeFile(
-    path.join(LOCAL_DIR, `${lead.createdAt.replace(/[:.]/g, "-")}-${lead.id}.json`),
-    JSON.stringify(lead, null, 2)
-  );
+    await ensureLocalDir();
+    await writeFile(
+      path.join(LOCAL_DIR, `${lead.createdAt.replace(/[:.]/g, "-")}-${lead.id}.json`),
+      JSON.stringify(lead, null, 2)
+    );
+  } catch (error) {
+    // Without BLOB_READ_WRITE_TOKEN, production's read-only filesystem makes
+    // this write fail. The lead is still emailed via Resend in the contact
+    // route, so don't let a persistence failure block form submission.
+    console.error("saveLead failed, continuing without persisted record:", error);
+  }
 }
 
 export async function getLeads(): Promise<Lead[]> {
