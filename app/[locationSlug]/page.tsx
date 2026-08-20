@@ -137,6 +137,11 @@ export default async function LocationPage({
         </div>
       </section>
 
+      <MidPageCta
+        title={`Ready to Talk Through Your ${location.city} Project?`}
+        description="Book a free, no-obligation consultation and we will visit to measure your room and provide a detailed written quote."
+      />
+
       {/* Why us - prose + bullets */}
       <section className="bg-background py-20 sm:py-24">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
